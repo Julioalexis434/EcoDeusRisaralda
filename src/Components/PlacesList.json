@@ -1,0 +1,1245 @@
+{
+    "municipios": [
+      {
+        "nombre": "Pereira",
+        "lugares": [
+          {
+            "id": 1,
+            "nombre": "Parque Nacional Natural Los Nevados",
+            "descripcion": "Área protegida que abarca ecosistemas de alta montaña, incluyendo el Nevado Santa Isabel.",
+            "actividades": ["Senderismo", "Observación de fauna y flora", "Montañismo"],
+            "categoria_por_municipio": "Parques Naturales",
+            "tipo": "Parque Nacional",
+            "puntuacion": 4.8
+          },
+          {
+            "id": 2,
+            "nombre": "Santuario de Fauna y Flora Otún Quimbaya",
+            "descripcion": "Reserva natural reconocida por su biodiversidad y paisajes andinos.",
+            "actividades": ["Avistamiento de aves", "Caminatas ecológicas", "Fotografía de naturaleza"],
+            "categoria_por_municipio": "Reservas Naturales",
+            "tipo": "Santuario de Fauna y Flora",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 3,
+            "nombre": "Yarumo Blanco",
+            "descripcion": "Asociación comunitaria que ofrece experiencias de ecoturismo en la cuenca del río Otún.",
+            "actividades": ["Recorridos ecoturísticos", "Gastronomía local", "Programas educativos"],
+            "categoria_por_municipio": "Ecoturismo Comunitario",
+            "tipo": "Asociación Comunitaria",
+            "puntuacion": 4.9
+          },
+          {
+            "id": 4,
+            "nombre": "Cascadas del Río Verde",
+            "descripcion": "Impresionantes cascadas rodeadas de exuberante vegetación.",
+            "actividades": ["Senderismo", "Baños en pozos naturales", "Picnics"],
+            "categoria_por_municipio": "Cascadas",
+            "tipo": "Atracción Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 5,
+            "nombre": "Reserva de Bremen",
+            "descripcion": "Área de conservación con bosques de niebla y diversidad de especies.",
+            "actividades": ["Observación de aves", "Caminatas interpretativas", "Investigación científica"],
+            "categoria_por_municipio": "Reservas Naturales",
+            "tipo": "Reserva Forestal",
+            "puntuacion": 4.7
+          }
+        ]
+      },
+      {
+        "nombre": "Dosquebradas",
+        "lugares": [
+          {
+            "id": 6,
+            "nombre": "Parque Regional Natural La Marcada",
+            "descripcion": "Área protegida que conserva bosques andinos y biodiversidad única.",
+            "actividades": ["Senderismo", "Observación de fauna y flora", "Educación ambiental"],
+            "categoria_por_municipio": "Parques Naturales",
+            "tipo": "Parque Regional",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 7,
+            "nombre": "Cascada La Argentina",
+            "descripcion": "Impresionante caída de agua ubicada en la Serranía del Alto del Nudo.",
+            "actividades": ["Trekking", "Fotografía de paisajes", "Observación de aves"],
+            "categoria_por_municipio": "Cascadas",
+            "tipo": "Atracción Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 8,
+            "nombre": "Mariposario Bonita Farm",
+            "descripcion": "Centro dedicado a la conservación y exhibición de mariposas nativas.",
+            "actividades": ["Recorridos guiados", "Fotografía de mariposas", "Educación ambiental"],
+            "categoria_por_municipio": "Centros de Conservación",
+            "tipo": "Mariposario",
+            "puntuacion": 4.8
+          },
+          {
+            "id": 9,
+            "nombre": "Lago La Pradera",
+            "descripcion": "Parque recreativo con un lago central, ideal para actividades al aire libre.",
+            "actividades": ["Paseos en bote", "Pesca recreativa", "Picnics"],
+            "categoria_por_municipio": "Parques Recreativos",
+            "tipo": "Parque Urbano",
+            "puntuacion": 4.4
+          },
+          {
+            "id": 10,
+            "nombre": "Sendero Camino de los Venados",
+            "descripcion": "Ruta ecológica que conecta con el Santuario de la Virgen de la Pureza.",
+            "actividades": ["Caminatas ecológicas", "Observación de fauna", "Fotografía de naturaleza"],
+            "categoria_por_municipio": "Senderos Ecológicos",
+            "tipo": "Sendero Natural",
+            "puntuacion": 4.5
+          }
+        ]
+      }, 
+      {
+        "nombre": "Apía",
+        "lugares": [
+          {
+            "id": 11,
+            "nombre": "Cascada de la Popa",
+            "descripcion": "Ubicada en la parte alta de la vereda El Roble, esta cascada permite disfrutar de un baño refrescante en sus pozos y admirar su caída de agua en un entorno de abundante vegetación.",
+            "actividades": ["Senderismo", "Baño natural", "Fotografía"],
+            "categoria_por_municipio": "Naturaleza y Cascadas",
+            "tipo": "Cascada Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 12,
+            "nombre": "Jardín Botánico de Apía",
+            "descripcion": "Espacio dedicado a la conservación y exhibición de la flora local, donde se realizan recorridos guiados y talleres de educación ambiental para conocer la biodiversidad de la región.",
+            "actividades": ["Visitas guiadas", "Talleres ambientales", "Fotografía de flora"],
+            "categoria_por_municipio": "Educación Ambiental",
+            "tipo": "Jardín Botánico",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 13,
+            "nombre": "Laguna del Morro Azul",
+            "descripcion": "Una laguna de aguas tranquilas enclavada en un entorno natural que ofrece un ambiente sereno, ideal para la observación de aves y para disfrutar de la paz del paisaje.",
+            "actividades": ["Observación de aves", "Caminatas", "Picnic"],
+            "categoria_por_municipio": "Lagos y Lagunas",
+            "tipo": "Laguna Natural",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 14,
+            "nombre": "Voladero El Zarzo",
+            "descripcion": "Con condiciones de viento constantes, este sitio es ideal para la práctica de parapente, ofreciendo vistas panorámicas del paisaje cafetero que enamoran a los amantes del vuelo libre.",
+            "actividades": ["Parapente", "Avistamiento de paisajes", "Fotografía"],
+            "categoria_por_municipio": "Aventura y Parapente",
+            "tipo": "Voladero para Parapente",
+            "puntuacion": 4.8
+          },
+          {
+            "id":15,
+            "nombre": "Parque Natural Municipal La María",
+            "descripcion": "Espacio natural protegido en Apía que cuenta con senderos interpretativos, ideales para familias y visitantes interesados en la observación de fauna y flora local.",
+            "actividades": ["Senderismo", "Observación de fauna", "Picnic"],
+            "categoria_por_municipio": "Parques Naturales",
+            "tipo": "Parque Municipal",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 16,
+            "nombre": "Parque Natural Municipal Agualinda",
+            "descripcion": "Parque dedicado a la conservación de la biodiversidad, con rutas de senderismo y miradores naturales que resaltan el paisaje montañoso de la región.",
+            "actividades": ["Caminatas", "Avistamiento de aves", "Fotografía"],
+            "categoria_por_municipio": "Parques Naturales",
+            "tipo": "Parque Municipal",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 17,
+            "nombre": "Parque Lineal El Clavel",
+            "descripcion": "Espacio urbano transformado en parque lineal, con senderos y zonas verdes, ideal para paseos en familia y actividades al aire libre en contacto con la naturaleza.",
+            "actividades": ["Caminatas", "Ciclismo", "Picnic"],
+            "categoria_por_municipio": "Espacios Verdes Urbanos",
+            "tipo": "Parque Lineal",
+            "puntuacion": 4.4
+          },
+          {
+            "id": 18,
+            "nombre": "Granja Avícola San Isidro",
+            "descripcion": "Centro agroecoturístico donde se combinan actividades de turismo rural con experiencias de contacto directo con animales y cultivos, resaltando las tradiciones cafeteras.",
+            "actividades": ["Tours agroecológicos", "Alimentación de animales", "Talleres agrícolas"],
+            "categoria_por_municipio": "Agroturismo",
+            "tipo": "Granja Avícola",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 19,
+            "nombre": "Parque Nacional Natural Tatamá",
+            "descripcion": "Parte del extenso Parque Nacional Natural Tatamá que se extiende por varios municipios, ofreciendo ecosistemas únicos, senderos de alta montaña y una rica biodiversidad para los aventureros.",
+            "actividades": ["Senderismo", "Montañismo", "Avistamiento de flora y fauna"],
+            "categoria_por_municipio": "Parques Nacionales",
+            "tipo": "Parque Nacional",
+            "puntuacion": 4.9
+          },
+          {
+            "id": 20,
+            "nombre": "Valle del Río Mapa",
+            "descripcion": "Zona natural en la que el río Mapa recorre un valle de exuberante vegetación, proporcionando un escenario perfecto para el ecoturismo y actividades al aire libre.",
+            "actividades": ["Caminatas", "Observación de la naturaleza", "Picnic"],
+            "categoria_por_municipio": "Ríos y Valles",
+            "tipo": "Valle Natural",
+            "puntuacion": 4.5
+          }
+        ]
+      },
+      {
+        "nombre": "Balboa",
+        "lugares": [
+          {
+            "id": 21,
+            "nombre": "Cascada El Salto del Viento",
+            "descripcion": "Hermosa cascada enclavada en bosques húmedos, ideal para disfrutar de la caída de agua y refrescarse en sus pozos naturales.",
+            "actividades": ["Senderismo", "Baño natural", "Fotografía"],
+            "categoria_por_municipio": "Cascadas y Aguas",
+            "tipo": "Cascada Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 22,
+            "nombre": "Parque Natural Municipal Balboa",
+            "descripcion": "Área protegida con senderos interpretativos y zonas de picnic que promueve la conservación de la biodiversidad local.",
+            "actividades": ["Caminatas", "Educación ambiental", "Picnic"],
+            "categoria_por_municipio": "Parques Naturales",
+            "tipo": "Parque Municipal",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 23,
+            "nombre": "Mirador de La Montaña",
+            "descripcion": "Punto de observación que ofrece vistas panorámicas del valle y de las plantaciones cafeteras que rodean Balboa.",
+            "actividades": ["Observación de paisajes", "Fotografía", "Caminatas"],
+            "categoria_por_municipio": "Miradores",
+            "tipo": "Punto de Observación",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 24,
+            "nombre": "Reserva Ecológica La Candelaria",
+            "descripcion": "Reserva dedicada a la protección de flora y fauna autóctona, con rutas de senderismo y actividades de interpretación ambiental.",
+            "actividades": ["Senderismo", "Avistamiento de aves", "Interpretación ambiental"],
+            "categoria_por_municipio": "Reservas Naturales",
+            "tipo": "Reserva Ecológica",
+            "puntuacion": 4.8
+          },
+          {
+            "id": 25,
+            "nombre": "Sendero de los Pinos",
+            "descripcion": "Ruta ecológica que atraviesa bosques de pinos y áreas de frondosa vegetación, ideal para una caminata en familia.",
+            "actividades": ["Senderismo", "Fotografía", "Picnic"],
+            "categoria_por_municipio": "Senderos Ecológicos",
+            "tipo": "Ruta Natural",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 26,
+            "nombre": "Balneario La Cumbre",
+            "descripcion": "Zona de baño natural ubicada a la orilla de un río cristalino, perfecta para relajarse y disfrutar de la naturaleza.",
+            "actividades": ["Natación", "Picnic", "Relajación"],
+            "categoria_por_municipio": "Balnearios",
+            "tipo": "Zona Recreativa",
+            "puntuacion": 4.4
+          },
+          {
+            "id": 27,
+            "nombre": "Finca Cafetera El Tesoro",
+            "descripcion": "Espacio de agroturismo donde se practica la producción sostenible de café, permitiendo conocer el proceso y degustar café de origen.",
+            "actividades": ["Tours agrícolas", "Degustación de café", "Educación ambiental"],
+            "categoria_por_municipio": "Agroturismo",
+            "tipo": "Finca Cafetera",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 28,
+            "nombre": "Jardín Botánico de Balboa",
+            "descripcion": "Pequeño jardín que exhibe especies nativas de la región y promueve actividades de educación ambiental y conservación.",
+            "actividades": ["Visitas guiadas", "Talleres ambientales", "Fotografía"],
+            "categoria_por_municipio": "Jardines y Parques",
+            "tipo": "Jardín Botánico",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 29,
+            "nombre": "Centro de Interpretación Ambiental Balboa",
+            "descripcion": "Espacio educativo que difunde la importancia de la conservación ambiental a través de exposiciones y recorridos interpretativos.",
+            "actividades": ["Exposiciones", "Talleres educativos", "Recorridos interpretativos"],
+            "categoria_por_municipio": "Centros Educativos",
+            "tipo": "Centro de Interpretación",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 30,
+            "nombre": "Ruta de los Cafetales de Balboa",
+            "descripcion": "Recorrido por plantaciones de café y paisajes rurales que muestra la tradición cafetera y la sostenibilidad en la producción local.",
+            "actividades": ["Recorridos guiados", "Degustación de café", "Visitas culturales"],
+            "categoria_por_municipio": "Rutas Culturales y Naturales",
+            "tipo": "Ruta Turística",
+            "puntuacion": 4.8
+          }
+        ]
+      },
+      {
+        "nombre": "Belén de Umbría",
+        "lugares": [
+          {
+            "id": 31,
+            "nombre": "Parque Natural Santa Emilia",
+            "descripcion": "Área protegida que destaca por su biodiversidad, donde se pueden apreciar especies en vía de extinción y recorrer senderos interpretativos en medio de bosques maduros.",
+            "actividades": ["Senderismo", "Avistamiento de aves", "Fotografía de naturaleza"],
+            "categoria_por_municipio": "Parques Naturales",
+            "tipo": "Parque Natural",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 32,
+            "nombre": "Parque Regional Cuchilla de San Juan",
+            "descripcion": "Espacio diseñado para los aventureros, donde se realizan caminatas por paisajes montañosos y se disfrutan de vistas panorámicas de la región.",
+            "actividades": ["Caminatas", "Fotografía", "Turismo de aventura"],
+            "categoria_por_municipio": "Parques Regionales",
+            "tipo": "Parque Regional",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 33,
+            "nombre": "Jardín Botánico José Celestino Mutis",
+            "descripcion": "Espacio que exhibe la rica flora local y ofrece recorridos guiados para aprender sobre las especies autóctonas y su importancia en el paisaje cafetero.",
+            "actividades": ["Visitas guiadas", "Talleres de educación ambiental", "Fotografía"],
+            "categoria_por_municipio": "Jardines y Parques",
+            "tipo": "Jardín Botánico",
+            "puntuacion": 4.8
+          },
+          {
+            "id": 34,
+            "nombre": "Cascada El Salto de los Ángeles",
+            "descripcion": "Impresionante caída de agua enmarcada por la vegetación exuberante, ideal para disfrutar de la naturaleza y darse un refrescante baño.",
+            "actividades": ["Senderismo", "Baño natural", "Fotografía"],
+            "categoria_por_municipio": "Cascadas y Aguas",
+            "tipo": "Cascada Natural",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 35,
+            "nombre": "Museo Antropológico Eliseo Bolívar",
+            "descripcion": "Espacio cultural que resalta la historia y arqueología de la región, donde se exhiben colecciones relacionadas con la identidad cafetera y ancestral de Belén de Umbría.",
+            "actividades": ["Recorridos culturales", "Visitas guiadas", "Aprendizaje histórico"],
+            "categoria_por_municipio": "Culturales y Museos",
+            "tipo": "Museo",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 36,
+            "nombre": "Recorrido por Fincas Cafeteras",
+            "descripcion": "Experiencia de agroturismo que permite conocer el proceso del cultivo del café y disfrutar de degustaciones en fincas sostenibles de la zona.",
+            "actividades": ["Tours agrícolas", "Degustación de café", "Interacción con agricultores"],
+            "categoria_por_municipio": "Agroturismo",
+            "tipo": "Finca Cafetera",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 37,
+            "nombre": "Mirador de Taparcal",
+            "descripcion": "Punto de observación natural que ofrece vistas espectaculares, permitiendo divisar el Nevado del Ruiz y los paisajes que conforman el Valle de Risaralda.",
+            "actividades": ["Observación de paisajes", "Fotografía", "Caminatas"],
+            "categoria_por_municipio": "Miradores",
+            "tipo": "Mirador Natural",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 38,
+            "nombre": "Sendero de los Guayacanes",
+            "descripcion": "Ruta ecoturística que recorre bosques donde predomina el emblemático guayacán, resaltando la identidad natural y cafetera de Belén de Umbría.",
+            "actividades": ["Senderismo", "Avistamiento de aves", "Fotografía"],
+            "categoria_por_municipio": "Senderos Ecológicos",
+            "tipo": "Ruta Natural",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 39,
+            "nombre": "Centro de Interpretación del Paisaje Cafetero",
+            "descripcion": "Espacio educativo dedicado a explicar la riqueza natural y cultural del Paisaje Cultural Cafetero, promoviendo la conservación y el turismo sostenible.",
+            "actividades": ["Charlas educativas", "Recorridos interpretativos", "Talleres culturales"],
+            "categoria_por_municipio": "Centros Educativos",
+            "tipo": "Centro de Interpretación",
+            "puntuacion": 4.4
+          },
+          {
+            "id": 40,
+            "nombre": "Ecoparque Belén",
+            "descripcion": "Área recreativa que integra senderos, zonas de camping y espacios para actividades familiares, enmarcada en un entorno natural de gran belleza.",
+            "actividades": ["Camping", "Picnic", "Senderismo", "Recreación en familia"],
+            "categoria_por_municipio": "Ecoparques",
+            "tipo": "Ecoparque",
+            "puntuacion": 4.6
+          }
+        ]
+      },
+      {
+        "nombre": "Guática",
+        "lugares": [
+          {
+            "id": 41,
+            "nombre": "Cascada El Susurro",
+            "descripcion": "Una cascada escondida en medio de un frondoso bosque, ideal para disfrutar de la naturaleza y darse un refrescante baño en sus pozos.",
+            "actividades": ["Senderismo", "Fotografía", "Baño natural"],
+            "categoria_por_municipio": "Cascadas",
+            "tipo": "Cascada Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 42,
+            "nombre": "Reserva Ecológica El Roble",
+            "descripcion": "Área protegida que conserva bosques nativos y es hogar de una rica biodiversidad; perfecta para la observación de aves y recorridos interpretativos.",
+            "actividades": ["Avistamiento de aves", "Senderismo", "Fotografía"],
+            "categoria_por_municipio": "Reservas Naturales",
+            "tipo": "Reserva Ecológica",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 43,
+            "nombre": "Mirador del Valle",
+            "descripcion": "Punto panorámico que ofrece vistas espectaculares del valle y los cultivos cafetaleros, ideal para disfrutar de atardeceres y picnics.",
+            "actividades": ["Observación de paisajes", "Fotografía", "Picnic"],
+            "categoria_por_municipio": "Miradores",
+            "tipo": "Mirador Natural",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 44,
+            "nombre": "Sendero La Montaña Verde",
+            "descripcion": "Ruta ecológica que atraviesa bosques y áreas agrícolas, resaltando la belleza natural y la tradición cafetera de la región.",
+            "actividades": ["Senderismo", "Ciclismo", "Recorridos culturales"],
+            "categoria_por_municipio": "Senderos Ecológicos",
+            "tipo": "Ruta Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 45,
+            "nombre": "Finca Cafetera El Porvenir",
+            "descripcion": "Experiencia de agroturismo que permite conocer el proceso del cultivo del café, con degustaciones y recorridos en un entorno rural auténtico.",
+            "actividades": ["Tour agrícola", "Degustación de café", "Educación ambiental"],
+            "categoria_por_municipio": "Agroturismo",
+            "tipo": "Finca Cafetera",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 46,
+            "nombre": "Centro de Interpretación Ambiental Guática",
+            "descripcion": "Espacio educativo que ofrece información sobre la flora, fauna y tradiciones locales, promoviendo la conservación y el turismo sostenible.",
+            "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
+            "categoria_por_municipio": "Centros Educativos",
+            "tipo": "Centro de Interpretación",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 47,
+            "nombre": "Ecoparque La Rivera",
+            "descripcion": "Zona recreativa a orillas de un río, ideal para actividades en familia, camping y disfrutar de la tranquilidad del entorno natural.",
+            "actividades": ["Camping", "Picnic", "Senderismo"],
+            "categoria_por_municipio": "Ecoparques",
+            "tipo": "Ecoparque",
+            "puntuacion": 4.4
+          },
+          {
+            "id": 48,
+            "nombre": "Jardín Botánico de Guática",
+            "descripcion": "Pequeño espacio dedicado a la conservación de especies nativas, con senderos y áreas de descanso para disfrutar y aprender sobre la flora local.",
+            "actividades": ["Visitas guiadas", "Fotografía", "Educación ambiental"],
+            "categoria_por_municipio": "Jardines y Parques",
+            "tipo": "Jardín Botánico",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 49,
+            "nombre": "Ruta de los Aromas",
+            "descripcion": "Recorrido por plantaciones de café y cultivos autóctonos, donde se puede conocer el proceso de producción y disfrutar de paisajes rurales.",
+            "actividades": ["Tour agrícola", "Degustación de café", "Fotografía"],
+            "categoria_por_municipio": "Rutas Culturales y Naturales",
+            "tipo": "Ruta Turística",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 50,
+            "nombre": "Parque Natural Los Suspiros",
+            "descripcion": "Área natural protegida que combina senderos, miradores y zonas de descanso, ofreciendo un ambiente sereno y alta biodiversidad.",
+            "actividades": ["Senderismo", "Observación de fauna", "Picnic"],
+            "categoria_por_municipio": "Parques Naturales",
+            "tipo": "Parque Natural",
+            "puntuacion": 4.7
+          }
+        ]
+      },
+      {
+        "nombre": "La Virginia",
+        "lugares": [
+          {
+            "id": 51,
+            "nombre": "Parque Natural La Virginia",
+            "descripcion": "Extenso parque natural que ofrece senderos interpretativos y zonas de picnic, ideal para disfrutar del aire puro y la biodiversidad local.",
+            "actividades": ["Senderismo", "Picnic", "Observación de fauna"],
+            "categoria_por_municipio": "Parques Naturales",
+            "tipo": "Parque Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 52,
+            "nombre": "Mirador del Cielo",
+            "descripcion": "Punto panorámico que ofrece vistas espectaculares de los valles y cultivos cafeteros, perfecto para capturar atardeceres y disfrutar de la tranquilidad.",
+            "actividades": ["Fotografía", "Observación de paisajes", "Caminatas"],
+            "categoria_por_municipio": "Miradores",
+            "tipo": "Mirador Natural",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 53,
+            "nombre": "Sendero Los Arrieros",
+            "descripcion": "Ruta histórica y ecológica utilizada por antiguos arrieros, que recorre bosques nativos y ofrece una experiencia cultural y natural enriquecedora.",
+            "actividades": ["Senderismo", "Caminatas culturales", "Avistamiento de aves"],
+            "categoria_por_municipio": "Senderos Ecológicos",
+            "tipo": "Ruta Histórica",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 54,
+            "nombre": "Reserva Ecológica La Virginia",
+            "descripcion": "Área protegida que conserva ecosistemas de bosques húmedos y es hogar de una gran diversidad de especies, ideal para los amantes de la naturaleza.",
+            "actividades": ["Observación de aves", "Caminatas", "Educación ambiental"],
+            "categoria_por_municipio": "Reservas Naturales",
+            "tipo": "Reserva Ecológica",
+            "puntuacion": 4.8
+          },
+          {
+            "id": 55,
+            "nombre": "Finca Cafetera Tradicional",
+            "descripcion": "Experiencia agroturística que permite conocer el proceso de cultivo del café, degustar productos frescos y vivir el ambiente rural auténtico de la región.",
+            "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
+            "categoria_por_municipio": "Agroturismo",
+            "tipo": "Finca Cafetera",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 56,
+            "nombre": "Jardín Botánico La Virginia",
+            "descripcion": "Espacio dedicado a la conservación de la flora local, con senderos, áreas de descanso y talleres educativos para aprender sobre las especies autóctonas.",
+            "actividades": ["Visitas guiadas", "Talleres de educación ambiental", "Fotografía"],
+            "categoria_por_municipio": "Jardines y Parques",
+            "tipo": "Jardín Botánico",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 57,
+            "nombre": "Cascada El Viento",
+            "descripcion": "Impresionante cascada enclavada en la vegetación de La Virginia, perfecta para refrescarse y disfrutar de la belleza natural del entorno.",
+            "actividades": ["Senderismo", "Baño natural", "Fotografía"],
+            "categoria_por_municipio": "Cascadas",
+            "tipo": "Cascada Natural",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 58,
+            "nombre": "Ruta de los Cafetales",
+            "descripcion": "Recorrido por plantaciones de café que permite conocer la cultura cafetera local, aprender sobre el proceso de producción y degustar café de alta calidad.",
+            "actividades": ["Tour agrícola", "Degustación de café", "Fotografía"],
+            "categoria_por_municipio": "Rutas Culturales y Naturales",
+            "tipo": "Ruta Turística",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 59,
+            "nombre": "Centro de Interpretación Ambiental",
+            "descripcion": "Espacio educativo que brinda información sobre la biodiversidad y la historia natural de La Virginia, promoviendo la conservación del entorno.",
+            "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
+            "categoria_por_municipio": "Centros Educativos",
+            "tipo": "Centro de Interpretación",
+            "puntuacion": 4.4
+          },
+          {
+            "id": 60,
+            "nombre": "Ecoparque Los Sueños",
+            "descripcion": "Área recreativa y ecológica ideal para familias, que combina senderos, zonas de camping y espacios para actividades al aire libre en un entorno sereno.",
+            "actividades": ["Camping", "Picnic", "Senderismo", "Recreación"],
+            "categoria_por_municipio": "Ecoparques",
+            "tipo": "Ecoparque",
+            "puntuacion": 4.6
+          }
+        ]
+      },
+      {
+        "nombre": "Marsella",
+        "lugares": [
+          {
+            "id": 61,
+            "nombre": "Cascada El Risco",
+            "descripcion": "Impresionante cascada enclavada en un entorno montañoso, accesible por senderos naturales que permiten disfrutar de la frescura del agua y de la biodiversidad local.",
+            "actividades": ["Senderismo", "Fotografía", "Baño natural"],
+            "categoria_por_municipio": "Cascadas y Aguas",
+            "tipo": "Cascada Natural",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 62,
+            "nombre": "Parque Ecológico El Roble",
+            "descripcion": "Área protegida donde se preserva la flora nativa y se ofrecen rutas interpretativas para conocer la importancia ecológica de los bosques andinos.",
+            "actividades": ["Caminatas", "Avistamiento de aves", "Educación ambiental"],
+            "categoria_por_municipio": "Parques Naturales",
+            "tipo": "Parque Ecológico",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 63,
+            "nombre": "Mirador del Valle de Marsella",
+            "descripcion": "Punto panorámico que permite apreciar la extensión de los cultivos cafetaleros y los valles circundantes, ideal para capturar atardeceres inolvidables.",
+            "actividades": ["Observación de paisajes", "Fotografía", "Picnic"],
+            "categoria_por_municipio": "Miradores",
+            "tipo": "Mirador Natural",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 64,
+            "nombre": "Finca Cafetera La Esperanza",
+            "descripcion": "Experiencia agroturística que ofrece recorridos por plantaciones de café, permitiendo conocer el proceso productivo y degustar café de origen local.",
+            "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
+            "categoria_por_municipio": "Agroturismo",
+            "tipo": "Finca Cafetera",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 65,
+            "nombre": "Reserva Natural La Sierra",
+            "descripcion": "Zona de conservación ecológica que protege ecosistemas de montaña, ofreciendo senderos y actividades de interpretación ambiental en un ambiente de alta biodiversidad.",
+            "actividades": ["Senderismo", "Avistamiento de fauna", "Educación ambiental"],
+            "categoria_por_municipio": "Reservas Naturales",
+            "tipo": "Reserva Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 66,
+            "nombre": "Sendero de la Paz",
+            "descripcion": "Ruta ecológica que atraviesa áreas boscosas y campos de cultivo, ideal para disfrutar de un paseo relajante en contacto directo con la naturaleza.",
+            "actividades": ["Caminatas", "Fotografía", "Observación de flora"],
+            "categoria_por_municipio": "Senderos Ecológicos",
+            "tipo": "Ruta Natural",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 67,
+            "nombre": "Jardín Botánico Marsella",
+            "descripcion": "Espacio dedicado a la conservación y exhibición de especies vegetales autóctonas, con senderos y áreas de descanso para disfrutar de la flora local.",
+            "actividades": ["Visitas guiadas", "Talleres ambientales", "Fotografía"],
+            "categoria_por_municipio": "Jardines y Parques",
+            "tipo": "Jardín Botánico",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 68,
+            "nombre": "Ecoparque Los Aromas",
+            "descripcion": "Área recreativa que combina senderos naturales con experiencias agroecoturísticas, resaltando el aroma del café y otros cultivos típicos de la región.",
+            "actividades": ["Camping", "Picnic", "Tour agrícola"],
+            "categoria_por_municipio": "Ecoparques",
+            "tipo": "Ecoparque",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 69,
+            "nombre": "Centro de Interpretación Cultural y Natural",
+            "descripcion": "Espacio educativo que difunde la historia, cultura y biodiversidad de Marsella, promoviendo la conservación del entorno y el turismo sostenible.",
+            "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres culturales"],
+            "categoria_por_municipio": "Centros Educativos",
+            "tipo": "Centro de Interpretación",
+            "puntuacion": 4.4
+          },
+          {
+            "id": 70,
+            "nombre": "Ruta de los Cafetales de Marsella",
+            "descripcion": "Recorrido por fincas y plantaciones de café que muestra la tradición cafetera de la zona, ofreciendo una experiencia completa de agroturismo y cultura local.",
+            "actividades": ["Tour agrícola", "Degustación de café", "Fotografía"],
+            "categoria_por_municipio": "Rutas Culturales y Naturales",
+            "tipo": "Ruta Turística",
+            "puntuacion": 4.7
+          }
+        ]
+      },
+      {
+        "nombre": "La Celia",
+        "lugares": [
+          {
+            "id": 71,
+            "nombre": "Cascada El Susurro Celestial",
+            "descripcion": "Una cascada escondida en el corazón del bosque, donde el agua se precipita en un pequeño estanque natural, ideal para un baño refrescante y conectar con la naturaleza.",
+            "actividades": ["Senderismo", "Baño natural", "Fotografía"],
+            "categoria_por_municipio": "Cascadas y Aguas",
+            "tipo": "Cascada Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 72,
+            "nombre": "Reserva Ecológica El Edén de La Celia",
+            "descripcion": "Área protegida que conserva bosques primarios y una rica biodiversidad, perfecta para la observación de aves y el disfrute de ecosistemas autóctonos.",
+            "actividades": ["Observación de aves", "Caminatas", "Fotografía"],
+            "categoria_por_municipio": "Reservas Naturales",
+            "tipo": "Reserva Ecológica",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 73,
+            "nombre": "Mirador Panorama de La Celia",
+            "descripcion": "Punto de observación que ofrece vistas panorámicas del paisaje montañoso y los cultivos locales, ideal para disfrutar de atardeceres y capturar fotografías espectaculares.",
+            "actividades": ["Observación de paisajes", "Fotografía", "Picnic"],
+            "categoria_por_municipio": "Miradores",
+            "tipo": "Mirador Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 74,
+            "nombre": "Sendero Camino del Bosque",
+            "descripcion": "Ruta ecológica que atraviesa bosques nativos, permitiendo conocer la flora y fauna autóctona de la región, ideal para los amantes de la naturaleza.",
+            "actividades": ["Senderismo", "Caminatas", "Avistamiento de fauna"],
+            "categoria_por_municipio": "Senderos Ecológicos",
+            "tipo": "Ruta Natural",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 75,
+            "nombre": "Finca Cafetera La Tradición Celia",
+            "descripcion": "Experiencia agroturística que muestra el proceso de cultivo del café en un entorno rural auténtico, con degustaciones y recorridos educativos.",
+            "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
+            "categoria_por_municipio": "Agroturismo",
+            "tipo": "Finca Cafetera",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 76,
+            "nombre": "Jardín Botánico Jardín de La Celia",
+            "descripcion": "Espacio dedicado a la conservación de la flora local, con senderos y áreas de descanso, donde se realizan visitas guiadas y talleres de educación ambiental.",
+            "actividades": ["Visitas guiadas", "Talleres ambientales", "Fotografía"],
+            "categoria_por_municipio": "Jardines y Parques",
+            "tipo": "Jardín Botánico",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 77,
+            "nombre": "Centro de Interpretación Ambiental EcoCelia",
+            "descripcion": "Espacio educativo que difunde la importancia de la conservación ambiental y la historia natural de La Celia a través de exposiciones y charlas interactivas.",
+            "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
+            "categoria_por_municipio": "Centros Educativos",
+            "tipo": "Centro de Interpretación",
+            "puntuacion": 4.4
+          },
+          {
+            "id": 78,
+            "nombre": "Ecoparque Oasis Natural",
+            "descripcion": "Área recreativa que integra senderos, zonas de camping y áreas de picnic en un entorno sereno, ideal para disfrutar en familia y conectarse con la naturaleza.",
+            "actividades": ["Camping", "Picnic", "Senderismo"],
+            "categoria_por_municipio": "Ecoparques",
+            "tipo": "Ecoparque",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 79,
+            "nombre": "Ruta de los Cafetales Sabor de La Celia",
+            "descripcion": "Recorrido por plantaciones de café que permite conocer el proceso productivo y degustar café de origen, inmerso en paisajes rurales llenos de tradición.",
+            "actividades": ["Tour agrícola", "Degustación de café", "Fotografía"],
+            "categoria_por_municipio": "Rutas Culturales y Naturales",
+            "tipo": "Ruta Turística",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 80,
+            "nombre": "Parque Natural Reserva La Ceja",
+            "descripcion": "Zona protegida que destaca por su biodiversidad y paisajes naturales, ideal para practicar senderismo y observar la rica flora autóctona.",
+            "actividades": ["Senderismo", "Observación de flora", "Fotografía"],
+            "categoria_por_municipio": "Parques Naturales",
+            "tipo": "Parque Natural",
+            "puntuacion": 4.6
+          }
+        ]
+      },
+      {
+        "nombre": "Mistrató",
+        "lugares": [
+          {
+            "id": 81,
+            "nombre": "Cascada La Encantada",
+            "descripcion": "Cascada escondida en medio de la densa vegetación de Mistrató, ideal para disfrutar de un baño refrescante y recorrer senderos naturales.",
+            "actividades": ["Senderismo", "Baño natural", "Fotografía"],
+            "categoria_por_municipio": "Cascadas",
+            "tipo": "Cascada Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 82,
+            "nombre": "Reserva Natural El Paraíso",
+            "descripcion": "Área protegida con alta biodiversidad donde se pueden observar especies de fauna y flora autóctona en un entorno inmaculado.",
+            "actividades": ["Observación de aves", "Caminatas", "Educación ambiental"],
+            "categoria_por_municipio": "Reservas Naturales",
+            "tipo": "Reserva Ecológica",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 83,
+            "nombre": "Mirador de los Andes",
+            "descripcion": "Punto panorámico que ofrece vistas impresionantes de la cordillera y los cultivos cafeteros, ideal para capturar atardeceres inolvidables.",
+            "actividades": ["Fotografía", "Observación de paisajes", "Picnic"],
+            "categoria_por_municipio": "Miradores",
+            "tipo": "Mirador Natural",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 84,
+            "nombre": "Sendero del Silencio",
+            "descripcion": "Ruta ecológica que atraviesa bosques nativos, perfecta para desconectar y disfrutar de la paz y tranquilidad que ofrece la naturaleza de Mistrató.",
+            "actividades": ["Senderismo", "Meditación", "Caminatas"],
+            "categoria_por_municipio": "Senderos Ecológicos",
+            "tipo": "Ruta Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 85,
+            "nombre": "Finca Cafetera Mistrató",
+            "descripcion": "Experiencia agroturística en una finca cafetera donde se puede conocer el proceso de cultivo, cosecha y producción del café, además de degustar sus productos.",
+            "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
+            "categoria_por_municipio": "Agroturismo",
+            "tipo": "Finca Cafetera",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 86,
+            "nombre": "Parque Natural Mistrató",
+            "descripcion": "Espacio verde y recreativo en el corazón del municipio, ideal para paseos en familia, picnic y actividades al aire libre.",
+            "actividades": ["Picnic", "Caminatas", "Recreación en familia"],
+            "categoria_por_municipio": "Parques Naturales",
+            "tipo": "Parque Municipal",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 87,
+            "nombre": "Centro de Interpretación Ambiental Mistrató",
+            "descripcion": "Espacio educativo dedicado a la conservación y difusión de la biodiversidad local, que ofrece exposiciones y talleres para aprender sobre el entorno natural.",
+            "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
+            "categoria_por_municipio": "Centros Educativos",
+            "tipo": "Centro de Interpretación",
+            "puntuacion": 4.4
+          },
+          {
+            "id": 88,
+            "nombre": "Ecoparque del Río Claro",
+            "descripcion": "Zona recreativa a orillas del río, que combina senderos naturales y áreas de picnic en un ambiente de alta biodiversidad, ideal para actividades en familia.",
+            "actividades": ["Senderismo", "Picnic", "Observación de fauna"],
+            "categoria_por_municipio": "Ecoparques",
+            "tipo": "Ecoparque",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 89,
+            "nombre": "Ruta de los Aromas",
+            "descripcion": "Recorrido por plantaciones y cultivos tradicionales que destaca la tradición cafetera y la producción local, con degustaciones y experiencias culturales.",
+            "actividades": ["Tour agrícola", "Degustación", "Fotografía"],
+            "categoria_por_municipio": "Rutas Culturales y Naturales",
+            "tipo": "Ruta Turística",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 90,
+            "nombre": "Jardín Botánico Mistrató",
+            "descripcion": "Espacio dedicado a la conservación de la flora autóctona, con senderos, áreas de descanso y actividades educativas para conocer la diversidad vegetal del municipio.",
+            "actividades": ["Visitas guiadas", "Fotografía", "Talleres de jardinería"],
+            "categoria_por_municipio": "Jardines y Parques",
+            "tipo": "Jardín Botánico",
+            "puntuacion": 4.5
+          }
+        ]
+      },
+      {
+        "nombre": "Pueblo Rico",
+        "lugares": [
+          {
+            "id": 91,
+            "nombre": "Cascada La Virgen",
+            "descripcion": "Impresionante cascada en medio de la selva, con aguas cristalinas y piscinas naturales, ideal para nadar y disfrutar de la belleza natural.",
+            "actividades": ["Senderismo", "Baño natural", "Fotografía"],
+            "categoria_por_municipio": "Cascadas",
+            "tipo": "Cascada Natural",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 92,
+            "nombre": "Reserva Natural Yarumo Blanco",
+            "descripcion": "Área protegida que alberga gran biodiversidad, donde se pueden observar especies endémicas y participar en recorridos interpretativos.",
+            "actividades": ["Avistamiento de aves", "Senderismo", "Educación ambiental"],
+            "categoria_por_municipio": "Reservas Naturales",
+            "tipo": "Reserva Ecológica",
+            "puntuacion": 4.8
+          },
+          {
+            "id": 93,
+            "nombre": "Mirador El Águila",
+            "descripcion": "Punto panorámico ubicado en lo alto de una colina, que ofrece vistas espectaculares de los valles y montañas de la región, ideal para tomar fotografías.",
+            "actividades": ["Observación de paisajes", "Fotografía", "Picnic"],
+            "categoria_por_municipio": "Miradores",
+            "tipo": "Mirador Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 94,
+            "nombre": "Rafting en el Río Cauca",
+            "descripcion": "Emocionante actividad de rafting en el Río Cauca, con rápidos y paisajes de aventura, ideal para los amantes de los deportes acuáticos.",
+            "actividades": ["Rafting", "Deportes acuáticos", "Aventura"],
+            "categoria_por_municipio": "Aventura Acuática",
+            "tipo": "Deporte Acuático",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 95,
+            "nombre": "Excursión al Cerro Tatamá",
+            "descripcion": "Ruta de senderismo desafiante que lleva hasta la cima del Cerro Tatamá, ofreciendo vistas panorámicas y un entorno único de páramo.",
+            "actividades": ["Senderismo", "Avistamiento de aves", "Fotografía"],
+            "categoria_por_municipio": "Montaña y Páramo",
+            "tipo": "Excursión de Montaña",
+            "puntuacion": 4.8
+          },
+          {
+            "id": 96,
+            "nombre": "Piscinas Naturales de Santa Rita",
+            "descripcion": "Piscinas naturales formadas en medio de la selva, ideales para nadar y relajarse en un entorno exuberante y refrescante.",
+            "actividades": ["Natación", "Picnic", "Relajación"],
+            "categoria_por_municipio": "Balnearios Naturales",
+            "tipo": "Piscinas Naturales",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 97,
+            "nombre": "Recorrido por Finca de Café Orgánico",
+            "descripcion": "Tour agroturístico en una finca de café orgánico, donde se aprende sobre el proceso de cultivo y se degustan variedades de café de origen local.",
+            "actividades": ["Tour agrícola", "Degustación de café", "Educación cultural"],
+            "categoria_por_municipio": "Agroturismo",
+            "tipo": "Finca Cafetera",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 98,
+            "nombre": "Balneario La Rochela",
+            "descripcion": "Complejo recreativo que cuenta con piscinas naturales y áreas de picnic, ideal para pasar un día relajado en familia o con amigos.",
+            "actividades": ["Natación", "Picnic", "Recreación en familia"],
+            "categoria_por_municipio": "Balnearios",
+            "tipo": "Complejo Recreativo",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 99,
+            "nombre": "Sendero Eco-turístico Camino del Agua",
+            "descripcion": "Ruta que recorre diversos ecosistemas, atravesando arroyos y pequeñas cascadas, ideal para conectar con la naturaleza y disfrutar de la tranquilidad del entorno.",
+            "actividades": ["Senderismo", "Observación de flora", "Fotografía"],
+            "categoria_por_municipio": "Senderos Ecológicos",
+            "tipo": "Ruta Natural",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 100,
+            "nombre": "Visita a la Comunidad Indígena Emberá Chamí",
+            "descripcion": "Experiencia cultural única que permite conocer las tradiciones, artesanías y gastronomía de la comunidad Emberá Chamí, inmersa en la rica herencia de Pueblo Rico.",
+            "actividades": ["Etnoturismo", "Cultura", "Gastronomía"],
+            "categoria_por_municipio": "Etnoturismo",
+            "tipo": "Experiencia Cultural",
+            "puntuacion": 4.8
+          }
+        ]
+      },
+      {
+        "nombre": "Quinchía",
+        "lugares": [
+          {
+            "id": 101,
+            "nombre": "Cascada La Esperanza",
+            "descripcion": "Cascada enclavada en un entorno boscoso que destaca por sus aguas cristalinas y zonas de baño natural, ideal para disfrutar de la naturaleza y relajarse.",
+            "actividades": ["Senderismo", "Baño natural", "Fotografía"],
+            "categoria_por_municipio": "Cascadas",
+            "tipo": "Cascada Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 102,
+            "nombre": "Parque Natural Quinchía",
+            "descripcion": "Área protegida que conserva ecosistemas andinos, con senderos interpretativos y espacios de picnic, perfecta para conectar con la biodiversidad local.",
+            "actividades": ["Caminatas", "Picnic", "Observación de fauna"],
+            "categoria_por_municipio": "Parques Naturales",
+            "tipo": "Parque Natural",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 103,
+            "nombre": "Mirador del Sol",
+            "descripcion": "Punto panorámico que ofrece vistas espectaculares de los valles y plantaciones cafeteras, ideal para capturar atardeceres inolvidables.",
+            "actividades": ["Fotografía", "Observación de paisajes", "Picnic"],
+            "categoria_por_municipio": "Miradores",
+            "tipo": "Mirador Natural",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 104,
+            "nombre": "Sendero de los Cafetales",
+            "descripcion": "Ruta ecológica que recorre plantaciones de café y áreas rurales, ofreciendo una experiencia agroturística que destaca la tradición cafetera de la región.",
+            "actividades": ["Senderismo", "Tour agrícola", "Degustación de café"],
+            "categoria_por_municipio": "Senderos Ecológicos",
+            "tipo": "Ruta Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 105,
+            "nombre": "Finca Cafetera El Encanto",
+            "descripcion": "Experiencia agroturística en una finca de café, donde se aprende sobre el proceso de cultivo y producción, complementado con degustaciones y recorridos guiados.",
+            "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
+            "categoria_por_municipio": "Agroturismo",
+            "tipo": "Finca Cafetera",
+            "puntuacion": 4.8
+          },
+          {
+            "id": 106,
+            "nombre": "Centro de Interpretación Quinchía Viva",
+            "descripcion": "Espacio educativo que difunde la historia, cultura y biodiversidad de Quinchía a través de exposiciones y talleres, promoviendo el turismo sostenible.",
+            "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres culturales"],
+            "categoria_por_municipio": "Centros Educativos",
+            "tipo": "Centro de Interpretación",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 107,
+            "nombre": "Ecoparque Los Colibríes",
+            "descripcion": "Área recreativa enfocada en la conservación y observación de aves, donde se combinan senderos naturales con zonas de camping y picnic.",
+            "actividades": ["Observación de aves", "Camping", "Senderismo"],
+            "categoria_por_municipio": "Ecoparques",
+            "tipo": "Ecoparque",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 108,
+            "nombre": "Jardín Botánico Quinchía",
+            "descripcion": "Espacio dedicado a la conservación y exhibición de la flora autóctona, con senderos y áreas de descanso que invitan a aprender sobre la biodiversidad local.",
+            "actividades": ["Visitas guiadas", "Fotografía", "Talleres ambientales"],
+            "categoria_por_municipio": "Jardines y Parques",
+            "tipo": "Jardín Botánico",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 109,
+            "nombre": "Ruta del Río Quinchía",
+            "descripcion": "Recorrido que sigue el curso del río a través de paisajes naturales, ideal para quienes disfrutan del avistamiento de fauna y actividades acuáticas en entorno rural.",
+            "actividades": ["Senderismo", "Observación de fauna", "Fotografía"],
+            "categoria_por_municipio": "Rutas Culturales y Naturales",
+            "tipo": "Ruta Turística",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 110,
+            "nombre": "Reserva Ecológica El Oasis",
+            "descripcion": "Zona protegida que destaca por su rica biodiversidad y por ser un refugio para especies nativas, ideal para recorrer en caminatas y actividades de conservación.",
+            "actividades": ["Caminatas", "Avistamiento de aves", "Educación ambiental"],
+            "categoria_por_municipio": "Reservas Naturales",
+            "tipo": "Reserva Ecológica",
+            "puntuacion": 4.7
+          }
+        ]
+      },
+      {
+        "nombre": "Santa Rosa de Cabal",
+        "lugares": [
+          {
+            "id": 111,
+            "nombre": "Termales de Santa Rosa de Cabal",
+            "descripcion": "Complejo de aguas termales naturales con múltiples piscinas y cascadas, ideal para relajarse y disfrutar de terapias de bienestar en un entorno andino.",
+            "actividades": ["Baños termales", "Spa", "Relajación"],
+            "categoria_por_municipio": "Aguas Termales",
+            "tipo": "Termales Naturales",
+            "puntuacion": 4.8
+          },
+          {
+            "id": 112,
+            "nombre": "Termales de San Vicente",
+            "descripcion": "Conjunto de pozos termales ubicados en un entorno boscoso, que combinan la experiencia del baño termal con senderos de aventura.",
+            "actividades": ["Baños termales", "Senderismo", "Aventura"],
+            "categoria_por_municipio": "Aguas Termales",
+            "tipo": "Termales Naturales",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 113,
+            "nombre": "Mirador La Loma del Sol",
+            "descripcion": "Punto panorámico con vistas espectaculares de la ciudad y el paisaje andino, ideal para apreciar atardeceres y realizar actividades de fotografía.",
+            "actividades": ["Observación de paisajes", "Fotografía", "Picnic"],
+            "categoria_por_municipio": "Miradores",
+            "tipo": "Mirador Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 114,
+            "nombre": "Sendero de la Cascada Encantada",
+            "descripcion": "Ruta ecológica que conduce a una cascada escondida en medio del bosque, perfecta para los amantes de la aventura y el contacto con la naturaleza.",
+            "actividades": ["Senderismo", "Fotografía", "Cascada"],
+            "categoria_por_municipio": "Senderos Ecológicos",
+            "tipo": "Ruta Natural",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 115,
+            "nombre": "Parque Natural Los Fundadores",
+            "descripcion": "Espacio natural que integra amplias áreas verdes, senderos y miradores, ideal para realizar caminatas en familia y disfrutar del aire puro.",
+            "actividades": ["Caminatas", "Picnic", "Observación de fauna"],
+            "categoria_por_municipio": "Parques Naturales",
+            "tipo": "Parque Municipal",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 116,
+            "nombre": "Ecoparque del Río Claro",
+            "descripcion": "Área recreativa a orillas del río, que combina senderos naturales, zonas de camping y pesca deportiva en un ambiente tranquilo y familiar.",
+            "actividades": ["Camping", "Pesca", "Senderismo"],
+            "categoria_por_municipio": "Ecoparques",
+            "tipo": "Ecoparque",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 117,
+            "nombre": "Granja Ecoturística La Pampa",
+            "descripcion": "Finca agroturística que ofrece recorridos por plantaciones de café y otras actividades rurales, permitiendo conocer la cultura cafetera de la región.",
+            "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
+            "categoria_por_municipio": "Agroturismo",
+            "tipo": "Finca Cafetera",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 118,
+            "nombre": "Centro de Interpretación Ambiental Santa Rosa",
+            "descripcion": "Espacio educativo que difunde la biodiversidad y la historia natural de la región a través de exposiciones y talleres, promoviendo el turismo sostenible.",
+            "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
+            "categoria_por_municipio": "Centros Educativos",
+            "tipo": "Centro de Interpretación",
+            "puntuacion": 4.4
+          },
+          {
+            "id": 119,
+            "nombre": "Jardín Botánico y Parque de los Guayacanes",
+            "descripcion": "Área dedicada a la conservación de especies nativas, especialmente el guayacán, que adorna la ciudad, y que ofrece senderos y espacios de descanso.",
+            "actividades": ["Visitas guiadas", "Fotografía", "Talleres ambientales"],
+            "categoria_por_municipio": "Jardines y Parques",
+            "tipo": "Jardín Botánico",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 120,
+            "nombre": "Ruta del Café y la Naturaleza",
+            "descripcion": "Recorrido turístico que combina visitas a fincas cafeteras con senderos naturales, permitiendo conocer el proceso del cultivo del café y disfrutar de paisajes rurales.",
+            "actividades": ["Tour agrícola", "Degustación de café", "Senderismo"],
+            "categoria_por_municipio": "Rutas Culturales y Naturales",
+            "tipo": "Ruta Turística",
+            "puntuacion": 4.7
+          }
+        ]
+      }, 
+      {
+        "nombre": "Santuario",
+        "lugares": [
+          {
+            "id": 121,
+            "nombre": "Parque Nacional Natural Tatamá",
+            "descripcion": "Parte del imponente Parque Nacional Natural Tatamá se extiende por Santuario, ofreciendo ecosistemas únicos, alta biodiversidad y rutas de alta montaña ideales para el senderismo y la observación de aves.",
+            "actividades": ["Senderismo", "Avistamiento de aves", "Fotografía"],
+            "categoria_por_municipio": "Parques Nacionales",
+            "tipo": "Parque Nacional",
+            "puntuacion": 4.9
+          },
+          {
+            "id": 122,
+            "nombre": "Parque Municipal Natural Planes de San Rafael",
+            "descripcion": "Área protegida con senderos bien señalizados y zonas de picnic, ideal para familias y visitantes que desean disfrutar del ambiente natural de Santuario.",
+            "actividades": ["Caminatas", "Picnic", "Observación de fauna"],
+            "categoria_por_municipio": "Parques Naturales",
+            "tipo": "Parque Municipal",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 123,
+            "nombre": "Mirador de la Perla",
+            "descripcion": "Punto panorámico que ofrece vistas espectaculares de los valles y montañas que rodean Santuario, perfecto para tomar atardeceres y fotografías memorables.",
+            "actividades": ["Fotografía", "Observación de paisajes", "Picnic"],
+            "categoria_por_municipio": "Miradores",
+            "tipo": "Mirador Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 124,
+            "nombre": "Sendero del Bosque Encantado",
+            "descripcion": "Ruta ecológica que recorre densos bosques nativos de Santuario, ideal para quienes buscan desconectar y conectarse con la naturaleza en un ambiente místico.",
+            "actividades": ["Senderismo", "Meditación", "Avistamiento de fauna"],
+            "categoria_por_municipio": "Senderos Ecológicos",
+            "tipo": "Ruta Natural",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 125,
+            "nombre": "Cascada El Silencio",
+            "descripcion": "Escondida entre la vegetación, esta cascada ofrece un refrescante baño natural y un entorno ideal para la fotografía y el disfrute del paisaje.",
+            "actividades": ["Senderismo", "Baño natural", "Fotografía"],
+            "categoria_por_municipio": "Cascadas",
+            "tipo": "Cascada Natural",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 126,
+            "nombre": "Finca Cafetera La Encantada",
+            "descripcion": "Experiencia agroturística en una finca tradicional donde se conoce el proceso de cultivo del café, con degustaciones y recorridos guiados que resaltan la cultura cafetera local.",
+            "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
+            "categoria_por_municipio": "Agroturismo",
+            "tipo": "Finca Cafetera",
+            "puntuacion": 4.7
+          },
+          {
+            "id": 127,
+            "nombre": "Centro de Interpretación Santuario Verde",
+            "descripcion": "Espacio educativo dedicado a difundir la biodiversidad y la historia natural de Santuario a través de exposiciones, charlas y talleres ambientales.",
+            "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
+            "categoria_por_municipio": "Centros Educativos",
+            "tipo": "Centro de Interpretación",
+            "puntuacion": 4.5
+          },
+          {
+            "id": 128,
+            "nombre": "Ecoparque El Retiro",
+            "descripcion": "Área recreativa y ecológica que combina senderos naturales, zonas de camping y espacios de picnic, ideal para actividades en familia y para relajarse en plena naturaleza.",
+            "actividades": ["Camping", "Picnic", "Senderismo"],
+            "categoria_por_municipio": "Ecoparques",
+            "tipo": "Ecoparque",
+            "puntuacion": 4.4
+          },
+          {
+            "id": 129,
+            "nombre": "Ruta de los Aromas",
+            "descripcion": "Recorrido por plantaciones de café y cultivos tradicionales, donde se pueden conocer procesos productivos y degustar el auténtico café de la región.",
+            "actividades": ["Tour agrícola", "Degustación de café", "Fotografía"],
+            "categoria_por_municipio": "Rutas Culturales y Naturales",
+            "tipo": "Ruta Turística",
+            "puntuacion": 4.6
+          },
+          {
+            "id": 130,
+            "nombre": "Jardín Botánico Santuario",
+            "descripcion": "Espacio dedicado a la conservación de especies vegetales autóctonas, que ofrece senderos, áreas de descanso y actividades educativas para aprender sobre la flora local.",
+            "actividades": ["Visitas guiadas", "Fotografía", "Talleres ambientales"],
+            "categoria_por_municipio": "Jardines y Parques",
+            "tipo": "Jardín Botánico",
+            "puntuacion": 4.5
+          }
+        ]
+      }
+    ]
+}
+  
