@@ -3,6 +3,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { ProviderNav } from "./Components/Context/ContextNav.jsx";
 import { Auth0Provider } from "@auth0/auth0-react";
+import { ProvideAccesibility } from "./Components/Context/ContextAccessibility.jsx";
 
 createRoot(document.getElementById("root")).render(
   <Auth0Provider
@@ -13,7 +14,9 @@ createRoot(document.getElementById("root")).render(
     }}
   >
     <ProviderNav>
-      <App />
+      <ProvideAccesibility>
+        <App />
+      </ProvideAccesibility>
     </ProviderNav>
   </Auth0Provider>
 );

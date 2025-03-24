@@ -50,7 +50,7 @@ const MenuPerfilLogin = () => {
       
       <MenuItem className="hover:shadow-lg hover:-translate-y-1 transition  mb-3 rounded-xl cursor-default  flex items-center px-2">
         <IconSetting />
-        <Anchor url="/settings" text="Configuración"/>
+        <Anchor url="/profile/settings" text="Configuración"/>
       </MenuItem>
 
       <MenuItem className="hover:shadow-lg hover:-translate-y-1 transition  mb-3 rounded-xl cursor-default flex items-center px-2">

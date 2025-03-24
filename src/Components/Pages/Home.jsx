@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import ContainerTitle from "../Global/ContainerTitle";
 import { motion } from "framer-motion";
 import LoginButton from "../Auth/LoginButton";
 import { useAuth0 } from "@auth0/auth0-react";
 import Anchor from "../Global/Anchor";
+import { TitleH1, TitleH2 } from "../Global/ContainerTitle";
+import ContainerText from "../Global/ContainerText";
 
 const Home = () => {
   const { isAuthenticated } = useAuth0();
@@ -27,30 +28,21 @@ const Home = () => {
 
         <div className=" z-3 left-1/2 p-4 w-full grid lg:grid-cols-2 justify-center text-center lg:text-start px-10 max-w-5xl h-full max-h-[80%] m-auto">
           <div className="flex flex-col justify-evenly items-center lg:items-start">
-            <motion.p
-              initial={{ opacity: 0, translateY: -50 }}
-              animate={{ opacity: 1, translateY: 0 }}
-              transition={{ duration: 1 }}
-              className="text-2xl font-bold text-white"
-            >
-              Bienvenido a EcoDeusRisaralda
-            </motion.p>
-            <ContainerTitle
+            <TitleH2
+              text={"Bienvenido a EcoDeusRisaralda"}
+              style={"text-white font-bold"}
+            />
+            <TitleH1
               text={"EXPLORA RISARALDA"}
-              style={"text-white text-4xl font-bold"}
+              style={"text-white font-bold"}
             />
 
-            <motion.p
-              initial={{ opacity: 0, translateY: -50 }}
-              animate={{ opacity: 1, translateY: 0 }}
-              transition={{ duration: 1, delay: 0.6 }}
-              className="mt-4 mb-6 max-w-2xl mx-auto text-lg"
-            >
-              Descubre la magia de Risaralda, donde la naturaleza, la cultura y
+            <ContainerText
+              text={`   Descubre la magia de Risaralda, donde la naturaleza, la cultura y
               la aventura se encuentran. Explora nuestros parques naturales,
               conoce nuestra rica biodiversidad y vive experiencias únicas en el
-              corazón del Eje Cafetero.
-            </motion.p>
+              corazón del Eje Cafetero.`}
+            />
 
             <motion.a
               initial={{ opacity: 0, translateX: -50 }}
@@ -90,8 +82,13 @@ const Home = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        className="relative w-full h-screen bg-white flex flex-col justify-center items-center text-black"
+        className="relative w-full py-[10vh] lg:py-0 lg:h-screen bg-white flex flex-col justify-evenly items-center text-black"
       >
+        <TitleH1
+          text={`Comparte con nosotros`}
+          style={"text-greenDark font-bold text-center"}
+        />
+
         <div className="w-[90%] max-w-6xl mx-auto grid lg:grid-cols-2 gap-8 items-center">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -99,24 +96,13 @@ const Home = () => {
             transition={{ duration: 1 }}
             className="text-center lg:text-left"
           >
-            <motion.h2
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              className="text-3xl font-bold mb-4"
-            >
-              Ecoturismo Responsable
-            </motion.h2>
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-lg mb-6"
-            >
-              Explora y comparte los tesoros naturales de Risaralda. Juntos
+            <TitleH2 text={"Ecoturismos responsable"} />
+            <ContainerText
+              text={`  Explora y comparte los tesoros naturales de Risaralda. Juntos
               podemos promover un turismo sostenible que preserve nuestros
-              ecosistemas.
-            </motion.p>
+              ecosistemas.`}
+              style={"text-gray-600"}
+            />
           </motion.div>
 
           <motion.div
@@ -126,32 +112,31 @@ const Home = () => {
             className="bg-white rounded-xl shadow-lg p-6  hover:shadow-xl hover:-translate-y-1 transition"
           >
             <div className="text-center mb-6">
-              <h3 className="text-2xl font-semibold mb-2">
-                ¿Tienes algún lugar que deseas compartir?
-              </h3>
-              <p className="text-gray-600">
-                Comparte tus sucursales ecoturísticos con nuestra comunidad
-              </p>
+              <TitleH2 text={"¿Tienes algún lugar para subir?"} />
+              <ContainerText
+                text={`Comparte tus sucursales ecoturísticos con nuestra comunidad`}
+                style={"text-gray-500"}
+              />
             </div>
 
             <div className="flex flex-col justify-center items-center gap-4">
               <div className="flex items-center  text-gray-700">
-                <span>Contribuye a la comunidad ecoturística</span>
+                <ContainerText
+                  text={`Contribuye a la comunidad ecoturística`}
+                />
               </div>
 
               {isAuthenticated ? (
                 <Anchor
                   url="/profile/sucursales"
                   text="Subir destino"
-                  style={
-                    "bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full cursor-pointer"
-                  }
+                  style="bg-green-500 hover:bg-green-600 font-bold py-2 px-4 rounded-full cursor-pointer text-white"
                 />
               ) : (
                 <button
-                  onClick={() =>{ 
-                  setShowLoginModal(true)
-                  document.body.classList.add("overflow-hidden");
+                  onClick={() => {
+                    setShowLoginModal(true);
+                    document.body.classList.add("overflow-hidden");
                   }}
                   className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full cursor-pointer"
                 >
@@ -160,6 +145,34 @@ const Home = () => {
               )}
             </div>
           </motion.div>
+        </div>
+      </motion.section>
+
+      <div className="p-4 bg-green-800">
+        <TitleH2
+          text={`¡Descubre la belleza de Risaralda!`}
+          style={"text-white"}
+        />
+      </div>
+
+      <motion.section
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+        className="relative w-full h-screen bg-gray-100  text-black p-4"
+      >
+        <div className="grid grid-cols-1 lg:grid-cols-3">
+              <div className="col-span-2">
+                <TitleH2
+                  text={`Algunos lugares que visitar`}
+                  />
+              </div>
+
+              <div className="flex flex-col gap-3 col-span-1">
+              <TitleH2
+                  text={`Lugares`}
+                  />
+              </div>
         </div>
       </motion.section>
 
@@ -174,8 +187,9 @@ const Home = () => {
             </p>
             <div className="flex justify-end space-x-4">
               <button
-                onClick={() => {setShowLoginModal(false)
-                document.body.classList.remove("overflow-hidden");
+                onClick={() => {
+                  setShowLoginModal(false);
+                  document.body.classList.remove("overflow-hidden");
                 }}
                 className="px-4 py-2 text-gray-200 bg-gray-500 hover:text-gray-800 cursor-pointer rounded-lg"
               >

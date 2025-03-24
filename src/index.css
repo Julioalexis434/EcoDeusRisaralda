@@ -3,7 +3,7 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  --contrast: normal;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -13,8 +13,16 @@
 body {
   margin: 0;
 }
-
-svg{
+svg {
   width: 30px;
 }
 
+@theme {
+  --color-greenDark: #016630;
+  --color-green: #00ff00;
+  --color-greenLight: #90ee90;
+  --color-redDark: #8b0000;
+  --color-grayDark: #808080;
+  --color-gray: #a9a9a9;
+  --color-grayLight: #d3d3d3;
+}

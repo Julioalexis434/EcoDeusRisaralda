@@ -13,7 +13,17 @@ const AsideProfile = () => {
             url: "sucursales",
             text: "Tus sucursales",
             current: false,
-        }
+        },
+        {
+          url: "comentarios",
+          text: "Comentarios",
+          current: false,
+      },
+      {
+        url: "settings",
+        text: "Configuración",
+        current: false,
+    }
     ]
   return (
     <>
