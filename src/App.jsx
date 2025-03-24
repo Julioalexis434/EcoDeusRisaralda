@@ -6,6 +6,7 @@ import ProfileLayout from "./Components/Layouts/ProfileLayout";
 import Sucursales from "./Components/Pages/Sucursales";
 import Profile from "./Components/Pages/Profile";
 import Settings from "./Components/Pages/Settings";
+import Destinations from "./Components/Pages/Destinations";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<AdminLayout />}>
           <Route index element={<Home />} />
+          <Route path="destinations" element={<Destinations/>} />
           <Route path="settings" element={<Settings />} />
           
           <Route path="/profile" element={<ProfileLayout />}>
