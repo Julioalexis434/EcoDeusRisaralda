@@ -16,7 +16,7 @@
           {
             "id": 2,
             "nombre": "Santuario de Fauna y Flora Otún Quimbaya",
-            "imagenes":[],
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipPByAaZunnt14727GP-GH0K26iTtcBJNiOZkW8N=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMjtpV-kV2KJcinEYe4tKx08DTLlKYxFLJC0kTh=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNKnlTFDoEecJhdHm3HnlvZ572DKCsOIub5DNZE=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNqp_Lt518280WaA1ND7A-qCnfylq5unI_J7dBA=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPTo99g72jhRAXB-bHM8TrYa9_TdeHpVoishDZa=s1360-w1360-h1020"],
             "descripcion": "Reserva natural reconocida por su biodiversidad y paisajes andinos.",
             "actividades": ["Avistamiento de aves", "Caminatas ecológicas", "Fotografía de naturaleza"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -26,6 +26,7 @@
           {
             "id": 3,
             "nombre": "Yarumo Blanco",
+            "imagenes":["https://lh6.ggpht.com/HCTzbCY2a4ceJzDlvuAhtDItGvrjJ7oh5ohHY8ZZarxpZ8r5SdM1CTCXmws6dWSRDFoM9_6SzPwXcSJITwZl=s985","https://admin.smellslikeart.org/resources/files/arts/437/TUVZWGIzU1hBaTZRNjhKbmZCVm1ObWl3SzN5enR1akcyZW05V3cxTEp5VT0=.jpg","https://yarumoblanco.co/wp-content/uploads/2023/10/SA73518.webp","https://media-cdn.tripadvisor.com/media/photo-s/05/8c/da/da/santuario-de-fauna-y.jpg","https://vrestrepo.com/wp-content/uploads/2022/06/VRestrepo_altiplano_11-1024x711.jpg"],
             "descripcion": "Asociación comunitaria que ofrece experiencias de ecoturismo en la cuenca del río Otún.",
             "actividades": ["Recorridos ecoturísticos", "Gastronomía local", "Programas educativos"],
             "categoria_por_municipio": "Ecoturismo Comunitario",
@@ -35,6 +36,7 @@
           {
             "id": 4,
             "nombre": "Cascadas del Río Verde",
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipP3LbrFdCOi2Cl-_prCsBhPhFYPgkVLe2euSUCn=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMgf21XdwNICsE5_G4QlpMW91lKQDxVcAgg_VzA=s1360-w1360-h1020","https://lh5.googleusercontent.com/p/AF1QipMcLSALGZf7XnxABJcagR2HbZcvJgjnZN86B7Rn=w243-h406-n-k-no-nu","https://lh3.googleusercontent.com/p/AF1QipMrAgaKjxGw7wTYQSzkbYoK_JNLF77V4uUWvn6w=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPF31AidbaL3d_IZmgrVmNe064QzdMNSo9jxnDj=s1360-w1360-h1020"],
             "descripcion": "Impresionantes cascadas rodeadas de exuberante vegetación.",
             "actividades": ["Senderismo", "Baños en pozos naturales", "Picnics"],
             "categoria_por_municipio": "Cascadas",
@@ -44,6 +46,7 @@
           {
             "id": 5,
             "nombre": "Reserva de Bremen",
+            "imagenes":["https://rutasdelosandes.com/images/rutas/risaralda/barbas-bremen/featured.jpg","https://rutasdelosandes.com/images/rutas/risaralda/barbas-bremen/cascada-barbas.jpeg","https://rutasdelosandes.com/images/rutas/costa/ciudad-perdida/featured.jpg","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/4d/78/f7/caption.jpg?w=1200&h=-1&s=1","https://redjusticiaambientalcolombia.files.wordpress.com/2014/08/foto-barbas-bremen-2014.jpg"],
             "descripcion": "Área de conservación con bosques de niebla y diversidad de especies.",
             "actividades": ["Observación de aves", "Caminatas interpretativas", "Investigación científica"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -58,6 +61,7 @@
           {
             "id": 6,
             "nombre": "Parque Regional Natural La Marcada",
+            "imagenes":["https://www.comfamiliar.com/bibliotecas/wp-content/uploads/sites/13/2022/02/LA-MARCADA.jpg","https://rutasdelpaisajeculturalcafetero.com/wp-content/uploads/2016/07/parque-la-marcada.jpg","https://fecomarisaralda.org/wp-content/uploads/2019/07/Verdum-1.jpg","https://fecomarisaralda.org/wp-content/uploads/2019/07/Verdum-4.jpg","https://fecomarisaralda.org/wp-content/uploads/2019/07/Verdum-5.jpg"],
             "descripcion": "Área protegida que conserva bosques andinos y biodiversidad única.",
             "actividades": ["Senderismo", "Observación de fauna y flora", "Educación ambiental"],
             "categoria_por_municipio": "Parques Naturales",
@@ -67,6 +71,7 @@
           {
             "id": 7,
             "nombre": "Cascada La Argentina",
+            "imagenes":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYIsr23h8UXkeQXgEhDAi1JUONU3Pr9kO-6w&s","https://www.plancpereira.com/wp-content/uploads/2022/09/cascada.jpg","image.png","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6krOEpO435shDYwAO0QrZyn8Ann216Dlwiw&s","https://s0.wklcdn.com/image_74/2226786/50252419/33573108.400x300.jpg"],
             "descripcion": "Impresionante caída de agua ubicada en la Serranía del Alto del Nudo.",
             "actividades": ["Trekking", "Fotografía de paisajes", "Observación de aves"],
             "categoria_por_municipio": "Cascadas",
@@ -76,6 +81,7 @@
           {
             "id": 8,
             "nombre": "Mariposario Bonita Farm",
+            "imagenes":["https://bonitafarm.com.co/wp-content/uploads/2020/05/IMG_5282-e1590609516853.jpeg","https://bonitafarm.com.co/wp-content/uploads/2020/05/IMG_6365-e1591702357218-300x300.jpeg","https://bonitafarm.com.co/wp-content/uploads/2020/06/IMG_6364-e1591702339828-300x300.jpeg","https://tourbly.com.co/wp-content/uploads/2023/11/mariposario-vista-desde.jpg","https://s3.pagegear.co/76/galeriaplus/156/1098.jpg?1710954045"],
             "descripcion": "Centro dedicado a la conservación y exhibición de mariposas nativas.",
             "actividades": ["Recorridos guiados", "Fotografía de mariposas", "Educación ambiental"],
             "categoria_por_municipio": "Centros de Conservación",
@@ -85,6 +91,7 @@
           {
             "id": 9,
             "nombre": "Lago La Pradera",
+            "imagenes":["https://turismo.dosquebradas.gov.co/wp-content/uploads/2021/12/DSC_9110-scaled-e1648718348349-1024x576.jpg","data:image/jpeg;base64,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","https://dosquebradas.gov.co/web/images/Imagenes/2022/272812712.jpeg","https://www.instagram.com/lagoslapradera_dosquebradas/p/CJzhOres6_H/","https://dosquebradas.gov.co/web/images/Imagenes/2022/272812712.jpeg"],
             "descripcion": "Parque recreativo con un lago central, ideal para actividades al aire libre.",
             "actividades": ["Paseos en bote", "Pesca recreativa", "Picnics"],
             "categoria_por_municipio": "Parques Recreativos",
@@ -94,6 +101,7 @@
           {
             "id": 10,
             "nombre": "Sendero Camino de los Venados",
+            "imagenes":["https://s2.wklcdn.com/image_169/5081238/80419636/52154630Master.jpg","https://s0.wklcdn.com/image_169/5081238/80419637/52156962Master.jpg","https://s2.wklcdn.com/image_169/5081238/80419638/52156976Master.jpg","https://s0.wklcdn.com/image_169/5081238/80419643/52157037Master.jpg","https://s1.wklcdn.com/image_169/5081238/80419639/52156996Master.jpg"],
             "descripcion": "Ruta ecológica que conecta con el Santuario de la Virgen de la Pureza.",
             "actividades": ["Caminatas ecológicas", "Observación de fauna", "Fotografía de naturaleza"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -108,6 +116,7 @@
           {
             "id": 11,
             "nombre": "Cascada de la Popa",
+            "imagenes":["https://s2.wklcdn.com/image_64/1949128/23896332/15192068.700x525.jpg","https://s1.wklcdn.com/image_64/1949128/23896336/15192109Master.jpg","https://s1.wklcdn.com/image_64/1949128/23896337/15192115Master.jpg","https://s2.wklcdn.com/image_64/1949128/23896335/15192104Master.jpg","https://s2.wklcdn.com/image_64/1949128/23896333/15192092Master.jpg"],
             "descripcion": "Ubicada en la parte alta de la vereda El Roble, esta cascada permite disfrutar de un baño refrescante en sus pozos y admirar su caída de agua en un entorno de abundante vegetación.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Naturaleza y Cascadas",
@@ -117,6 +126,7 @@
           {
             "id": 12,
             "nombre": "Jardín Botánico de Apía",
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipP2-1UcgfAdOPFpuXEZVAy-SMMvtTEx7Jv9e42x=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipP_xGxhI-Ug4FXO80fqS6GEZlH1dQZQmuThJMs5=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOG9K5O0jKiov6g-OJkdsuhCqDXQMab_7airA5u=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB-Mi8lZqCEwXykbt1zYFpaIcfUer2jT3KgctGSL-O7PkN1R-eBi0XGcaXvbHGd5uJTTSc3D6W1qKN-kDr7x2nPt95tQeJotKYT9Od9r2uJH5qmMmcRvpPkEjDflPaJLJMn6SQ4h=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB_Cv0L0P-WwixPGEsY5sF66HnabChIpme-Y6EIZ-EE89nVFxBgybx_Se2kywrR6soShozaJhSJzJXFU5HXqDTINBtyEoO5To-3nyKJowGpinRbAkNdhVNUPx7xVRd349aU2wnAakQ=s1360-w1360-h1020"],
             "descripcion": "Espacio dedicado a la conservación y exhibición de la flora local, donde se realizan recorridos guiados y talleres de educación ambiental para conocer la biodiversidad de la región.",
             "actividades": ["Visitas guiadas", "Talleres ambientales", "Fotografía de flora"],
             "categoria_por_municipio": "Educación Ambiental",
@@ -126,6 +136,7 @@
           {
             "id": 13,
             "nombre": "Laguna del Morro Azul",
+            "imagenes":["https://archivo.lapatria.com/sites/default/files/styles/620x/public/imagenprincipal/2016/Agosto/untitled_2.jpg","https://archivo.lapatria.com/sites/default/files/fotosgaleria/2016/Septiembre/entro_en_pruebas_la_microcentral_morro_azul.jpg","https://www.geodata.it/images/geodata/portfolio/HYDRO/H_014/ansermahidroelectrica.jpg","https://archivo.lapatria.com/sites/default/files/fotosgaleria/2016/Septiembre/el_rio_risaralda_contribuira_a_la_generacion_de_energia.jpg","https://archivo.lapatria.com/sites/default/files/fotosgaleria/2016/Septiembre/aspecto_del_muro_luego_del_lago_que_se_forma_a_la_entrada_del_tunel.jpg"],
             "descripcion": "Una laguna de aguas tranquilas enclavada en un entorno natural que ofrece un ambiente sereno, ideal para la observación de aves y para disfrutar de la paz del paisaje.",
             "actividades": ["Observación de aves", "Caminatas", "Picnic"],
             "categoria_por_municipio": "Lagos y Lagunas",
@@ -135,6 +146,7 @@
           {
             "id": 14,
             "nombre": "Voladero El Zarzo",
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipORctmXhgcjE-ZXtE2ha2FOqRbIuwC8Czbw4ztu=s1360-w1360-h1020","https://media-cdn.tripadvisor.com/media/photo-s/18/b5/ca/12/voladero-el-zarzo-apia.jpg","https://media-cdn.tripadvisor.com/media/photo-s/18/b5/ca/08/voladero-el-zarzo-apia.jpg","https://lh3.googleusercontent.com/p/AF1QipPTKgLKwkh3_pIk2v5K0PN5Mhpz-HvNijm_1mT-=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMlgEqvyfj7Z6r6wkbQMr8O8fV67tvyrmOjVX8J=s1360-w1360-h1020"],
             "descripcion": "Con condiciones de viento constantes, este sitio es ideal para la práctica de parapente, ofreciendo vistas panorámicas del paisaje cafetero que enamoran a los amantes del vuelo libre.",
             "actividades": ["Parapente", "Avistamiento de paisajes", "Fotografía"],
             "categoria_por_municipio": "Aventura y Parapente",
@@ -144,6 +156,7 @@
           {
             "id":15,
             "nombre": "Parque Natural Municipal La María",
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipMnhzN8BWa_YwA8HWJN4zUJHI5tXjvEbs9kEd_k=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipO6f8_KO8GYGjm6tfJfutF3E5dwX6SepLmD9OY=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMHoXTcYPU9fRd-lzWp80Z5_mBuU2_UD5Vhxvlt=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipP6B8SUnlbKUPbLWIcN40Azsr8Wg_NqpfLDYIg1=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipO3HBBOVMr33adfnoCHxBL3odPLh2AnjPNdo5pf=s1360-w1360-h1020"],
             "descripcion": "Espacio natural protegido en Apía que cuenta con senderos interpretativos, ideales para familias y visitantes interesados en la observación de fauna y flora local.",
             "actividades": ["Senderismo", "Observación de fauna", "Picnic"],
             "categoria_por_municipio": "Parques Naturales",
@@ -153,6 +166,7 @@
           {
             "id": 16,
             "nombre": "Parque Natural Municipal Agualinda",
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipNZyo5oBMhrwkA_KJHBBue64nSFFStYtYKh1L02=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipN6auJuGUiTVoYuJkhQcizzy_E9EGMsT4ZVZage=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMQPSJ1K_PQLEY5LGcdq7xBMMMjgAoeiez-Vezp=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB_w4juKL3aPJ6AAulmjBXP0yBb4XMg5h7-E7BYdohyiuXSjT13r449pl2YIt0wa_nw04fFHPAdTd3U-pdV2Q3ngaZZ6mpdpqiuGALGA9-RmpTvVHOGI3oKuFYgpnULumO36oQo=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNbobTj6Bq2XvhURCLmQpCcMrShUGOlYtm3Bu2s=s1360-w1360-h1020"],
             "descripcion": "Parque dedicado a la conservación de la biodiversidad, con rutas de senderismo y miradores naturales que resaltan el paisaje montañoso de la región.",
             "actividades": ["Caminatas", "Avistamiento de aves", "Fotografía"],
             "categoria_por_municipio": "Parques Naturales",
@@ -162,6 +176,7 @@
           {
             "id": 17,
             "nombre": "Parque Lineal El Clavel",
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipNAolX7OFegyvkEZkEpdOymkMB1T3acIroHD8oI=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPVx4ugoeN2pFfLiTMyqI4thWFpS9ayjft8Yaqv=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPsvqCwPaZQlxgtIZHHPq6d-e57nfBaynO27Ifh=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOA16thNPTSkzzUTL3NhBvT02xaNCjesV1nhXsq=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNaiLUIugLSmM922yjqCRqGc0UIB9FSqi2XdcUw=s1360-w1360-h1020"],
             "descripcion": "Espacio urbano transformado en parque lineal, con senderos y zonas verdes, ideal para paseos en familia y actividades al aire libre en contacto con la naturaleza.",
             "actividades": ["Caminatas", "Ciclismo", "Picnic"],
             "categoria_por_municipio": "Espacios Verdes Urbanos",
@@ -171,6 +186,7 @@
           {
             "id": 18,
             "nombre": "Granja Avícola San Isidro",
+            "imagenes":["https://www.comfamiliar.com/bibliotecas/wp-content/uploads/sites/13/2022/02/Granja2-1024x576.jpg","https://www.comfamiliar.com/bibliotecas/wp-content/uploads/sites/13/2022/02/Granja-4-1024x576.jpg","https://www.comfamiliar.com/bibliotecas/wp-content/uploads/sites/13/2022/02/Granja-3.jpg","https://www.comfamiliar.com/bibliotecas/wp-content/uploads/sites/13/2022/02/Granja-5-1024x576.jpg","https://www.comfamiliar.com/bibliotecas/wp-content/uploads/sites/13/2022/02/Granja1-1024x576.jpg"],
             "descripcion": "Centro agroecoturístico donde se combinan actividades de turismo rural con experiencias de contacto directo con animales y cultivos, resaltando las tradiciones cafeteras.",
             "actividades": ["Tours agroecológicos", "Alimentación de animales", "Talleres agrícolas"],
             "categoria_por_municipio": "Agroturismo",
@@ -180,6 +196,7 @@
           {
             "id": 19,
             "nombre": "Parque Nacional Natural Tatamá",
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipMbchd9iz8HzZ61LNqF-AlqHDJ8FfxhQtwENQ05=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOrFLmAhBCNeSI3l2cdxmbej-H2Tj5uRBOFXyPR=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMM2sVhkc_bK1--T7Ccxbl6Agn4uUcKdEjig6LF=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMeX6YkBXi8SNAjWwmBb8PYyXgK-pRMkEQgP28H=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOsTlg_0mCX7eVgUyeoTVD17ugCuEOPiEtEu3Ei=s1360-w1360-h1020"],
             "descripcion": "Parte del extenso Parque Nacional Natural Tatamá que se extiende por varios municipios, ofreciendo ecosistemas únicos, senderos de alta montaña y una rica biodiversidad para los aventureros.",
             "actividades": ["Senderismo", "Montañismo", "Avistamiento de flora y fauna"],
             "categoria_por_municipio": "Parques Nacionales",
@@ -189,6 +206,7 @@
           {
             "id": 20,
             "nombre": "Valle del Río Mapa",
+            "imagenes":["https://www.univalle.edu.co/media/k2/items/cache/fac9770ae986695c80dfb6c58f312f32_XL.jpg","https://www.socialhizo.com/images/historia_de_colombia/valle-cauca/rio-cauca.jpg","https://periodico.unal.edu.co/uploads/2024/julio/PeriodicoUNAL-310724-1-am.jpg","https://www.elespectador.com/resizer/keIReR0OyIeqSoW9c4We-xjmkZE=/arc-anglerfish-arc2-prod-elespectador/public/IRTISSH7JRBOZA45QQOPMQZHHE.jpg","https://ecopedia.cvc.gov.co/sites/default/files/styles/459x600/public/ImagenesInvestigaciones/0036informe-ejecutivo-proyecto-modelacion-del-rio-cauca_cvc-univalle.jpg?itok=rcRsatUq"],
             "descripcion": "Zona natural en la que el río Mapa recorre un valle de exuberante vegetación, proporcionando un escenario perfecto para el ecoturismo y actividades al aire libre.",
             "actividades": ["Caminatas", "Observación de la naturaleza", "Picnic"],
             "categoria_por_municipio": "Ríos y Valles",
@@ -203,6 +221,7 @@
           {
             "id": 21,
             "nombre": "Cascada El Salto del Viento",
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipOVgfS5MSSe7Covh_vdOU93vWd_xXMVFcIA19OB=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPl5SzeMeomfgTkqzIobyCyUT-I0XxVP2dqmPtx=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPkoYTOBmw6OF3xubCOuxlJbUy8XL2HUa8B1ofJ=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPC0TyxqN8LXZk6lcgTMw1Syy5aIOAuveSGZ0uE=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipN7yK-yqzC04rGBBIfrvUu2NnzYsFDrkxGk-WRe=s1360-w1360-h1020"],
             "descripcion": "Hermosa cascada enclavada en bosques húmedos, ideal para disfrutar de la caída de agua y refrescarse en sus pozos naturales.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas y Aguas",
@@ -212,6 +231,7 @@
           {
             "id": 22,
             "nombre": "Parque Natural Municipal Balboa",
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipNsFgsrFo86buH0AWZMChapxq6qPY-JluP-sw62=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB9Q3ywegD1Tfps-xhjdsKPPGRkEQQXxYfbHv-Qp_Oj0vvVUOwB9ygMDsnoN0t4_XUh76uGjROPRT67gUdpnuqUtsUVQkJGmUFbR7-gujLOjm_LwvvBedSKW-ZBvMGaP3xH2TFJnmQ=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB902YYLUvWomrG7yCqAJvR5wHWXVpp7gRqJ4F-A7mvkG_T_iD94nQgZ2Mi7H84QVlK_o4upWfKW6y2PopV2OTAb1NfgG84h08cv-18Drr21OtZRnm4_oOcRnrTNkXe88wfIU4Sd=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB-GtSeSOoxRyMRmIq7oKFfAxSfisKw9FETifASCpagY-KB-n37kklpdbEi_vSvcv69-NR12BuET1GWmAQQMTpvGAyoLFVBIEYuHbr2tcowZswM4_MN-_gHH4mGsziHTlGUgXtWA=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB927l9ZdydQRtmsZ4ikFdUdZjp8qvXw0ajJAhRpFY0QNYwi9Tw17RzSmlLMm8DVpverdSldv26PmmkHwmnVNsMfva9F0wOUIT8vsTE_iRPfOVdotFCm1OW46oj5zCGHZlboRzQ=s1360-w1360-h1020"],
             "descripcion": "Área protegida con senderos interpretativos y zonas de picnic que promueve la conservación de la biodiversidad local.",
             "actividades": ["Caminatas", "Educación ambiental", "Picnic"],
             "categoria_por_municipio": "Parques Naturales",
@@ -221,6 +241,7 @@
           {
             "id": 23,
             "nombre": "Mirador de La Montaña",
+            "imagenes":["https://www.destinocafe.com//wp-content/uploads/2024/01/PARQUE-MIRADOR-LAS-COMETAS-EN-LA-VIRGINIA-1024x576.jpg","https://fontur.com.co/sites/default/files/2024-08/72dccbd2-47c4-4867-a049-704a0a760199_0.jpg","https://www.doradoasociados.com.co/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-19-at-10.20.59-AM-4_2_11zon.webp","https://www.doradoasociados.com.co/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-19-at-10.20.54-AM-3_17_11zon.webp","https://www.doradoasociados.com.co/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-19-at-10.21.00-AM_1_11zon.webp"],
             "descripcion": "Punto de observación que ofrece vistas panorámicas del valle y de las plantaciones cafeteras que rodean Balboa.",
             "actividades": ["Observación de paisajes", "Fotografía", "Caminatas"],
             "categoria_por_municipio": "Miradores",
@@ -230,6 +251,7 @@
           {
             "id": 24,
             "nombre": "Reserva Ecológica La Candelaria",
+            "imagenes":["https://scontent.fclo8-1.fna.fbcdn.net/v/t39.30808-6/480672080_4044400842471077_7171954169257769190_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=0lNM28BA-DgQ7kNvgHK3vG5&_nc_oc=Adn7AlE02aAt1HzoICaqx0lW7z03G96xgJuTKCycBkivFuUIcv4-orFNG_LhPn93fM4&_nc_zt=23&_nc_ht=scontent.fclo8-1.fna&_nc_gid=WYP_234ii23doiasfWDiTg&oh=00_AYGaxtzjE2XqLQvRBP7TtLUhtg6d3rmlIt_09sFCud4HaQ&oe=67EE11E4","https://s1.wklcdn.com/image_64/1949128/116932809/75018820.700x525.jpg","https://s0.wklcdn.com/image_64/1949128/116932812/75018825Master.jpg","https://s1.wklcdn.com/image_64/1949128/116932813/75018826Master.jpg","https://s1.wklcdn.com/image_64/1949128/116932810/75018823Master.jpg"],
             "descripcion": "Reserva dedicada a la protección de flora y fauna autóctona, con rutas de senderismo y actividades de interpretación ambiental.",
             "actividades": ["Senderismo", "Avistamiento de aves", "Interpretación ambiental"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -239,6 +261,7 @@
           {
             "id": 25,
             "nombre": "Sendero de los Pinos",
+            "imagenes":["https://s0.wklcdn.com/image_163/4908563/70977990/46684653Master.jpg","https://s1.wklcdn.com/image_163/4908563/70977989/46684642Master.jpg","https://s0.wklcdn.com/image_163/4908563/70977993/46688925Master.jpg","https://s1.wklcdn.com/image_163/4908563/70977997/46688971Master.jpg","https://s1.wklcdn.com/image_163/4908563/70977996/46688962Master.jpg"],
             "descripcion": "Ruta ecológica que atraviesa bosques de pinos y áreas de frondosa vegetación, ideal para una caminata en familia.",
             "actividades": ["Senderismo", "Fotografía", "Picnic"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -248,6 +271,7 @@
           {
             "id": 26,
             "nombre": "Balneario La Cumbre",
+            "imagenes":["https://finca-la-kumbre-pereira-villa.hotelesejecafetero.net/data/Images/1920x1080w/9736/973615/973615444/image-dosquebradas-finca-la-kumbre-pereira-villa-11.JPEG","https://finca-la-kumbre-pereira-villa.hotelesejecafetero.net/data/Images/1920x1080w/9717/971768/971768668/image-dosquebradas-finca-la-kumbre-pereira-villa-6.JPEG","https://finca-la-kumbre-pereira-villa.hotelesejecafetero.net/data/Images/1920x1080w/9717/971768/971768389/image-dosquebradas-finca-la-kumbre-pereira-villa-17.JPEG","https://finca-la-kumbre-pereira-villa.hotelesejecafetero.net/data/Images/1920x1080w/9735/973513/973513387/image-dosquebradas-finca-la-kumbre-pereira-villa-18.JPEG","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVOwFfIPZAnCIgnyJBZUSOCWGjszx67ktQuQ&s"],
             "descripcion": "Zona de baño natural ubicada a la orilla de un río cristalino, perfecta para relajarse y disfrutar de la naturaleza.",
             "actividades": ["Natación", "Picnic", "Relajación"],
             "categoria_por_municipio": "Balnearios",
@@ -257,6 +281,7 @@
           {
             "id": 27,
             "nombre": "Finca Cafetera El Tesoro",
+            "imagenes":["https://q-xx.bstatic.com/xdata/images/hotel/max500/588540982.jpg?k=fe53567b18ad4c78d038104d9f91ef2f4bdf8dc913c008427c00a93432aa1552&o=","https://rutasdelpaisajeculturalcafetero.com/wp-content/uploads/2017/08/Finca-del-Caf%C3%A9-6.jpg","https://i.pinimg.com/736x/14/03/52/1403520528144bd9a546325c0c87d131.jpg","https://en.colombiatours.travel/wp-content/uploads/2023/04/59fd1fb3e7c6f.jpeg","https://caitart.com/wp-content/uploads/2022/01/2317-finca-cafetera.jpg"],
             "descripcion": "Espacio de agroturismo donde se practica la producción sostenible de café, permitiendo conocer el proceso y degustar café de origen.",
             "actividades": ["Tours agrícolas", "Degustación de café", "Educación ambiental"],
             "categoria_por_municipio": "Agroturismo",
@@ -266,6 +291,7 @@
           {
             "id": 28,
             "nombre": "Jardín Botánico de Balboa",
+            "imagenes":["https://lh3.googleusercontent.com/gps-cs-s/AB5caB88s8rwC_6JrbvLprg73YUGV7sR5GQCNmStTIHJgga_hWtXPrqr12VguNLoupXh6vZosrfzO2MBGbi1lzshqk74B0YFqhgZcbehmply--ReutyBbbBP7IdRoXfWKZV7nOs-qGD8=s1360-w1360-h1020","https://s0.wklcdn.com/image_169/5095116/188345532/116561082Master.jpg","https://s2.wklcdn.com/image_169/5095116/188345533/116561099Master.jpg","https://s0.wklcdn.com/image_169/5095116/188345534/116561109Master.jpg","https://s2.wklcdn.com/image_169/5095116/188345537/116561150Master.jpg"],
             "descripcion": "Pequeño jardín que exhibe especies nativas de la región y promueve actividades de educación ambiental y conservación.",
             "actividades": ["Visitas guiadas", "Talleres ambientales", "Fotografía"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -275,6 +301,7 @@
           {
             "id": 29,
             "nombre": "Centro de Interpretación Ambiental Balboa",
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipOVKY7ZYqmCJFlDg_wFswnbvOL-wh64uH7WCxsB=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB-Ad8pg8CETTQNEbWfidN-NWPFIBfisfUWpmmNYyALKO-xgZGMXex7JvKKP8zgxXafh6SZyXU6qY5Y31qHT99O9KJ5KO4Z3efIe-9dpUnornr2q3oky9bDD81JrTwKoJiN-1HO6Hg=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNGqVJk6dtADM1s31zaYo_U0eAe7xjt0aOUqW4D=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNcfEvguXqeg9wWzrn4CH18B6Mym9ZQGywavyKC=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMDrNhFt_Dag4H8p3aULiP-8wSg6Za8OM8IR4z8=s1360-w1360-h1020"],
             "descripcion": "Espacio educativo que difunde la importancia de la conservación ambiental a través de exposiciones y recorridos interpretativos.",
             "actividades": ["Exposiciones", "Talleres educativos", "Recorridos interpretativos"],
             "categoria_por_municipio": "Centros Educativos",
@@ -284,6 +311,7 @@
           {
             "id": 30,
             "nombre": "Ruta de los Cafetales de Balboa",
+            "imagenes":["https://s0.wklcdn.com/image_318/9545658/107182602/69324453Master.jpg","https://s0.wklcdn.com/image_318/9545658/107182601/69324447Master.jpg","https://s2.wklcdn.com/image_417/12516481/169969828/106204892Master.jpg","https://s1.wklcdn.com/image_417/12516481/169969827/106204714Master.jpg","image.png"],
             "descripcion": "Recorrido por plantaciones de café y paisajes rurales que muestra la tradición cafetera y la sostenibilidad en la producción local.",
             "actividades": ["Recorridos guiados", "Degustación de café", "Visitas culturales"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -298,6 +326,7 @@
           {
             "id": 31,
             "nombre": "Parque Natural Santa Emilia",
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipOVILIFDRuBlXRD19Udvqh29FmNrIQiAfyyFQFb=s680-w680-h510","https://lh3.googleusercontent.com/p/AF1QipOF6dp6gZVBnB6Kruy3nJFhtdDMNq4lBO1z_rQ6=s680-w680-h510","https://lh3.googleusercontent.com/p/AF1QipOm6cMPGgNr8QB3lCNSwjZyABoSFGzhmUEF8ks_=s680-w680-h510","https://lh3.googleusercontent.com/gps-cs-s/AB5caB-HM5jiN6qhg6sjzX1BCapNX9YYT-dZgrhbS6Pt9tZHhqiBRWXj-0Fkw2-W417WlkdUB0iyS58_GId-gJU7CS1NnMph5j62c3ahE4N1I_-YILXtKIKFBOwLTH7Ktuqs7cTVsOnk7g=s680-w680-h510","https://lh3.googleusercontent.com/gps-cs-s/AB5caB8GGrBwrxbzzvrRqqrD5iJ2G0qo8PGMH2Q8T8SNB6wR6OMXbBQVDZNz8Ke3wcKPwIkQnvgVI0w7njo8uRD4Zy09Q2xS-39z6FVoiPaoNtcIwmY8MX4R8mUfQ2Dp51oDWmyQSga4=s680-w680-h510"],
             "descripcion": "Área protegida que destaca por su biodiversidad, donde se pueden apreciar especies en vía de extinción y recorrer senderos interpretativos en medio de bosques maduros.",
             "actividades": ["Senderismo", "Avistamiento de aves", "Fotografía de naturaleza"],
             "categoria_por_municipio": "Parques Naturales",
@@ -307,6 +336,7 @@
           {
             "id": 32,
             "nombre": "Parque Regional Cuchilla de San Juan",
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipMfV633sC4RcDyHjCxis9etFPsOO7CJViQdxi9I=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipN6DwwHDFC6Ss76gQb1iINRSPeoO4QwHG-sbjl9=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPOZVK_nDPzZzQeSIU_tY2whCdd5CneZWgbZgUD=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMLCZxFyrtG8r827sVrdumLYYmMEeFnHoDSY2-c=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipM5c-m0s5CM5_qK19iJlPm116WTh1z7kil7vNuc=s1360-w1360-h1020"],
             "descripcion": "Espacio diseñado para los aventureros, donde se realizan caminatas por paisajes montañosos y se disfrutan de vistas panorámicas de la región.",
             "actividades": ["Caminatas", "Fotografía", "Turismo de aventura"],
             "categoria_por_municipio": "Parques Regionales",
@@ -316,6 +346,7 @@
           {
             "id": 33,
             "nombre": "Jardín Botánico José Celestino Mutis",
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipMNE6e6i9h3Jy8V7-hWj46QlLkYoY4bJ_lkmPmq=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMUCrXQO8pHV-r_wLK0GvxBLI6Ah-_2xeM5ZWSz=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOcco_r_8qAewTOIMdw3boQQsg3j8_kgQ0GnFI=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMdr3lPQTTy3x8V8McN24VSV2nS7Dry4DnYm8Gr=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMjHjB5AzxAsaokBuGjZG1o5piNSd124_doKmuy=s1360-w1360-h1020"],
             "descripcion": "Espacio que exhibe la rica flora local y ofrece recorridos guiados para aprender sobre las especies autóctonas y su importancia en el paisaje cafetero.",
             "actividades": ["Visitas guiadas", "Talleres de educación ambiental", "Fotografía"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -325,6 +356,7 @@
           {
             "id": 34,
             "nombre": "Cascada El Salto de los Ángeles",
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipMOSJ0QFOIKAXJLj0rBqElQfZcKgTge91xJiUru=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOcn14tHl72A9cY-wqOnl2mTEW_pxEuYdzvPUZu=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNi3RLaD9mwrgBxKmbJrwi2xQvdcqyXipLkjZMd=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNRDPJ2kjuEFelJdH_I5L33wkkooABOpqErXfBi=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipP5-52FziwciOWBSNCbSh912zc6sKdKl5dYapHE=s1360-w1360-h1020"],
             "descripcion": "Impresionante caída de agua enmarcada por la vegetación exuberante, ideal para disfrutar de la naturaleza y darse un refrescante baño.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas y Aguas",
@@ -334,6 +366,7 @@
           {
             "id": 35,
             "nombre": "Museo Antropológico Eliseo Bolívar",
+            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipN0VOCOl_uKB5rYWT4wRfuWIEZBO0QHy6MCmLSr=s680-w680-h510","https://lh3.googleusercontent.com/p/AF1QipNiqqJIs1eKUwnNnw7uPVweEYtfdvQl4I3rxaUS=s680-w680-h510","https://lh3.googleusercontent.com/p/AF1QipNs5ohUzXv34yovmol39r9i_LFwhV0f8SG7eQLz=s680-w680-h510","https://lh3.googleusercontent.com/p/AF1QipOti96f50A-6Hr2b14NvAFosdbAOeBNMefCYRTX=s680-w680-h510","https://lh3.googleusercontent.com/gps-cs-s/AB5caB9_rUuucnE1QTS4s8oAjlACPHQsVxtrScgs57bL4wBzveSJEUA1GmbsKcW_8AsYn_GeYSpXdxGJRozJ__PgCqTYjXMRuCsLgkRDirtmjlv7ZMxCWwthAJUBgoEfvhNybDvpan6M=s680-w680-h510"],
             "descripcion": "Espacio cultural que resalta la historia y arqueología de la región, donde se exhiben colecciones relacionadas con la identidad cafetera y ancestral de Belén de Umbría.",
             "actividades": ["Recorridos culturales", "Visitas guiadas", "Aprendizaje histórico"],
             "categoria_por_municipio": "Culturales y Museos",
@@ -343,6 +376,7 @@
           {
             "id": 36,
             "nombre": "Recorrido por Fincas Cafeteras",
+            "imagenes":["https://blogtrip.org/wp-content/uploads/2016/04/paisaje-cafetero-parque-nacional-cafe-eje-cafetero.jpg","https://marketingsimulator.net/jparada/wp-content/uploads/sites/300/2016/09/ParqueNacionaDelCafe-672x372.jpg","https://cdn.colombia.com/images/v2/turismo/sitios-turisticos/eje-cafetero/quindio-salento-800.jpg","https://http2.mlstatic.com/D_NQ_NP_2X_903768-MCO82792078479_022025-N.webp","https://http2.mlstatic.com/D_NQ_NP_2X_809859-MCO80352502937_102024-N.webp"],
             "descripcion": "Experiencia de agroturismo que permite conocer el proceso del cultivo del café y disfrutar de degustaciones en fincas sostenibles de la zona.",
             "actividades": ["Tours agrícolas", "Degustación de café", "Interacción con agricultores"],
             "categoria_por_municipio": "Agroturismo",
@@ -352,6 +386,7 @@
           {
             "id": 37,
             "nombre": "Mirador de Taparcal",
+            "imagenes":["https://fastly.4sqi.net/img/general/width960/46768138_VL4a-nvzvN3KNDMnvdrFJjHCO1eppRSfU6RPxSEnODg.jpg","https://fastly.4sqi.net/img/general/width960/46768138_CaHhPNi4nfZfqvxDorjOU4xqVz1810ClAXQUe5I3YDg.jpg","https://fastly.4sqi.net/img/general/width960/46768138_wRhIlFNMI1ZQuG0_wkxzpwpS7-4CugT9vBL1OtpClvQ.jpg","https://fastly.4sqi.net/img/general/width960/46768138_b4Ni5VmQAx1BZWNDS6BC8kfyLZ5FrFQ3uWYsd2hK-7Y.jpg","https://fastly.4sqi.net/img/general/width960/46768138_fG3rHd7ylPWAPt0YpJQ_12cyjBwROJNAtRU1DgXT6hQ.jpg"],
             "descripcion": "Punto de observación natural que ofrece vistas espectaculares, permitiendo divisar el Nevado del Ruiz y los paisajes que conforman el Valle de Risaralda.",
             "actividades": ["Observación de paisajes", "Fotografía", "Caminatas"],
             "categoria_por_municipio": "Miradores",
@@ -361,6 +396,7 @@
           {
             "id": 38,
             "nombre": "Sendero de los Guayacanes",
+            "imagenes":["https://losguayacanesfincahotel.com/wp-content/uploads/2022/12/slider04.jpeg","https://losguayacanesfincahotel.com/wp-content/uploads/2022/12/img-home03-600x410.jpeg","https://losguayacanesfincahotel.com/wp-content/uploads/2023/08/IMG_7453-scaled.jpg","https://losguayacanesfincahotel.com/wp-content/uploads/2023/08/IMG_2685-249-scaled.jpg","https://losguayacanesfincahotel.com/wp-content/uploads/2023/08/IMG_7479-scaled.jpg"],
             "descripcion": "Ruta ecoturística que recorre bosques donde predomina el emblemático guayacán, resaltando la identidad natural y cafetera de Belén de Umbría.",
             "actividades": ["Senderismo", "Avistamiento de aves", "Fotografía"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -370,6 +406,7 @@
           {
             "id": 39,
             "nombre": "Centro de Interpretación del Paisaje Cafetero",
+            "imagenes":["https://lh3.googleusercontent.com/gps-cs-s/AB5caB_7Q6jWrlZCl_enCzsOnspAOTdyZLNKDJcgIK_1djSWE0EF6uHdR3Ukj6ZcQT9Gv6yYzH0hR0oSl_8e0A6XNlYO4fpOfxlwHhivjGNiiAzO-mNkp-JXPKlSXhEK1JVS3kwjnHlS=s1360-w1360-h1020","","","",""],
             "descripcion": "Espacio educativo dedicado a explicar la riqueza natural y cultural del Paisaje Cultural Cafetero, promoviendo la conservación y el turismo sostenible.",
             "actividades": ["Charlas educativas", "Recorridos interpretativos", "Talleres culturales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -379,6 +416,7 @@
           {
             "id": 40,
             "nombre": "Ecoparque Belén",
+            "imagenes":["","","","",""],
             "descripcion": "Área recreativa que integra senderos, zonas de camping y espacios para actividades familiares, enmarcada en un entorno natural de gran belleza.",
             "actividades": ["Camping", "Picnic", "Senderismo", "Recreación en familia"],
             "categoria_por_municipio": "Ecoparques",
@@ -393,6 +431,7 @@
           {
             "id": 41,
             "nombre": "Cascada El Susurro",
+            "imagenes":[],
             "descripcion": "Una cascada escondida en medio de un frondoso bosque, ideal para disfrutar de la naturaleza y darse un refrescante baño en sus pozos.",
             "actividades": ["Senderismo", "Fotografía", "Baño natural"],
             "categoria_por_municipio": "Cascadas",
@@ -402,6 +441,7 @@
           {
             "id": 42,
             "nombre": "Reserva Ecológica El Roble",
+            "imagenes":[],
             "descripcion": "Área protegida que conserva bosques nativos y es hogar de una rica biodiversidad; perfecta para la observación de aves y recorridos interpretativos.",
             "actividades": ["Avistamiento de aves", "Senderismo", "Fotografía"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -411,6 +451,7 @@
           {
             "id": 43,
             "nombre": "Mirador del Valle",
+            "imagenes":[],
             "descripcion": "Punto panorámico que ofrece vistas espectaculares del valle y los cultivos cafetaleros, ideal para disfrutar de atardeceres y picnics.",
             "actividades": ["Observación de paisajes", "Fotografía", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -420,6 +461,7 @@
           {
             "id": 44,
             "nombre": "Sendero La Montaña Verde",
+            "imagenes":[],
             "descripcion": "Ruta ecológica que atraviesa bosques y áreas agrícolas, resaltando la belleza natural y la tradición cafetera de la región.",
             "actividades": ["Senderismo", "Ciclismo", "Recorridos culturales"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -429,6 +471,7 @@
           {
             "id": 45,
             "nombre": "Finca Cafetera El Porvenir",
+            "imagenes":[],
             "descripcion": "Experiencia de agroturismo que permite conocer el proceso del cultivo del café, con degustaciones y recorridos en un entorno rural auténtico.",
             "actividades": ["Tour agrícola", "Degustación de café", "Educación ambiental"],
             "categoria_por_municipio": "Agroturismo",
@@ -438,6 +481,7 @@
           {
             "id": 46,
             "nombre": "Centro de Interpretación Ambiental Guática",
+            "imagenes":[],
             "descripcion": "Espacio educativo que ofrece información sobre la flora, fauna y tradiciones locales, promoviendo la conservación y el turismo sostenible.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -447,6 +491,7 @@
           {
             "id": 47,
             "nombre": "Ecoparque La Rivera",
+            "imagenes":[],
             "descripcion": "Zona recreativa a orillas de un río, ideal para actividades en familia, camping y disfrutar de la tranquilidad del entorno natural.",
             "actividades": ["Camping", "Picnic", "Senderismo"],
             "categoria_por_municipio": "Ecoparques",
@@ -456,6 +501,7 @@
           {
             "id": 48,
             "nombre": "Jardín Botánico de Guática",
+            "imagenes":[],
             "descripcion": "Pequeño espacio dedicado a la conservación de especies nativas, con senderos y áreas de descanso para disfrutar y aprender sobre la flora local.",
             "actividades": ["Visitas guiadas", "Fotografía", "Educación ambiental"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -465,6 +511,7 @@
           {
             "id": 49,
             "nombre": "Ruta de los Aromas",
+            "imagenes":[],
             "descripcion": "Recorrido por plantaciones de café y cultivos autóctonos, donde se puede conocer el proceso de producción y disfrutar de paisajes rurales.",
             "actividades": ["Tour agrícola", "Degustación de café", "Fotografía"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -474,6 +521,7 @@
           {
             "id": 50,
             "nombre": "Parque Natural Los Suspiros",
+            "imagenes":[],
             "descripcion": "Área natural protegida que combina senderos, miradores y zonas de descanso, ofreciendo un ambiente sereno y alta biodiversidad.",
             "actividades": ["Senderismo", "Observación de fauna", "Picnic"],
             "categoria_por_municipio": "Parques Naturales",
@@ -488,6 +536,7 @@
           {
             "id": 51,
             "nombre": "Parque Natural La Virginia",
+            "imagenes":[],
             "descripcion": "Extenso parque natural que ofrece senderos interpretativos y zonas de picnic, ideal para disfrutar del aire puro y la biodiversidad local.",
             "actividades": ["Senderismo", "Picnic", "Observación de fauna"],
             "categoria_por_municipio": "Parques Naturales",
@@ -497,6 +546,7 @@
           {
             "id": 52,
             "nombre": "Mirador del Cielo",
+            "imagenes":[],
             "descripcion": "Punto panorámico que ofrece vistas espectaculares de los valles y cultivos cafeteros, perfecto para capturar atardeceres y disfrutar de la tranquilidad.",
             "actividades": ["Fotografía", "Observación de paisajes", "Caminatas"],
             "categoria_por_municipio": "Miradores",
@@ -506,6 +556,7 @@
           {
             "id": 53,
             "nombre": "Sendero Los Arrieros",
+            "imagenes":[],
             "descripcion": "Ruta histórica y ecológica utilizada por antiguos arrieros, que recorre bosques nativos y ofrece una experiencia cultural y natural enriquecedora.",
             "actividades": ["Senderismo", "Caminatas culturales", "Avistamiento de aves"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -515,6 +566,7 @@
           {
             "id": 54,
             "nombre": "Reserva Ecológica La Virginia",
+            "imagenes":[],
             "descripcion": "Área protegida que conserva ecosistemas de bosques húmedos y es hogar de una gran diversidad de especies, ideal para los amantes de la naturaleza.",
             "actividades": ["Observación de aves", "Caminatas", "Educación ambiental"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -524,6 +576,7 @@
           {
             "id": 55,
             "nombre": "Finca Cafetera Tradicional",
+            "imagenes":[],
             "descripcion": "Experiencia agroturística que permite conocer el proceso de cultivo del café, degustar productos frescos y vivir el ambiente rural auténtico de la región.",
             "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
             "categoria_por_municipio": "Agroturismo",
@@ -533,6 +586,7 @@
           {
             "id": 56,
             "nombre": "Jardín Botánico La Virginia",
+            "imagenes":[],
             "descripcion": "Espacio dedicado a la conservación de la flora local, con senderos, áreas de descanso y talleres educativos para aprender sobre las especies autóctonas.",
             "actividades": ["Visitas guiadas", "Talleres de educación ambiental", "Fotografía"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -542,6 +596,7 @@
           {
             "id": 57,
             "nombre": "Cascada El Viento",
+            "imagenes":[],
             "descripcion": "Impresionante cascada enclavada en la vegetación de La Virginia, perfecta para refrescarse y disfrutar de la belleza natural del entorno.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas",
@@ -551,6 +606,7 @@
           {
             "id": 58,
             "nombre": "Ruta de los Cafetales",
+            "imagenes":[],
             "descripcion": "Recorrido por plantaciones de café que permite conocer la cultura cafetera local, aprender sobre el proceso de producción y degustar café de alta calidad.",
             "actividades": ["Tour agrícola", "Degustación de café", "Fotografía"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -560,6 +616,7 @@
           {
             "id": 59,
             "nombre": "Centro de Interpretación Ambiental",
+            "imagenes":[],
             "descripcion": "Espacio educativo que brinda información sobre la biodiversidad y la historia natural de La Virginia, promoviendo la conservación del entorno.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -569,6 +626,7 @@
           {
             "id": 60,
             "nombre": "Ecoparque Los Sueños",
+            "imagenes":[],
             "descripcion": "Área recreativa y ecológica ideal para familias, que combina senderos, zonas de camping y espacios para actividades al aire libre en un entorno sereno.",
             "actividades": ["Camping", "Picnic", "Senderismo", "Recreación"],
             "categoria_por_municipio": "Ecoparques",
@@ -583,6 +641,7 @@
           {
             "id": 61,
             "nombre": "Cascada El Risco",
+            "imagenes":[],
             "descripcion": "Impresionante cascada enclavada en un entorno montañoso, accesible por senderos naturales que permiten disfrutar de la frescura del agua y de la biodiversidad local.",
             "actividades": ["Senderismo", "Fotografía", "Baño natural"],
             "categoria_por_municipio": "Cascadas y Aguas",
@@ -592,6 +651,7 @@
           {
             "id": 62,
             "nombre": "Parque Ecológico El Roble",
+            "imagenes":[],
             "descripcion": "Área protegida donde se preserva la flora nativa y se ofrecen rutas interpretativas para conocer la importancia ecológica de los bosques andinos.",
             "actividades": ["Caminatas", "Avistamiento de aves", "Educación ambiental"],
             "categoria_por_municipio": "Parques Naturales",
@@ -601,6 +661,7 @@
           {
             "id": 63,
             "nombre": "Mirador del Valle de Marsella",
+            "imagenes":[],
             "descripcion": "Punto panorámico que permite apreciar la extensión de los cultivos cafetaleros y los valles circundantes, ideal para capturar atardeceres inolvidables.",
             "actividades": ["Observación de paisajes", "Fotografía", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -610,6 +671,7 @@
           {
             "id": 64,
             "nombre": "Finca Cafetera La Esperanza",
+            "imagenes":[],
             "descripcion": "Experiencia agroturística que ofrece recorridos por plantaciones de café, permitiendo conocer el proceso productivo y degustar café de origen local.",
             "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
             "categoria_por_municipio": "Agroturismo",
@@ -619,6 +681,7 @@
           {
             "id": 65,
             "nombre": "Reserva Natural La Sierra",
+            "imagenes":[],
             "descripcion": "Zona de conservación ecológica que protege ecosistemas de montaña, ofreciendo senderos y actividades de interpretación ambiental en un ambiente de alta biodiversidad.",
             "actividades": ["Senderismo", "Avistamiento de fauna", "Educación ambiental"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -628,6 +691,7 @@
           {
             "id": 66,
             "nombre": "Sendero de la Paz",
+            "imagenes":[],
             "descripcion": "Ruta ecológica que atraviesa áreas boscosas y campos de cultivo, ideal para disfrutar de un paseo relajante en contacto directo con la naturaleza.",
             "actividades": ["Caminatas", "Fotografía", "Observación de flora"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -637,6 +701,7 @@
           {
             "id": 67,
             "nombre": "Jardín Botánico Marsella",
+            "imagenes":[],
             "descripcion": "Espacio dedicado a la conservación y exhibición de especies vegetales autóctonas, con senderos y áreas de descanso para disfrutar de la flora local.",
             "actividades": ["Visitas guiadas", "Talleres ambientales", "Fotografía"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -646,6 +711,7 @@
           {
             "id": 68,
             "nombre": "Ecoparque Los Aromas",
+            "imagenes":[],
             "descripcion": "Área recreativa que combina senderos naturales con experiencias agroecoturísticas, resaltando el aroma del café y otros cultivos típicos de la región.",
             "actividades": ["Camping", "Picnic", "Tour agrícola"],
             "categoria_por_municipio": "Ecoparques",
@@ -655,6 +721,7 @@
           {
             "id": 69,
             "nombre": "Centro de Interpretación Cultural y Natural",
+            "imagenes":[],
             "descripcion": "Espacio educativo que difunde la historia, cultura y biodiversidad de Marsella, promoviendo la conservación del entorno y el turismo sostenible.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres culturales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -664,6 +731,7 @@
           {
             "id": 70,
             "nombre": "Ruta de los Cafetales de Marsella",
+            "imagenes":[],
             "descripcion": "Recorrido por fincas y plantaciones de café que muestra la tradición cafetera de la zona, ofreciendo una experiencia completa de agroturismo y cultura local.",
             "actividades": ["Tour agrícola", "Degustación de café", "Fotografía"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -678,6 +746,7 @@
           {
             "id": 71,
             "nombre": "Cascada El Susurro Celestial",
+            "imagenes":[],
             "descripcion": "Una cascada escondida en el corazón del bosque, donde el agua se precipita en un pequeño estanque natural, ideal para un baño refrescante y conectar con la naturaleza.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas y Aguas",
@@ -687,6 +756,7 @@
           {
             "id": 72,
             "nombre": "Reserva Ecológica El Edén de La Celia",
+            "imagenes":[],
             "descripcion": "Área protegida que conserva bosques primarios y una rica biodiversidad, perfecta para la observación de aves y el disfrute de ecosistemas autóctonos.",
             "actividades": ["Observación de aves", "Caminatas", "Fotografía"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -696,6 +766,7 @@
           {
             "id": 73,
             "nombre": "Mirador Panorama de La Celia",
+            "imagenes":[],
             "descripcion": "Punto de observación que ofrece vistas panorámicas del paisaje montañoso y los cultivos locales, ideal para disfrutar de atardeceres y capturar fotografías espectaculares.",
             "actividades": ["Observación de paisajes", "Fotografía", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -705,6 +776,7 @@
           {
             "id": 74,
             "nombre": "Sendero Camino del Bosque",
+            "imagenes":[],
             "descripcion": "Ruta ecológica que atraviesa bosques nativos, permitiendo conocer la flora y fauna autóctona de la región, ideal para los amantes de la naturaleza.",
             "actividades": ["Senderismo", "Caminatas", "Avistamiento de fauna"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -714,6 +786,7 @@
           {
             "id": 75,
             "nombre": "Finca Cafetera La Tradición Celia",
+            "imagenes":[],
             "descripcion": "Experiencia agroturística que muestra el proceso de cultivo del café en un entorno rural auténtico, con degustaciones y recorridos educativos.",
             "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
             "categoria_por_municipio": "Agroturismo",
@@ -723,6 +796,7 @@
           {
             "id": 76,
             "nombre": "Jardín Botánico Jardín de La Celia",
+            "imagenes":[],
             "descripcion": "Espacio dedicado a la conservación de la flora local, con senderos y áreas de descanso, donde se realizan visitas guiadas y talleres de educación ambiental.",
             "actividades": ["Visitas guiadas", "Talleres ambientales", "Fotografía"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -732,6 +806,7 @@
           {
             "id": 77,
             "nombre": "Centro de Interpretación Ambiental EcoCelia",
+            "imagenes":[],
             "descripcion": "Espacio educativo que difunde la importancia de la conservación ambiental y la historia natural de La Celia a través de exposiciones y charlas interactivas.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -741,6 +816,7 @@
           {
             "id": 78,
             "nombre": "Ecoparque Oasis Natural",
+            "imagenes":[],
             "descripcion": "Área recreativa que integra senderos, zonas de camping y áreas de picnic en un entorno sereno, ideal para disfrutar en familia y conectarse con la naturaleza.",
             "actividades": ["Camping", "Picnic", "Senderismo"],
             "categoria_por_municipio": "Ecoparques",
@@ -750,6 +826,7 @@
           {
             "id": 79,
             "nombre": "Ruta de los Cafetales Sabor de La Celia",
+            "imagenes":[],
             "descripcion": "Recorrido por plantaciones de café que permite conocer el proceso productivo y degustar café de origen, inmerso en paisajes rurales llenos de tradición.",
             "actividades": ["Tour agrícola", "Degustación de café", "Fotografía"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -759,6 +836,7 @@
           {
             "id": 80,
             "nombre": "Parque Natural Reserva La Ceja",
+            "imagenes":[],
             "descripcion": "Zona protegida que destaca por su biodiversidad y paisajes naturales, ideal para practicar senderismo y observar la rica flora autóctona.",
             "actividades": ["Senderismo", "Observación de flora", "Fotografía"],
             "categoria_por_municipio": "Parques Naturales",
@@ -773,6 +851,7 @@
           {
             "id": 81,
             "nombre": "Cascada La Encantada",
+            "imagenes":[],
             "descripcion": "Cascada escondida en medio de la densa vegetación de Mistrató, ideal para disfrutar de un baño refrescante y recorrer senderos naturales.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas",
@@ -782,6 +861,7 @@
           {
             "id": 82,
             "nombre": "Reserva Natural El Paraíso",
+            "imagenes":[],
             "descripcion": "Área protegida con alta biodiversidad donde se pueden observar especies de fauna y flora autóctona en un entorno inmaculado.",
             "actividades": ["Observación de aves", "Caminatas", "Educación ambiental"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -791,6 +871,7 @@
           {
             "id": 83,
             "nombre": "Mirador de los Andes",
+            "imagenes":[],
             "descripcion": "Punto panorámico que ofrece vistas impresionantes de la cordillera y los cultivos cafeteros, ideal para capturar atardeceres inolvidables.",
             "actividades": ["Fotografía", "Observación de paisajes", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -800,6 +881,7 @@
           {
             "id": 84,
             "nombre": "Sendero del Silencio",
+            "imagenes":[],
             "descripcion": "Ruta ecológica que atraviesa bosques nativos, perfecta para desconectar y disfrutar de la paz y tranquilidad que ofrece la naturaleza de Mistrató.",
             "actividades": ["Senderismo", "Meditación", "Caminatas"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -809,6 +891,7 @@
           {
             "id": 85,
             "nombre": "Finca Cafetera Mistrató",
+            "imagenes":[],
             "descripcion": "Experiencia agroturística en una finca cafetera donde se puede conocer el proceso de cultivo, cosecha y producción del café, además de degustar sus productos.",
             "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
             "categoria_por_municipio": "Agroturismo",
@@ -818,6 +901,7 @@
           {
             "id": 86,
             "nombre": "Parque Natural Mistrató",
+            "imagenes":[],
             "descripcion": "Espacio verde y recreativo en el corazón del municipio, ideal para paseos en familia, picnic y actividades al aire libre.",
             "actividades": ["Picnic", "Caminatas", "Recreación en familia"],
             "categoria_por_municipio": "Parques Naturales",
@@ -827,6 +911,7 @@
           {
             "id": 87,
             "nombre": "Centro de Interpretación Ambiental Mistrató",
+            "imagenes":[],
             "descripcion": "Espacio educativo dedicado a la conservación y difusión de la biodiversidad local, que ofrece exposiciones y talleres para aprender sobre el entorno natural.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -836,6 +921,7 @@
           {
             "id": 88,
             "nombre": "Ecoparque del Río Claro",
+            "imagenes":[],
             "descripcion": "Zona recreativa a orillas del río, que combina senderos naturales y áreas de picnic en un ambiente de alta biodiversidad, ideal para actividades en familia.",
             "actividades": ["Senderismo", "Picnic", "Observación de fauna"],
             "categoria_por_municipio": "Ecoparques",
@@ -845,6 +931,7 @@
           {
             "id": 89,
             "nombre": "Ruta de los Aromas",
+            "imagenes":[],
             "descripcion": "Recorrido por plantaciones y cultivos tradicionales que destaca la tradición cafetera y la producción local, con degustaciones y experiencias culturales.",
             "actividades": ["Tour agrícola", "Degustación", "Fotografía"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -854,6 +941,7 @@
           {
             "id": 90,
             "nombre": "Jardín Botánico Mistrató",
+            "imagenes":[],
             "descripcion": "Espacio dedicado a la conservación de la flora autóctona, con senderos, áreas de descanso y actividades educativas para conocer la diversidad vegetal del municipio.",
             "actividades": ["Visitas guiadas", "Fotografía", "Talleres de jardinería"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -868,6 +956,7 @@
           {
             "id": 91,
             "nombre": "Cascada La Virgen",
+            "imagenes":[],
             "descripcion": "Impresionante cascada en medio de la selva, con aguas cristalinas y piscinas naturales, ideal para nadar y disfrutar de la belleza natural.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas",
@@ -877,6 +966,7 @@
           {
             "id": 92,
             "nombre": "Reserva Natural Yarumo Blanco",
+            "imagenes":[],
             "descripcion": "Área protegida que alberga gran biodiversidad, donde se pueden observar especies endémicas y participar en recorridos interpretativos.",
             "actividades": ["Avistamiento de aves", "Senderismo", "Educación ambiental"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -886,6 +976,7 @@
           {
             "id": 93,
             "nombre": "Mirador El Águila",
+            "imagenes":[],
             "descripcion": "Punto panorámico ubicado en lo alto de una colina, que ofrece vistas espectaculares de los valles y montañas de la región, ideal para tomar fotografías.",
             "actividades": ["Observación de paisajes", "Fotografía", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -895,6 +986,7 @@
           {
             "id": 94,
             "nombre": "Rafting en el Río Cauca",
+            "imagenes":[],
             "descripcion": "Emocionante actividad de rafting en el Río Cauca, con rápidos y paisajes de aventura, ideal para los amantes de los deportes acuáticos.",
             "actividades": ["Rafting", "Deportes acuáticos", "Aventura"],
             "categoria_por_municipio": "Aventura Acuática",
@@ -904,6 +996,7 @@
           {
             "id": 95,
             "nombre": "Excursión al Cerro Tatamá",
+            "imagenes":[],
             "descripcion": "Ruta de senderismo desafiante que lleva hasta la cima del Cerro Tatamá, ofreciendo vistas panorámicas y un entorno único de páramo.",
             "actividades": ["Senderismo", "Avistamiento de aves", "Fotografía"],
             "categoria_por_municipio": "Montaña y Páramo",
@@ -913,6 +1006,7 @@
           {
             "id": 96,
             "nombre": "Piscinas Naturales de Santa Rita",
+            "imagenes":[],
             "descripcion": "Piscinas naturales formadas en medio de la selva, ideales para nadar y relajarse en un entorno exuberante y refrescante.",
             "actividades": ["Natación", "Picnic", "Relajación"],
             "categoria_por_municipio": "Balnearios Naturales",
@@ -922,6 +1016,7 @@
           {
             "id": 97,
             "nombre": "Recorrido por Finca de Café Orgánico",
+            "imagenes":[],
             "descripcion": "Tour agroturístico en una finca de café orgánico, donde se aprende sobre el proceso de cultivo y se degustan variedades de café de origen local.",
             "actividades": ["Tour agrícola", "Degustación de café", "Educación cultural"],
             "categoria_por_municipio": "Agroturismo",
@@ -931,6 +1026,7 @@
           {
             "id": 98,
             "nombre": "Balneario La Rochela",
+            "imagenes":[],
             "descripcion": "Complejo recreativo que cuenta con piscinas naturales y áreas de picnic, ideal para pasar un día relajado en familia o con amigos.",
             "actividades": ["Natación", "Picnic", "Recreación en familia"],
             "categoria_por_municipio": "Balnearios",
@@ -940,6 +1036,7 @@
           {
             "id": 99,
             "nombre": "Sendero Eco-turístico Camino del Agua",
+            "imagenes":[],
             "descripcion": "Ruta que recorre diversos ecosistemas, atravesando arroyos y pequeñas cascadas, ideal para conectar con la naturaleza y disfrutar de la tranquilidad del entorno.",
             "actividades": ["Senderismo", "Observación de flora", "Fotografía"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -949,6 +1046,7 @@
           {
             "id": 100,
             "nombre": "Visita a la Comunidad Indígena Emberá Chamí",
+            "imagenes":[],
             "descripcion": "Experiencia cultural única que permite conocer las tradiciones, artesanías y gastronomía de la comunidad Emberá Chamí, inmersa en la rica herencia de Pueblo Rico.",
             "actividades": ["Etnoturismo", "Cultura", "Gastronomía"],
             "categoria_por_municipio": "Etnoturismo",
@@ -963,6 +1061,7 @@
           {
             "id": 101,
             "nombre": "Cascada La Esperanza",
+            "imagenes":[],
             "descripcion": "Cascada enclavada en un entorno boscoso que destaca por sus aguas cristalinas y zonas de baño natural, ideal para disfrutar de la naturaleza y relajarse.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas",
@@ -972,6 +1071,7 @@
           {
             "id": 102,
             "nombre": "Parque Natural Quinchía",
+            "imagenes":[],
             "descripcion": "Área protegida que conserva ecosistemas andinos, con senderos interpretativos y espacios de picnic, perfecta para conectar con la biodiversidad local.",
             "actividades": ["Caminatas", "Picnic", "Observación de fauna"],
             "categoria_por_municipio": "Parques Naturales",
@@ -981,6 +1081,7 @@
           {
             "id": 103,
             "nombre": "Mirador del Sol",
+            "imagenes":[],
             "descripcion": "Punto panorámico que ofrece vistas espectaculares de los valles y plantaciones cafeteras, ideal para capturar atardeceres inolvidables.",
             "actividades": ["Fotografía", "Observación de paisajes", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -990,6 +1091,7 @@
           {
             "id": 104,
             "nombre": "Sendero de los Cafetales",
+            "imagenes":[],
             "descripcion": "Ruta ecológica que recorre plantaciones de café y áreas rurales, ofreciendo una experiencia agroturística que destaca la tradición cafetera de la región.",
             "actividades": ["Senderismo", "Tour agrícola", "Degustación de café"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -999,6 +1101,7 @@
           {
             "id": 105,
             "nombre": "Finca Cafetera El Encanto",
+            "imagenes":[],
             "descripcion": "Experiencia agroturística en una finca de café, donde se aprende sobre el proceso de cultivo y producción, complementado con degustaciones y recorridos guiados.",
             "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
             "categoria_por_municipio": "Agroturismo",
@@ -1008,6 +1111,7 @@
           {
             "id": 106,
             "nombre": "Centro de Interpretación Quinchía Viva",
+            "imagenes":[],
             "descripcion": "Espacio educativo que difunde la historia, cultura y biodiversidad de Quinchía a través de exposiciones y talleres, promoviendo el turismo sostenible.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres culturales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -1017,6 +1121,7 @@
           {
             "id": 107,
             "nombre": "Ecoparque Los Colibríes",
+            "imagenes":[],
             "descripcion": "Área recreativa enfocada en la conservación y observación de aves, donde se combinan senderos naturales con zonas de camping y picnic.",
             "actividades": ["Observación de aves", "Camping", "Senderismo"],
             "categoria_por_municipio": "Ecoparques",
@@ -1026,6 +1131,7 @@
           {
             "id": 108,
             "nombre": "Jardín Botánico Quinchía",
+            "imagenes":[],
             "descripcion": "Espacio dedicado a la conservación y exhibición de la flora autóctona, con senderos y áreas de descanso que invitan a aprender sobre la biodiversidad local.",
             "actividades": ["Visitas guiadas", "Fotografía", "Talleres ambientales"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -1035,6 +1141,7 @@
           {
             "id": 109,
             "nombre": "Ruta del Río Quinchía",
+            "imagenes":[],
             "descripcion": "Recorrido que sigue el curso del río a través de paisajes naturales, ideal para quienes disfrutan del avistamiento de fauna y actividades acuáticas en entorno rural.",
             "actividades": ["Senderismo", "Observación de fauna", "Fotografía"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -1044,6 +1151,7 @@
           {
             "id": 110,
             "nombre": "Reserva Ecológica El Oasis",
+            "imagenes":[],
             "descripcion": "Zona protegida que destaca por su rica biodiversidad y por ser un refugio para especies nativas, ideal para recorrer en caminatas y actividades de conservación.",
             "actividades": ["Caminatas", "Avistamiento de aves", "Educación ambiental"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -1058,6 +1166,7 @@
           {
             "id": 111,
             "nombre": "Termales de Santa Rosa de Cabal",
+            "imagenes":[],
             "descripcion": "Complejo de aguas termales naturales con múltiples piscinas y cascadas, ideal para relajarse y disfrutar de terapias de bienestar en un entorno andino.",
             "actividades": ["Baños termales", "Spa", "Relajación"],
             "categoria_por_municipio": "Aguas Termales",
@@ -1067,6 +1176,7 @@
           {
             "id": 112,
             "nombre": "Termales de San Vicente",
+            "imagenes":[],
             "descripcion": "Conjunto de pozos termales ubicados en un entorno boscoso, que combinan la experiencia del baño termal con senderos de aventura.",
             "actividades": ["Baños termales", "Senderismo", "Aventura"],
             "categoria_por_municipio": "Aguas Termales",
@@ -1076,6 +1186,7 @@
           {
             "id": 113,
             "nombre": "Mirador La Loma del Sol",
+            "imagenes":[],
             "descripcion": "Punto panorámico con vistas espectaculares de la ciudad y el paisaje andino, ideal para apreciar atardeceres y realizar actividades de fotografía.",
             "actividades": ["Observación de paisajes", "Fotografía", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -1085,6 +1196,7 @@
           {
             "id": 114,
             "nombre": "Sendero de la Cascada Encantada",
+            "imagenes":[],
             "descripcion": "Ruta ecológica que conduce a una cascada escondida en medio del bosque, perfecta para los amantes de la aventura y el contacto con la naturaleza.",
             "actividades": ["Senderismo", "Fotografía", "Cascada"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -1094,6 +1206,7 @@
           {
             "id": 115,
             "nombre": "Parque Natural Los Fundadores",
+            "imagenes":[],
             "descripcion": "Espacio natural que integra amplias áreas verdes, senderos y miradores, ideal para realizar caminatas en familia y disfrutar del aire puro.",
             "actividades": ["Caminatas", "Picnic", "Observación de fauna"],
             "categoria_por_municipio": "Parques Naturales",
@@ -1103,6 +1216,7 @@
           {
             "id": 116,
             "nombre": "Ecoparque del Río Claro",
+            "imagenes":[],
             "descripcion": "Área recreativa a orillas del río, que combina senderos naturales, zonas de camping y pesca deportiva en un ambiente tranquilo y familiar.",
             "actividades": ["Camping", "Pesca", "Senderismo"],
             "categoria_por_municipio": "Ecoparques",
@@ -1112,6 +1226,7 @@
           {
             "id": 117,
             "nombre": "Granja Ecoturística La Pampa",
+            "imagenes":[],
             "descripcion": "Finca agroturística que ofrece recorridos por plantaciones de café y otras actividades rurales, permitiendo conocer la cultura cafetera de la región.",
             "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
             "categoria_por_municipio": "Agroturismo",
@@ -1121,6 +1236,7 @@
           {
             "id": 118,
             "nombre": "Centro de Interpretación Ambiental Santa Rosa",
+            "imagenes":[],
             "descripcion": "Espacio educativo que difunde la biodiversidad y la historia natural de la región a través de exposiciones y talleres, promoviendo el turismo sostenible.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -1130,6 +1246,7 @@
           {
             "id": 119,
             "nombre": "Jardín Botánico y Parque de los Guayacanes",
+            "imagenes":[],
             "descripcion": "Área dedicada a la conservación de especies nativas, especialmente el guayacán, que adorna la ciudad, y que ofrece senderos y espacios de descanso.",
             "actividades": ["Visitas guiadas", "Fotografía", "Talleres ambientales"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -1139,6 +1256,7 @@
           {
             "id": 120,
             "nombre": "Ruta del Café y la Naturaleza",
+            "imagenes":[],
             "descripcion": "Recorrido turístico que combina visitas a fincas cafeteras con senderos naturales, permitiendo conocer el proceso del cultivo del café y disfrutar de paisajes rurales.",
             "actividades": ["Tour agrícola", "Degustación de café", "Senderismo"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -1153,6 +1271,7 @@
           {
             "id": 121,
             "nombre": "Parque Nacional Natural Tatamá",
+            "imagenes":[],
             "descripcion": "Parte del imponente Parque Nacional Natural Tatamá se extiende por Santuario, ofreciendo ecosistemas únicos, alta biodiversidad y rutas de alta montaña ideales para el senderismo y la observación de aves.",
             "actividades": ["Senderismo", "Avistamiento de aves", "Fotografía"],
             "categoria_por_municipio": "Parques Nacionales",
@@ -1162,6 +1281,7 @@
           {
             "id": 122,
             "nombre": "Parque Municipal Natural Planes de San Rafael",
+            "imagenes":[],
             "descripcion": "Área protegida con senderos bien señalizados y zonas de picnic, ideal para familias y visitantes que desean disfrutar del ambiente natural de Santuario.",
             "actividades": ["Caminatas", "Picnic", "Observación de fauna"],
             "categoria_por_municipio": "Parques Naturales",
@@ -1171,6 +1291,7 @@
           {
             "id": 123,
             "nombre": "Mirador de la Perla",
+            "imagenes":[],
             "descripcion": "Punto panorámico que ofrece vistas espectaculares de los valles y montañas que rodean Santuario, perfecto para tomar atardeceres y fotografías memorables.",
             "actividades": ["Fotografía", "Observación de paisajes", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -1180,6 +1301,7 @@
           {
             "id": 124,
             "nombre": "Sendero del Bosque Encantado",
+            "imagenes":[],
             "descripcion": "Ruta ecológica que recorre densos bosques nativos de Santuario, ideal para quienes buscan desconectar y conectarse con la naturaleza en un ambiente místico.",
             "actividades": ["Senderismo", "Meditación", "Avistamiento de fauna"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -1189,6 +1311,7 @@
           {
             "id": 125,
             "nombre": "Cascada El Silencio",
+            "imagenes":[],
             "descripcion": "Escondida entre la vegetación, esta cascada ofrece un refrescante baño natural y un entorno ideal para la fotografía y el disfrute del paisaje.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas",
@@ -1198,6 +1321,7 @@
           {
             "id": 126,
             "nombre": "Finca Cafetera La Encantada",
+            "imagenes":[],
             "descripcion": "Experiencia agroturística en una finca tradicional donde se conoce el proceso de cultivo del café, con degustaciones y recorridos guiados que resaltan la cultura cafetera local.",
             "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
             "categoria_por_municipio": "Agroturismo",
@@ -1207,6 +1331,7 @@
           {
             "id": 127,
             "nombre": "Centro de Interpretación Santuario Verde",
+            "imagenes":[],
             "descripcion": "Espacio educativo dedicado a difundir la biodiversidad y la historia natural de Santuario a través de exposiciones, charlas y talleres ambientales.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -1216,6 +1341,7 @@
           {
             "id": 128,
             "nombre": "Ecoparque El Retiro",
+            "imagenes":[],
             "descripcion": "Área recreativa y ecológica que combina senderos naturales, zonas de camping y espacios de picnic, ideal para actividades en familia y para relajarse en plena naturaleza.",
             "actividades": ["Camping", "Picnic", "Senderismo"],
             "categoria_por_municipio": "Ecoparques",
@@ -1225,6 +1351,7 @@
           {
             "id": 129,
             "nombre": "Ruta de los Aromas",
+            "imagenes":[],
             "descripcion": "Recorrido por plantaciones de café y cultivos tradicionales, donde se pueden conocer procesos productivos y degustar el auténtico café de la región.",
             "actividades": ["Tour agrícola", "Degustación de café", "Fotografía"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -1234,6 +1361,7 @@
           {
             "id": 130,
             "nombre": "Jardín Botánico Santuario",
+            "imagenes":[],
             "descripcion": "Espacio dedicado a la conservación de especies vegetales autóctonas, que ofrece senderos, áreas de descanso y actividades educativas para aprender sobre la flora local.",
             "actividades": ["Visitas guiadas", "Fotografía", "Talleres ambientales"],
             "categoria_por_municipio": "Jardines y Parques",
