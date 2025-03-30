@@ -49,14 +49,14 @@ const Profile = () => {
   };
 
   return (
-    <div className="p-2  mx-auto">
-      <div className="bg-white rounded-lg p-6">
+    <div className="p-2 min-h-screen mx-auto">
+      <div className="bg-white dark:bg-dark rounded-lg p-6">
         {/* FORMULARIO */}
         <form onSubmit={handleUpdate}>
           {/* INPUTS */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-y-10">
             <div>
-              <label className="block text-gray-700 text-sm font-bold mb-2">
+              <label className="block text-gray-700 text-sm font-bold mb-2 dark:text-gray-300">
                 <ContainterText text={"Nombre"} />
               </label>
               <input
@@ -66,15 +66,15 @@ const Profile = () => {
                 onChange={handleInputChange}
                 className={`w-full px-3 py-2 border rounded-lg ${
                   isEditing
-                    ? "bg-white text-black"
-                    : "bg-gray-100 text-gray-500"
+                    ? "bg-white text-black dark:text-white dark:bg-dark"
+                    : "bg-gray-100 text-gray-500  dark:bg-dark2"
                 }`}
                 disabled={!isEditing}
               />
             </div>
 
             <div>
-              <label className="block text-gray-700 text-sm font-bold mb-2">
+              <label className="block text-gray-700 text-sm font-bold mb-2 dark:text-gray-300">
                 <ContainterText text={"Email"} />
               </label>
               <input
@@ -84,35 +84,35 @@ const Profile = () => {
                 onChange={handleInputChange}
                 className={`w-full px-3 py-2 border rounded-lg ${
                   isEditing
-                    ? "bg-white text-black"
-                    : "bg-gray-100 text-gray-500"
+                    ? "bg-white text-black dark:text-white dark:bg-dark"
+                    : "bg-gray-100 text-gray-500 dark:bg-dark2"
                 }`}
                 disabled={!isEditing}
               />
             </div>
 
             <div>
-              <label className="block text-gray-700 text-sm font-bold mb-2">
+              <label className="block text-gray-700 text-sm font-bold mb-2 dark:text-gray-300">
               <ContainterText text={"Email verificado"}/>
 
               </label>
               <input
                 type="text"
                 value={user.email_verified ? "Yes" : "No"}
-                className="w-full px-3 py-2 border rounded-lg bg-gray-100 text-gray-500"
+                className="w-full px-3 py-2 border rounded-lg bg-gray-100 text-gray-500 dark:bg-dark2"
                 disabled
               />
             </div>
 
             <div>
-              <label className="block text-gray-700 text-sm font-bold mb-2">
+              <label className="block text-gray-700 text-sm font-bold mb-2 dark:text-gray-300">
               <ContainterText text={"Última actualización"}/>
 
               </label>
               <input
                 type="text"
                 value={new Date(user.updated_at).toLocaleDateString()}
-                className="w-full px-3 py-2 border rounded-lg bg-gray-100 text-gray-500"
+                className="w-full px-3 py-2 border rounded-lg bg-gray-100 text-gray-500 dark:bg-dark2"
                 disabled
               />
             </div>

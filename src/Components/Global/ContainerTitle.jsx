@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useContext } from "react";
 import { ContextAccesibility } from "../Context/ContextAccessibility";
 
-export const TitleH1 = ({ text, style }) => {
+ export const TitleH1 = ({ text, style }) => {
   const {changeSize } = useContext(ContextAccesibility);
 
   const getSizeClass = () => {
@@ -22,13 +22,13 @@ export const TitleH1 = ({ text, style }) => {
       initial={{ opacity: 0, translateY: -50 }}
       animate={{ opacity: 1, translateY: 0 }}
       transition={{ duration: 1, delay: 0.3 }}
-      className={`text-black ${style} ${getSizeClass()}`}
+      className={` ${style} ${getSizeClass()}`}
     >
       {text}
     </motion.h1>
   );
 };
-export const TitleH2 = ({ text, style }) => {
+ export const TitleH2 = ({ text, style }) => {
   const {changeSize } = useContext(ContextAccesibility);
 
   const getSizeClass = () => {
@@ -47,13 +47,14 @@ export const TitleH2 = ({ text, style }) => {
       initial={{ opacity: 0, translateY: -50 }}
       animate={{ opacity: 1, translateY: 0 }}
       transition={{ duration: 1, delay: 0.3 }}
-      className={`text-black font-bold my-4 ${style} ${getSizeClass()}`}
+      className={`font-bold my-4 ${style} ${getSizeClass()}`}
     >
       {text}
     </motion.h2>
   );
 };
 
+export default TitleH1 ;
 
 
 

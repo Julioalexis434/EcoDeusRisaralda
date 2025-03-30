@@ -24,7 +24,7 @@ const MenuPerfilLogin = () => {
       }
       align="start"
       transition
-      menuClassName="bg-white p-4 rounded-lg w-max"
+      menuClassName="bg-white p-4 rounded-lg w-max dark:bg-dark"
     >
      
       <MenuItem className=" flex gap-2 items-center justify-center mb-3 rounded-xl cursor-default p-0">
@@ -50,7 +50,7 @@ const MenuPerfilLogin = () => {
       
       <MenuItem className="hover:shadow-lg hover:-translate-y-1 transition  mb-3 rounded-xl cursor-default  flex items-center px-2">
         <IconSetting />
-        <Anchor url="/profile/settings" text="Configuración"/>
+        <Anchor url="/settings" text="Configuración"/>
       </MenuItem>
 
       <MenuItem className="hover:shadow-lg hover:-translate-y-1 transition  mb-3 rounded-xl cursor-default flex items-center px-2">

@@ -13,7 +13,7 @@ const ProfileLayout = () => {
     );
   }
   return (
-    <div className="lg:pl-[250px] py-[10vh]">
+    <div className="lg:pl-[250px] py-[10vh] dar:bg-dark">
       <HeaderProfile />
       <AsideProfile />
       <Outlet />

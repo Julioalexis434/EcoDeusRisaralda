@@ -6,6 +6,7 @@
           {
             "id": 1,
             "nombre": "Parque Nacional Natural Los Nevados",
+            "imagenes":["https://lh3.googleusercontent.com/gps-cs-s/AB5caB9pZQ-oJqDEp3fvIb--NwY5fjYKGlRFbu4LeVtCwOkg_8ye-jPXLsUt5HDhnM_uItI4glug3LOSJrPGG2TDfFcm2hmFsAb2_ZB-OBOE5UdXdMif0HivIcJF3nxxCSJ_W03HRhjWIQ=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB--w_dyXn699yG1Ezr7BjTta13XVPdHrzkoEj8x-2aCYsp-HJCIb1JAIFFX_DPMWv-Dx_AfnTA4_1armtRjADJSejCwiukKsQu9ASmIxNPTKeo3r-rxJIJee9Z5y9xZdfnDMH3c=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB_vweePhJWEjCeK-Ga2Op2VIdW23fBnFK5Ikr1pwRdosRZNb5YzwHhVgDRCvV2myGR4EhSYvqTpbIja2prjV4XFwR8MyA4l-dAPtm33-9tWSOBX2ggv5gSA-AGlNkWzdw9KmaZP=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOxsnfnwhiRH0qJFg1ThO12BcBMi-DZiib4Gx8k=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPWjWBNKAMR5ZTdmasUmqbQP1FV8UsMFsWNkwk-=s1360-w1360-h1020"],
             "descripcion": "Área protegida que abarca ecosistemas de alta montaña, incluyendo el Nevado Santa Isabel.",
             "actividades": ["Senderismo", "Observación de fauna y flora", "Montañismo"],
             "categoria_por_municipio": "Parques Naturales",
@@ -15,6 +16,7 @@
           {
             "id": 2,
             "nombre": "Santuario de Fauna y Flora Otún Quimbaya",
+            "imagenes":[],
             "descripcion": "Reserva natural reconocida por su biodiversidad y paisajes andinos.",
             "actividades": ["Avistamiento de aves", "Caminatas ecológicas", "Fotografía de naturaleza"],
             "categoria_por_municipio": "Reservas Naturales",

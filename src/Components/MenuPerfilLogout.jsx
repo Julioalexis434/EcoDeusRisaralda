@@ -18,11 +18,11 @@ const MenuPerfilLogout = () => {
       }
       align="end"
       transition
-      menuClassName="bg-white p-4 rounded-lg"
+      menuClassName="bg-white p-4 rounded-lg dark:bg-dark"
     >
       <MenuItem className="hover:shadow-lg hover:-translate-y-1 transition  mb-3 rounded-xl cursor-default p-0">
         <Anchor
-          url ="/profile/settings"
+          url ="/settings"
           text = "Configuración"
         >
         </Anchor>
