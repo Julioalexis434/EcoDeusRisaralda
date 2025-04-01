@@ -1,13 +1,39 @@
-import React from 'react'
+import React, { useState } from 'react'
 import CardPlace from '../CardPlace'
 import { useContext } from 'react'
 import { ContextDestinations } from '../Context/ContextDestinations'
 
 const Destinations = () => {
     const {destinations}= useContext(ContextDestinations)
+    const [selectedMunicipio, setSelectedMunicipio] = useState('todos')
+
+    // Get unique municipio names for the dropdown
+    const municipios = ['todos', ...destinations.municipios.map(m => m.nombre)]
+
+    // Filter municipios based on selection
+    const filteredMunicipios = selectedMunicipio === 'todos' 
+        ? destinations.municipios
+        : destinations.municipios.filter(m => m.nombre === selectedMunicipio)
+
     return (
         <div className="container mx-auto px-4 py-[12vh]">
-            {destinations.municipios.map((municipio, index) => {
+            <h1 className="text-4xl font-bold text-green-800 mb-6 text-center hover:text-green-600 transition-colors duration-300">
+                ¡EL MOMENTO PARA VIAJAR ES AHORA CON EL RITMO DE LA NATURALEZA!
+            </h1>
+            <div className="mb-8 flex justify-center">
+                <select 
+                    value={selectedMunicipio}
+                    onChange={(e) => setSelectedMunicipio(e.target.value)}
+                    className="p-2 rounded-md border dark:bg-gray-700 dark:border-gray-600"
+                >
+                    {municipios.map(municipio => (
+                        <option key={municipio} value={municipio}>
+                            {municipio === 'todos' ? 'Todos los municipios' : municipio}
+                        </option>
+                    ))}
+                </select>
+            </div>
+            {filteredMunicipios.map((municipio, index) => {
                 return (
                     <div key={index} className="mb-12">
                         <h1 className="text-4xl font-bold text-green-800 mb-6 text-center 
