@@ -46,7 +46,7 @@ const Footer = () => {
 
       <div className="mt-8 border-t border-gray-200 dark:border-gray-700 pt-8 text-center text-gray-600 dark:text-gray-400">
         <ContainerText
-          text="© 2024 EcoDeusRisaralda. Todos los derechos reservados."
+          text="© 2025 EcoDeusRisaralda. Todos los derechos reservados."
         />
         <Link to="/politicsAndPrivacity" className = "underline hover:text-green transition-colors">
             Política de Privacidad

@@ -9,7 +9,7 @@ const PoliticsAndPrivacity = () => {
         <TitleH1 text="Política de Privacidad, Términos y Condiciones del Sistema EcoDeus Risaralda" />
         
         <div className="space-y-6">
-          <ContainerText text="Esta Política de Privacidad, Términos y Condiciones describen cómo recopilamos, usamos, almacenamos y protegemos la información personal de los usuarios del sistema EcoDeus Risaralda, así como las normas de uso de la plataforma. Al utilizar nuestra plataforma, el usuario acepta los términos descritos a continuación." />
+          <ContainerText text="Esta Política de Privacidad, Términos y Condiciones, bajo el cumplimiento a lo dispuesto por la Ley 1581 de 2012, el Decreto 1377 de 2013 y demás normas complementarias, describen cómo recopilamos, usamos, almacenamos y protegemos la información personal de los usuarios del sistema EcoDeus Risaralda, así como las normas de uso de la plataforma. Al utilizar nuestra plataforma, el usuario acepta los términos descritos a continuación." />
         </div>
 
         <div className="space-y-6">
