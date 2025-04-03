@@ -2,19 +2,13 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import { ProviderNav } from "./Components/Context/ContextNav.jsx";
-import { Auth0Provider } from "@auth0/auth0-react";
 import { ProviderDestinations } from "./Components/Context/ContextDestinations.jsx";
 import { ProvideAccesibility } from "./Components/Context/ContextAccessibility.jsx";
 import { ThemeProvider } from "./Components/Context/ThemeContext.jsx";
+import { AuthProvider } from "./Components/Context/AuthContext.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <Auth0Provider
-    domain="dev-m15at27kdds3udvc.us.auth0.com"
-    clientId="4aZuHbCIqCfyy5zB4L3Y2fviI7uttjxj"
-    authorizationParams={{
-      redirect_uri: window.location.origin,
-    }}
-  >
+  <AuthProvider>
     <ProviderNav>
       <ProvideAccesibility>
         <ProviderDestinations>
@@ -24,5 +18,5 @@ createRoot(document.getElementById("root")).render(
         </ProviderDestinations>
       </ProvideAccesibility>
     </ProviderNav>
-  </Auth0Provider>
+  </AuthProvider>
 );

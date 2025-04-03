@@ -1,11 +1,13 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import AsideProfile from "../AsideProfile";
-import { useAuth0 } from "@auth0/auth0-react";
 import HeaderProfile from "../HeaderProfile";
+import { useContext } from "react";
+import { AuthContext } from "../Context/AuthContext";
+import Header from "../Header";
 const ProfileLayout = () => {
-  const { isAuthenticated } = useAuth0();
-  if (!isAuthenticated) {
+  const { user } = useContext(AuthContext);
+  if (!user) {
     return (
       <div className="lg:pl-[250px] py-[10vh]">
         <h1>Por favor inicie sesion para visualizar su usuario</h1>
@@ -14,6 +16,7 @@ const ProfileLayout = () => {
   }
   return (
     <div className="lg:pl-[250px] py-[10vh] dar:bg-dark">
+      <Header/>
       <HeaderProfile />
       <AsideProfile />
       <Outlet />

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import LoginButton from "../Auth/LoginButton";
 import { useAuth0 } from "@auth0/auth0-react";
 import Anchor from "../Global/Anchor";
 import { TitleH1, TitleH2 } from "../Global/ContainerTitle";
@@ -52,7 +51,7 @@ const Home = () => {
               initial={{ opacity: 0, translateX: -50 }}
               animate={{ opacity: 1, translateX: 0 }}
               transition={{ duration: 1, delay: 0.9 }}
-              to="/Destinos"
+              href="#destinations"
               className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full transition-all w-fit"
             >
               Descubre Más
@@ -159,7 +158,9 @@ const Home = () => {
         </div>
       </motion.section>
 
-      <div className="p-4 bg-green-800 dark:bg-dark2">
+      <div className="p-4 bg-green-800 dark:bg-dark2" 
+        id="destinations"
+      >
         <TitleH2
           text={`¡Descubre la belleza de Risaralda!`}
           style={"text-white"}
@@ -177,15 +178,16 @@ const Home = () => {
             <div className="flex justify-between items-center">
               <TitleH2
                 text={`Algunos lugares que visitar`}
-                style={"my-8 dark:text-white"}
+                style={"my-8 dark:text-white text-lg lg:text-2xl"}
               />
 
               <Anchor
                 url="/destinations"
                 text="Ver todos"
-                style="bg-green-500 hover:bg-green-600 font-bold py-2 px-4 rounded-full cursor-pointer text-white mr-10"
+                style="bg-green-500 hover:bg-green-600 font-bold py-2 px-2 rounded-full cursor-pointer text-white md:mr-10 text-sm"
               />
             </div>
+
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
               {destinations.municipios
                 .slice(3, 5)
@@ -266,7 +268,7 @@ const Home = () => {
               >
                 Cancelar
               </button>
-              <LoginButton style={"bg-green-600 text-white"} />
+              <button className="bg-green-600 text-white">Iniciar sesion</button>
             </div>
           </div>
         </div>

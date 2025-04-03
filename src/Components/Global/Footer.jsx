@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { TitleH2 } from "./ContainerTitle";
 import ContainerText from "./ContainerText";
 import { Link } from "react-router-dom";
+import Anchor from "./Anchor";
 
 const Footer = () => {
   return (
@@ -25,19 +26,16 @@ const Footer = () => {
           <TitleH2 text="Enlaces Rápidos" style="text-greenDark dark:text-greenLight text-xl" />
           <ul className="space-y-2">
             <li>
-              <a href="/destinations" className="hover:text-greenDark dark:hover:text-greenLight transition-colors">
-                Destinos
-              </a>
+              <Anchor text={"Destinos"} url="/destinations" className="hover:text-greenDark dark:hover:text-greenLight transition-colors"/>
+                
             </li>
             <li>
-              <a href="/profile" className="hover:text-greenDark dark:hover:text-greenLight transition-colors">
-                Perfil
-              </a>
+              <Anchor text={"Perfil"} url="/profile" className="hover:text-greenDark dark:hover:text-greenLight transition-colors"/>
+                
             </li>
             <li>
-              <a href="/settings" className="hover:text-greenDark dark:hover:text-greenLight transition-colors">
-                Configuración
-              </a>
+              <Anchor text={"Configuración"} url="/settings" className="hover:text-greenDark dark:hover:text-greenLight transition-colors"/>
+                
             </li>
           </ul>
         </div>
@@ -48,9 +46,7 @@ const Footer = () => {
         <ContainerText
           text="© 2024 EcoDeusRisaralda. Todos los derechos reservados."
         />
-        <Link to="/politicsAndPrivacity" className = "underline hover:text-green transition-colors">
-            Política de Privacidad
-        </Link>
+        <Anchor url="/politicsAndPrivacity" style = "underline hover:text-green transition-colors" text=" Política de Privacidad"/>
       </div>
     </motion.footer>
   );

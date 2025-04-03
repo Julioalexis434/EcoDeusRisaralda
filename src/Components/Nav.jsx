@@ -3,30 +3,62 @@ import { useContext } from "react";
 import { ContextNav } from "./Context/ContextNav";
 import Anchor from "./Global/Anchor";
 import { motion } from "framer-motion";
-const Nav = ({ style }) => {
-  const { links } = useContext(ContextNav);
+import ScrollToTop from "./ScrollToTop";
+const Nav = () => {
+  const { links, isMenuOpen, ToggleMenu } = useContext(ContextNav);
+  const Scroll = ()=>{
+    window.scrollTo(0, 0);
+  }
   return (
-    <nav
-      className={`justify-center z-10 bg-white gap-2  ${style} dark:bg-dark dark:text-white`}
-    >
-      {links.map((link, i) => {
-        return (
-          <motion.li
-            initial={{ transform: "-translateY(20em)", opacity: 0   }}
-            animate={{ transform: "translateY(0em)", opacity: 1}}
-            transition={{ duration: 1, delay: link.delay }}
-            className="list-none"
-          >
-            <Anchor
-              key={i}
-              text={link.name}
-              url={link.url}
-              style="inline-block px-4 py-2 hover:bg-greenLight hover:text-white rounded-lg"
-            />
-          </motion.li>
-        );
-      })}
-    </nav>
+    <>
+      {/* Nav Mobile */}
+      <div
+        className={`fixed w-full h-screen top-0 bg-black/80  transition-all duration-500 ${
+          isMenuOpen ? " left-0 z-6 " : "-left-full"
+        } md:hidden`}
+        onClick={ToggleMenu}
+      >
+        <nav
+          className={`fixed top-0 w-[260px] h-screen bg-white dark:bg-dark transition-all ${
+            isMenuOpen ? "left-0 z-7 duration-700" : "-left-full duration-300"
+          } flex flex-col pt-[10vh] gap-3`}
+        >
+          {links.map((link, index) => {
+            return (
+              <div key={index} className="flex items-center gap-2 p-2 border-b border-b-gray-400 relative">
+                {link.icon}
+                <Anchor
+                  text={link.name}
+                  url={link.url}
+                  style="dark:text-white rounded-lg transition-all duration-200  absolute left-0 w-full pl-13"
+                />
+              </div>
+            );
+          })}
+        </nav>
+      </div>
+
+      {/* Nav Desktop */}
+      <nav className="hidden md:flex items-center gap-x-4 text-white z-10 relative">
+        {links.map((link, index) => {
+          return (
+            <motion.div
+              key={index}
+              initial={{ y: -100 }}
+              animate={{ y: 0 }}
+              transition={{ delay: link.delay }}
+            >
+              <Anchor
+                text={link.name}
+                url={link.url}
+                click={Scroll}
+                style="text-gray-500 hover:bg-green/30 dark:hover:bg-greenLight dark:hover:text-white rounded-lg  transition-all duration-200 py-2 px-4"
+              />
+            </motion.div>
+          );
+        })}
+      </nav>
+    </>
   );
 };
 

@@ -2,24 +2,19 @@ import React from "react";
 import { IconAccesibility, IconClose, IconContrast, IconLink } from "./Icons";
 import { useState, useContext } from "react";
 import { ContextAccesibility } from "./Context/ContextAccessibility";
-import { useEffect } from "react";
 
 const Accessibility = () => {
-  const [asideToggle, setAsideToogle] = useState(false);
+  const [asideToggle, setAsideToggle] = useState(false);
   const { changeContrast, setchangeContrast, changeSize, setchangeSize, highlightlinks, sethighlightlinks } = useContext(ContextAccesibility);
 
   const handleAsideToggle = () => {
-    setAsideToogle(!asideToggle);
+    setAsideToggle(!asideToggle);
   };
-
-  useEffect(() => {
-    console.log(changeSize);
-  }, [changeSize]);
   return (
     <>
       <button
         onClick={handleAsideToggle}
-        className="p-2 rounded-full bg- fixed bottom-20 left-10 lg:bottom-10 lg:left-10 shadow-xl z-7 bg-[#5a804c] cursor-pointer text-white hover:scale-110 transition"
+        className="p-2 rounded-full bg- fixed bottom-10 left-3 lg:bottom-10 lg:left-10 shadow-xl z-30 bg-[#5a804c] cursor-pointer text-white hover:scale-110 transition"
       >
         <IconAccesibility />
       </button>
@@ -36,7 +31,7 @@ const Accessibility = () => {
             </h2>
 
             <button className="rounded-full bg-white cursor-pointer" onClick={()=>{
-              setAsideToogle(false)
+              setAsideToggle(false)
             }}><IconClose/></button>
           </div>
           <div className="bg-gray-100 dark:bg-dark  relative -top-3 rounded-tl-lg rounded-tr-lg p-4 grid grid-cols-2 gap-4">

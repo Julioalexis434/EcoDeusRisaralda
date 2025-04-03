@@ -6,7 +6,7 @@ import { ContextDestinations } from '../Context/ContextDestinations'
 const Destinations = () => {
     const {destinations}= useContext(ContextDestinations)
     return (
-        <div className="container mx-auto px-4 py-[12vh]">
+        <div className="mx-auto px-4 py-[12vh]">
             {destinations.municipios.map((municipio, index) => {
                 return (
                     <div key={index} className="mb-12">
@@ -19,7 +19,7 @@ const Destinations = () => {
                             gap-6 p-4 animate-fade-in ">
                             {municipio.lugares.map((lugar, index) => {
                                 return (
-                                    <div className="transform hover:scale-105 
+                                    <div key={index} className="transform hover:scale-105 
                                         transition-transform duration-300">
                                         <CardPlace key={index} lugar={lugar} />
                                     </div>

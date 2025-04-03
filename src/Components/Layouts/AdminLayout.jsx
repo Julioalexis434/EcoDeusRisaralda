@@ -9,9 +9,7 @@ const AdminLayout = () => {
   return (
     <div className="relative dark:bg-dark">
       <Header />
-      <Accessibility />
 
-      <Nav style={"flex lg:hidden w-full fixed bottom-0 left-0"} />
       <Outlet />
       <Footer/>
     </div>
