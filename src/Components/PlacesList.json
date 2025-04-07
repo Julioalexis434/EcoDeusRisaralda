@@ -6,7 +6,7 @@
           {
             "id": 1,
             "nombre": "Parque Nacional Natural Los Nevados",
-            "imagenes":["https://lh3.googleusercontent.com/gps-cs-s/AB5caB9pZQ-oJqDEp3fvIb--NwY5fjYKGlRFbu4LeVtCwOkg_8ye-jPXLsUt5HDhnM_uItI4glug3LOSJrPGG2TDfFcm2hmFsAb2_ZB-OBOE5UdXdMif0HivIcJF3nxxCSJ_W03HRhjWIQ=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB--w_dyXn699yG1Ezr7BjTta13XVPdHrzkoEj8x-2aCYsp-HJCIb1JAIFFX_DPMWv-Dx_AfnTA4_1armtRjADJSejCwiukKsQu9ASmIxNPTKeo3r-rxJIJee9Z5y9xZdfnDMH3c=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB_vweePhJWEjCeK-Ga2Op2VIdW23fBnFK5Ikr1pwRdosRZNb5YzwHhVgDRCvV2myGR4EhSYvqTpbIja2prjV4XFwR8MyA4l-dAPtm33-9tWSOBX2ggv5gSA-AGlNkWzdw9KmaZP=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOxsnfnwhiRH0qJFg1ThO12BcBMi-DZiib4Gx8k=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPWjWBNKAMR5ZTdmasUmqbQP1FV8UsMFsWNkwk-=s1360-w1360-h1020"],
+            "imagenes":["https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/YGUCQA3NTBA65FUFOUFGYIZSMI.jpg","https://lh3.googleusercontent.com/gps-cs-s/AB5caB--w_dyXn699yG1Ezr7BjTta13XVPdHrzkoEj8x-2aCYsp-HJCIb1JAIFFX_DPMWv-Dx_AfnTA4_1armtRjADJSejCwiukKsQu9ASmIxNPTKeo3r-rxJIJee9Z5y9xZdfnDMH3c=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB_vweePhJWEjCeK-Ga2Op2VIdW23fBnFK5Ikr1pwRdosRZNb5YzwHhVgDRCvV2myGR4EhSYvqTpbIja2prjV4XFwR8MyA4l-dAPtm33-9tWSOBX2ggv5gSA-AGlNkWzdw9KmaZP=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOxsnfnwhiRH0qJFg1ThO12BcBMi-DZiib4Gx8k=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPWjWBNKAMR5ZTdmasUmqbQP1FV8UsMFsWNkwk-=s1360-w1360-h1020"],
             "descripcion": "Área protegida que abarca ecosistemas de alta montaña, incluyendo el Nevado Santa Isabel.",
             "actividades": ["Senderismo", "Observación de fauna y flora", "Montañismo"],
             "categoria_por_municipio": "Parques Naturales",
@@ -16,7 +16,7 @@
           {
             "id": 2,
             "nombre": "Santuario de Fauna y Flora Otún Quimbaya",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipPByAaZunnt14727GP-GH0K26iTtcBJNiOZkW8N=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMjtpV-kV2KJcinEYe4tKx08DTLlKYxFLJC0kTh=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNKnlTFDoEecJhdHm3HnlvZ572DKCsOIub5DNZE=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNqp_Lt518280WaA1ND7A-qCnfylq5unI_J7dBA=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPTo99g72jhRAXB-bHM8TrYa9_TdeHpVoishDZa=s1360-w1360-h1020"],
+            "imagenes":["https://s3.amazonaws.com/rtvc-assets-senalcolombia.gov.co/s3fs-public/inline-images/sitios-turisticos-de-colombia-10.jpg","https://lh3.googleusercontent.com/p/AF1QipMjtpV-kV2KJcinEYe4tKx08DTLlKYxFLJC0kTh=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNKnlTFDoEecJhdHm3HnlvZ572DKCsOIub5DNZE=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNqp_Lt518280WaA1ND7A-qCnfylq5unI_J7dBA=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPTo99g72jhRAXB-bHM8TrYa9_TdeHpVoishDZa=s1360-w1360-h1020"],
             "descripcion": "Reserva natural reconocida por su biodiversidad y paisajes andinos.",
             "actividades": ["Avistamiento de aves", "Caminatas ecológicas", "Fotografía de naturaleza"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -36,7 +36,7 @@
           {
             "id": 4,
             "nombre": "Cascadas del Río Verde",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipP3LbrFdCOi2Cl-_prCsBhPhFYPgkVLe2euSUCn=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMgf21XdwNICsE5_G4QlpMW91lKQDxVcAgg_VzA=s1360-w1360-h1020","https://lh5.googleusercontent.com/p/AF1QipMcLSALGZf7XnxABJcagR2HbZcvJgjnZN86B7Rn=w243-h406-n-k-no-nu","https://lh3.googleusercontent.com/p/AF1QipMrAgaKjxGw7wTYQSzkbYoK_JNLF77V4uUWvn6w=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPF31AidbaL3d_IZmgrVmNe064QzdMNSo9jxnDj=s1360-w1360-h1020"],
+            "imagenes":["https://www.prensalibre.com/wp-content/uploads/2019/06/Seacacar-4.jpg?quality=52","https://lh3.googleusercontent.com/p/AF1QipMgf21XdwNICsE5_G4QlpMW91lKQDxVcAgg_VzA=s1360-w1360-h1020","https://lh5.googleusercontent.com/p/AF1QipMcLSALGZf7XnxABJcagR2HbZcvJgjnZN86B7Rn=w243-h406-n-k-no-nu","https://lh3.googleusercontent.com/p/AF1QipMrAgaKjxGw7wTYQSzkbYoK_JNLF77V4uUWvn6w=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPF31AidbaL3d_IZmgrVmNe064QzdMNSo9jxnDj=s1360-w1360-h1020"],
             "descripcion": "Impresionantes cascadas rodeadas de exuberante vegetación.",
             "actividades": ["Senderismo", "Baños en pozos naturales", "Picnics"],
             "categoria_por_municipio": "Cascadas",
@@ -126,7 +126,7 @@
           {
             "id": 12,
             "nombre": "Jardín Botánico de Apía",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipP2-1UcgfAdOPFpuXEZVAy-SMMvtTEx7Jv9e42x=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipP_xGxhI-Ug4FXO80fqS6GEZlH1dQZQmuThJMs5=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOG9K5O0jKiov6g-OJkdsuhCqDXQMab_7airA5u=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB-Mi8lZqCEwXykbt1zYFpaIcfUer2jT3KgctGSL-O7PkN1R-eBi0XGcaXvbHGd5uJTTSc3D6W1qKN-kDr7x2nPt95tQeJotKYT9Od9r2uJH5qmMmcRvpPkEjDflPaJLJMn6SQ4h=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB_Cv0L0P-WwixPGEsY5sF66HnabChIpme-Y6EIZ-EE89nVFxBgybx_Se2kywrR6soShozaJhSJzJXFU5HXqDTINBtyEoO5To-3nyKJowGpinRbAkNdhVNUPx7xVRd349aU2wnAakQ=s1360-w1360-h1020"],
+            "imagenes":["https://www.prensalibre.com/wp-content/uploads/2019/06/Seacacar-3.jpg?quality=82&w=800","https://lh3.googleusercontent.com/p/AF1QipP_xGxhI-Ug4FXO80fqS6GEZlH1dQZQmuThJMs5=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOG9K5O0jKiov6g-OJkdsuhCqDXQMab_7airA5u=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB-Mi8lZqCEwXykbt1zYFpaIcfUer2jT3KgctGSL-O7PkN1R-eBi0XGcaXvbHGd5uJTTSc3D6W1qKN-kDr7x2nPt95tQeJotKYT9Od9r2uJH5qmMmcRvpPkEjDflPaJLJMn6SQ4h=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB_Cv0L0P-WwixPGEsY5sF66HnabChIpme-Y6EIZ-EE89nVFxBgybx_Se2kywrR6soShozaJhSJzJXFU5HXqDTINBtyEoO5To-3nyKJowGpinRbAkNdhVNUPx7xVRd349aU2wnAakQ=s1360-w1360-h1020"],
             "descripcion": "Espacio dedicado a la conservación y exhibición de la flora local, donde se realizan recorridos guiados y talleres de educación ambiental para conocer la biodiversidad de la región.",
             "actividades": ["Visitas guiadas", "Talleres ambientales", "Fotografía de flora"],
             "categoria_por_municipio": "Educación Ambiental",
@@ -136,7 +136,7 @@
           {
             "id": 13,
             "nombre": "Laguna del Morro Azul",
-            "imagenes":["https://archivo.lapatria.com/sites/default/files/styles/620x/public/imagenprincipal/2016/Agosto/untitled_2.jpg","https://archivo.lapatria.com/sites/default/files/fotosgaleria/2016/Septiembre/entro_en_pruebas_la_microcentral_morro_azul.jpg","https://www.geodata.it/images/geodata/portfolio/HYDRO/H_014/ansermahidroelectrica.jpg","https://archivo.lapatria.com/sites/default/files/fotosgaleria/2016/Septiembre/el_rio_risaralda_contribuira_a_la_generacion_de_energia.jpg","https://archivo.lapatria.com/sites/default/files/fotosgaleria/2016/Septiembre/aspecto_del_muro_luego_del_lago_que_se_forma_a_la_entrada_del_tunel.jpg"],
+            "imagenes":["https://www.guatemala.com/fotos/201709/El-Boqueron-885x500.jpg","https://archivo.lapatria.com/sites/default/files/fotosgaleria/2016/Septiembre/entro_en_pruebas_la_microcentral_morro_azul.jpg","https://www.geodata.it/images/geodata/portfolio/HYDRO/H_014/ansermahidroelectrica.jpg","https://archivo.lapatria.com/sites/default/files/fotosgaleria/2016/Septiembre/el_rio_risaralda_contribuira_a_la_generacion_de_energia.jpg","https://archivo.lapatria.com/sites/default/files/fotosgaleria/2016/Septiembre/aspecto_del_muro_luego_del_lago_que_se_forma_a_la_entrada_del_tunel.jpg"],
             "descripcion": "Una laguna de aguas tranquilas enclavada en un entorno natural que ofrece un ambiente sereno, ideal para la observación de aves y para disfrutar de la paz del paisaje.",
             "actividades": ["Observación de aves", "Caminatas", "Picnic"],
             "categoria_por_municipio": "Lagos y Lagunas",
@@ -146,7 +146,7 @@
           {
             "id": 14,
             "nombre": "Voladero El Zarzo",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipORctmXhgcjE-ZXtE2ha2FOqRbIuwC8Czbw4ztu=s1360-w1360-h1020","https://media-cdn.tripadvisor.com/media/photo-s/18/b5/ca/12/voladero-el-zarzo-apia.jpg","https://media-cdn.tripadvisor.com/media/photo-s/18/b5/ca/08/voladero-el-zarzo-apia.jpg","https://lh3.googleusercontent.com/p/AF1QipPTKgLKwkh3_pIk2v5K0PN5Mhpz-HvNijm_1mT-=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMlgEqvyfj7Z6r6wkbQMr8O8fV67tvyrmOjVX8J=s1360-w1360-h1020"],
+            "imagenes":["https://colombiavisible.com/wp-content/uploads/2022/06/Cuerpo1-4-1024x576.jpg","https://media-cdn.tripadvisor.com/media/photo-s/18/b5/ca/12/voladero-el-zarzo-apia.jpg","https://media-cdn.tripadvisor.com/media/photo-s/18/b5/ca/08/voladero-el-zarzo-apia.jpg","https://lh3.googleusercontent.com/p/AF1QipPTKgLKwkh3_pIk2v5K0PN5Mhpz-HvNijm_1mT-=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMlgEqvyfj7Z6r6wkbQMr8O8fV67tvyrmOjVX8J=s1360-w1360-h1020"],
             "descripcion": "Con condiciones de viento constantes, este sitio es ideal para la práctica de parapente, ofreciendo vistas panorámicas del paisaje cafetero que enamoran a los amantes del vuelo libre.",
             "actividades": ["Parapente", "Avistamiento de paisajes", "Fotografía"],
             "categoria_por_municipio": "Aventura y Parapente",
@@ -156,7 +156,7 @@
           {
             "id":15,
             "nombre": "Parque Natural Municipal La María",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipMnhzN8BWa_YwA8HWJN4zUJHI5tXjvEbs9kEd_k=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipO6f8_KO8GYGjm6tfJfutF3E5dwX6SepLmD9OY=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMHoXTcYPU9fRd-lzWp80Z5_mBuU2_UD5Vhxvlt=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipP6B8SUnlbKUPbLWIcN40Azsr8Wg_NqpfLDYIg1=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipO3HBBOVMr33adfnoCHxBL3odPLh2AnjPNdo5pf=s1360-w1360-h1020"],
+            "imagenes":["https://caracol.com.co/resizer/v2/Q7JJYHO5PVA6NGYMQVN3T52JEM.jpg?auth=a625797ff0b1815aee02f27365d4224f25ccb858bd93ebbfaecb2c6d4c5219bd&width=736&height=552&quality=70&smart=true","https://lh3.googleusercontent.com/p/AF1QipO6f8_KO8GYGjm6tfJfutF3E5dwX6SepLmD9OY=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMHoXTcYPU9fRd-lzWp80Z5_mBuU2_UD5Vhxvlt=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipP6B8SUnlbKUPbLWIcN40Azsr8Wg_NqpfLDYIg1=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipO3HBBOVMr33adfnoCHxBL3odPLh2AnjPNdo5pf=s1360-w1360-h1020"],
             "descripcion": "Espacio natural protegido en Apía que cuenta con senderos interpretativos, ideales para familias y visitantes interesados en la observación de fauna y flora local.",
             "actividades": ["Senderismo", "Observación de fauna", "Picnic"],
             "categoria_por_municipio": "Parques Naturales",
@@ -166,7 +166,7 @@
           {
             "id": 16,
             "nombre": "Parque Natural Municipal Agualinda",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipNZyo5oBMhrwkA_KJHBBue64nSFFStYtYKh1L02=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipN6auJuGUiTVoYuJkhQcizzy_E9EGMsT4ZVZage=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMQPSJ1K_PQLEY5LGcdq7xBMMMjgAoeiez-Vezp=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB_w4juKL3aPJ6AAulmjBXP0yBb4XMg5h7-E7BYdohyiuXSjT13r449pl2YIt0wa_nw04fFHPAdTd3U-pdV2Q3ngaZZ6mpdpqiuGALGA9-RmpTvVHOGI3oKuFYgpnULumO36oQo=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNbobTj6Bq2XvhURCLmQpCcMrShUGOlYtm3Bu2s=s1360-w1360-h1020"],
+            "imagenes":["https://denomades.s3.us-west-2.amazonaws.com/blog/wp-content/uploads/2018/03/05170947/can%CC%83oOKOK.jpg","https://lh3.googleusercontent.com/p/AF1QipN6auJuGUiTVoYuJkhQcizzy_E9EGMsT4ZVZage=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMQPSJ1K_PQLEY5LGcdq7xBMMMjgAoeiez-Vezp=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB_w4juKL3aPJ6AAulmjBXP0yBb4XMg5h7-E7BYdohyiuXSjT13r449pl2YIt0wa_nw04fFHPAdTd3U-pdV2Q3ngaZZ6mpdpqiuGALGA9-RmpTvVHOGI3oKuFYgpnULumO36oQo=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNbobTj6Bq2XvhURCLmQpCcMrShUGOlYtm3Bu2s=s1360-w1360-h1020"],
             "descripcion": "Parque dedicado a la conservación de la biodiversidad, con rutas de senderismo y miradores naturales que resaltan el paisaje montañoso de la región.",
             "actividades": ["Caminatas", "Avistamiento de aves", "Fotografía"],
             "categoria_por_municipio": "Parques Naturales",
@@ -176,7 +176,7 @@
           {
             "id": 17,
             "nombre": "Parque Lineal El Clavel",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipNAolX7OFegyvkEZkEpdOymkMB1T3acIroHD8oI=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPVx4ugoeN2pFfLiTMyqI4thWFpS9ayjft8Yaqv=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPsvqCwPaZQlxgtIZHHPq6d-e57nfBaynO27Ifh=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOA16thNPTSkzzUTL3NhBvT02xaNCjesV1nhXsq=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNaiLUIugLSmM922yjqCRqGc0UIB9FSqi2XdcUw=s1360-w1360-h1020"],
+            "imagenes":["https://vacacionesquindio.com/wp-content/uploads/1-Atractivos-Turisticos/Jardin-Botanico/jardin-botanico-mariposario-19.jpg","https://lh3.googleusercontent.com/p/AF1QipPVx4ugoeN2pFfLiTMyqI4thWFpS9ayjft8Yaqv=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPsvqCwPaZQlxgtIZHHPq6d-e57nfBaynO27Ifh=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOA16thNPTSkzzUTL3NhBvT02xaNCjesV1nhXsq=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNaiLUIugLSmM922yjqCRqGc0UIB9FSqi2XdcUw=s1360-w1360-h1020"],
             "descripcion": "Espacio urbano transformado en parque lineal, con senderos y zonas verdes, ideal para paseos en familia y actividades al aire libre en contacto con la naturaleza.",
             "actividades": ["Caminatas", "Ciclismo", "Picnic"],
             "categoria_por_municipio": "Espacios Verdes Urbanos",
@@ -196,7 +196,7 @@
           {
             "id": 19,
             "nombre": "Parque Nacional Natural Tatamá",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipMbchd9iz8HzZ61LNqF-AlqHDJ8FfxhQtwENQ05=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOrFLmAhBCNeSI3l2cdxmbej-H2Tj5uRBOFXyPR=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMM2sVhkc_bK1--T7Ccxbl6Agn4uUcKdEjig6LF=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMeX6YkBXi8SNAjWwmBb8PYyXgK-pRMkEQgP28H=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOsTlg_0mCX7eVgUyeoTVD17ugCuEOPiEtEu3Ei=s1360-w1360-h1020"],
+            "imagenes":["https://i0.wp.com/elturismoencolombia.com/wp-content/uploads/2023/08/Laguna-Del-Otun.jpg?w=1000&ssl=1","https://lh3.googleusercontent.com/p/AF1QipOrFLmAhBCNeSI3l2cdxmbej-H2Tj5uRBOFXyPR=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMM2sVhkc_bK1--T7Ccxbl6Agn4uUcKdEjig6LF=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMeX6YkBXi8SNAjWwmBb8PYyXgK-pRMkEQgP28H=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOsTlg_0mCX7eVgUyeoTVD17ugCuEOPiEtEu3Ei=s1360-w1360-h1020"],
             "descripcion": "Parte del extenso Parque Nacional Natural Tatamá que se extiende por varios municipios, ofreciendo ecosistemas únicos, senderos de alta montaña y una rica biodiversidad para los aventureros.",
             "actividades": ["Senderismo", "Montañismo", "Avistamiento de flora y fauna"],
             "categoria_por_municipio": "Parques Nacionales",
@@ -221,7 +221,7 @@
           {
             "id": 21,
             "nombre": "Cascada El Salto del Viento",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipOVgfS5MSSe7Covh_vdOU93vWd_xXMVFcIA19OB=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPl5SzeMeomfgTkqzIobyCyUT-I0XxVP2dqmPtx=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPkoYTOBmw6OF3xubCOuxlJbUy8XL2HUa8B1ofJ=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPC0TyxqN8LXZk6lcgTMw1Syy5aIOAuveSGZ0uE=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipN7yK-yqzC04rGBBIfrvUu2NnzYsFDrkxGk-WRe=s1360-w1360-h1020"],
+            "imagenes":["https://i.pinimg.com/736x/9b/13/a2/9b13a2e0886e5b79133cbcdc6f4befbf.jpg","https://lh3.googleusercontent.com/p/AF1QipPl5SzeMeomfgTkqzIobyCyUT-I0XxVP2dqmPtx=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPkoYTOBmw6OF3xubCOuxlJbUy8XL2HUa8B1ofJ=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPC0TyxqN8LXZk6lcgTMw1Syy5aIOAuveSGZ0uE=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipN7yK-yqzC04rGBBIfrvUu2NnzYsFDrkxGk-WRe=s1360-w1360-h1020"],
             "descripcion": "Hermosa cascada enclavada en bosques húmedos, ideal para disfrutar de la caída de agua y refrescarse en sus pozos naturales.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas y Aguas",
@@ -231,7 +231,7 @@
           {
             "id": 22,
             "nombre": "Parque Natural Municipal Balboa",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipNsFgsrFo86buH0AWZMChapxq6qPY-JluP-sw62=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB9Q3ywegD1Tfps-xhjdsKPPGRkEQQXxYfbHv-Qp_Oj0vvVUOwB9ygMDsnoN0t4_XUh76uGjROPRT67gUdpnuqUtsUVQkJGmUFbR7-gujLOjm_LwvvBedSKW-ZBvMGaP3xH2TFJnmQ=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB902YYLUvWomrG7yCqAJvR5wHWXVpp7gRqJ4F-A7mvkG_T_iD94nQgZ2Mi7H84QVlK_o4upWfKW6y2PopV2OTAb1NfgG84h08cv-18Drr21OtZRnm4_oOcRnrTNkXe88wfIU4Sd=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB-GtSeSOoxRyMRmIq7oKFfAxSfisKw9FETifASCpagY-KB-n37kklpdbEi_vSvcv69-NR12BuET1GWmAQQMTpvGAyoLFVBIEYuHbr2tcowZswM4_MN-_gHH4mGsziHTlGUgXtWA=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB927l9ZdydQRtmsZ4ikFdUdZjp8qvXw0ajJAhRpFY0QNYwi9Tw17RzSmlLMm8DVpverdSldv26PmmkHwmnVNsMfva9F0wOUIT8vsTE_iRPfOVdotFCm1OW46oj5zCGHZlboRzQ=s1360-w1360-h1020"],
+            "imagenes":["https://www.sitiosturisticoscolombia.com/wp-content/uploads/parque-de-los-nevados-colombia.jpg","https://lh3.googleusercontent.com/gps-cs-s/AB5caB9Q3ywegD1Tfps-xhjdsKPPGRkEQQXxYfbHv-Qp_Oj0vvVUOwB9ygMDsnoN0t4_XUh76uGjROPRT67gUdpnuqUtsUVQkJGmUFbR7-gujLOjm_LwvvBedSKW-ZBvMGaP3xH2TFJnmQ=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB902YYLUvWomrG7yCqAJvR5wHWXVpp7gRqJ4F-A7mvkG_T_iD94nQgZ2Mi7H84QVlK_o4upWfKW6y2PopV2OTAb1NfgG84h08cv-18Drr21OtZRnm4_oOcRnrTNkXe88wfIU4Sd=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB-GtSeSOoxRyMRmIq7oKFfAxSfisKw9FETifASCpagY-KB-n37kklpdbEi_vSvcv69-NR12BuET1GWmAQQMTpvGAyoLFVBIEYuHbr2tcowZswM4_MN-_gHH4mGsziHTlGUgXtWA=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB927l9ZdydQRtmsZ4ikFdUdZjp8qvXw0ajJAhRpFY0QNYwi9Tw17RzSmlLMm8DVpverdSldv26PmmkHwmnVNsMfva9F0wOUIT8vsTE_iRPfOVdotFCm1OW46oj5zCGHZlboRzQ=s1360-w1360-h1020"],
             "descripcion": "Área protegida con senderos interpretativos y zonas de picnic que promueve la conservación de la biodiversidad local.",
             "actividades": ["Caminatas", "Educación ambiental", "Picnic"],
             "categoria_por_municipio": "Parques Naturales",
@@ -291,7 +291,7 @@
           {
             "id": 28,
             "nombre": "Jardín Botánico de Balboa",
-            "imagenes":["https://lh3.googleusercontent.com/gps-cs-s/AB5caB88s8rwC_6JrbvLprg73YUGV7sR5GQCNmStTIHJgga_hWtXPrqr12VguNLoupXh6vZosrfzO2MBGbi1lzshqk74B0YFqhgZcbehmply--ReutyBbbBP7IdRoXfWKZV7nOs-qGD8=s1360-w1360-h1020","https://s0.wklcdn.com/image_169/5095116/188345532/116561082Master.jpg","https://s2.wklcdn.com/image_169/5095116/188345533/116561099Master.jpg","https://s0.wklcdn.com/image_169/5095116/188345534/116561109Master.jpg","https://s2.wklcdn.com/image_169/5095116/188345537/116561150Master.jpg"],
+            "imagenes":["https://www.planessantamarta.com.co/wp-content/uploads/2014/12/Visitantes-ciudad-perdida-870x555.jpeg","https://s0.wklcdn.com/image_169/5095116/188345532/116561082Master.jpg","https://s2.wklcdn.com/image_169/5095116/188345533/116561099Master.jpg","https://s0.wklcdn.com/image_169/5095116/188345534/116561109Master.jpg","https://s2.wklcdn.com/image_169/5095116/188345537/116561150Master.jpg"],
             "descripcion": "Pequeño jardín que exhibe especies nativas de la región y promueve actividades de educación ambiental y conservación.",
             "actividades": ["Visitas guiadas", "Talleres ambientales", "Fotografía"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -301,7 +301,7 @@
           {
             "id": 29,
             "nombre": "Centro de Interpretación Ambiental Balboa",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipOVKY7ZYqmCJFlDg_wFswnbvOL-wh64uH7WCxsB=s1360-w1360-h1020","https://lh3.googleusercontent.com/gps-cs-s/AB5caB-Ad8pg8CETTQNEbWfidN-NWPFIBfisfUWpmmNYyALKO-xgZGMXex7JvKKP8zgxXafh6SZyXU6qY5Y31qHT99O9KJ5KO4Z3efIe-9dpUnornr2q3oky9bDD81JrTwKoJiN-1HO6Hg=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNGqVJk6dtADM1s31zaYo_U0eAe7xjt0aOUqW4D=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNcfEvguXqeg9wWzrn4CH18B6Mym9ZQGywavyKC=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMDrNhFt_Dag4H8p3aULiP-8wSg6Za8OM8IR4z8=s1360-w1360-h1020"],
+            "imagenes":["https://res.cloudinary.com/pervolare-org/image/upload/v1698182537/spv/blog/posts/7-mejores-sitios-turisticos-del-eje-cafetero-colombiano.webp.webp","https://lh3.googleusercontent.com/gps-cs-s/AB5caB-Ad8pg8CETTQNEbWfidN-NWPFIBfisfUWpmmNYyALKO-xgZGMXex7JvKKP8zgxXafh6SZyXU6qY5Y31qHT99O9KJ5KO4Z3efIe-9dpUnornr2q3oky9bDD81JrTwKoJiN-1HO6Hg=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNGqVJk6dtADM1s31zaYo_U0eAe7xjt0aOUqW4D=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNcfEvguXqeg9wWzrn4CH18B6Mym9ZQGywavyKC=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMDrNhFt_Dag4H8p3aULiP-8wSg6Za8OM8IR4z8=s1360-w1360-h1020"],
             "descripcion": "Espacio educativo que difunde la importancia de la conservación ambiental a través de exposiciones y recorridos interpretativos.",
             "actividades": ["Exposiciones", "Talleres educativos", "Recorridos interpretativos"],
             "categoria_por_municipio": "Centros Educativos",
@@ -326,7 +326,7 @@
           {
             "id": 31,
             "nombre": "Parque Natural Santa Emilia",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipOVILIFDRuBlXRD19Udvqh29FmNrIQiAfyyFQFb=s680-w680-h510","https://lh3.googleusercontent.com/p/AF1QipOF6dp6gZVBnB6Kruy3nJFhtdDMNq4lBO1z_rQ6=s680-w680-h510","https://lh3.googleusercontent.com/p/AF1QipOm6cMPGgNr8QB3lCNSwjZyABoSFGzhmUEF8ks_=s680-w680-h510","https://lh3.googleusercontent.com/gps-cs-s/AB5caB-HM5jiN6qhg6sjzX1BCapNX9YYT-dZgrhbS6Pt9tZHhqiBRWXj-0Fkw2-W417WlkdUB0iyS58_GId-gJU7CS1NnMph5j62c3ahE4N1I_-YILXtKIKFBOwLTH7Ktuqs7cTVsOnk7g=s680-w680-h510","https://lh3.googleusercontent.com/gps-cs-s/AB5caB8GGrBwrxbzzvrRqqrD5iJ2G0qo8PGMH2Q8T8SNB6wR6OMXbBQVDZNz8Ke3wcKPwIkQnvgVI0w7njo8uRD4Zy09Q2xS-39z6FVoiPaoNtcIwmY8MX4R8mUfQ2Dp51oDWmyQSga4=s680-w680-h510"],
+            "imagenes":["https://elturismoencolombia.com/wp-content/uploads/2023/12/Mirador-Dosquebradas-Risaralda-Colombia.jpg","https://lh3.googleusercontent.com/p/AF1QipOF6dp6gZVBnB6Kruy3nJFhtdDMNq4lBO1z_rQ6=s680-w680-h510","https://lh3.googleusercontent.com/p/AF1QipOm6cMPGgNr8QB3lCNSwjZyABoSFGzhmUEF8ks_=s680-w680-h510","https://lh3.googleusercontent.com/gps-cs-s/AB5caB-HM5jiN6qhg6sjzX1BCapNX9YYT-dZgrhbS6Pt9tZHhqiBRWXj-0Fkw2-W417WlkdUB0iyS58_GId-gJU7CS1NnMph5j62c3ahE4N1I_-YILXtKIKFBOwLTH7Ktuqs7cTVsOnk7g=s680-w680-h510","https://lh3.googleusercontent.com/gps-cs-s/AB5caB8GGrBwrxbzzvrRqqrD5iJ2G0qo8PGMH2Q8T8SNB6wR6OMXbBQVDZNz8Ke3wcKPwIkQnvgVI0w7njo8uRD4Zy09Q2xS-39z6FVoiPaoNtcIwmY8MX4R8mUfQ2Dp51oDWmyQSga4=s680-w680-h510"],
             "descripcion": "Área protegida que destaca por su biodiversidad, donde se pueden apreciar especies en vía de extinción y recorrer senderos interpretativos en medio de bosques maduros.",
             "actividades": ["Senderismo", "Avistamiento de aves", "Fotografía de naturaleza"],
             "categoria_por_municipio": "Parques Naturales",
@@ -336,7 +336,7 @@
           {
             "id": 32,
             "nombre": "Parque Regional Cuchilla de San Juan",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipMfV633sC4RcDyHjCxis9etFPsOO7CJViQdxi9I=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipN6DwwHDFC6Ss76gQb1iINRSPeoO4QwHG-sbjl9=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPOZVK_nDPzZzQeSIU_tY2whCdd5CneZWgbZgUD=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMLCZxFyrtG8r827sVrdumLYYmMEeFnHoDSY2-c=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipM5c-m0s5CM5_qK19iJlPm116WTh1z7kil7vNuc=s1360-w1360-h1020"],
+            "imagenes":["https://blog.uber-cdn.com/cdn-cgi/image/width=2160,quality=80,onerror=redirect,format=auto/wp-content/uploads/2018/05/X-planes-para-hacer-en-Pereira-en-el-fin-de-semana_Jardi%CC%81n-Bota%CC%81nico.png","https://lh3.googleusercontent.com/p/AF1QipN6DwwHDFC6Ss76gQb1iINRSPeoO4QwHG-sbjl9=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipPOZVK_nDPzZzQeSIU_tY2whCdd5CneZWgbZgUD=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMLCZxFyrtG8r827sVrdumLYYmMEeFnHoDSY2-c=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipM5c-m0s5CM5_qK19iJlPm116WTh1z7kil7vNuc=s1360-w1360-h1020"],
             "descripcion": "Espacio diseñado para los aventureros, donde se realizan caminatas por paisajes montañosos y se disfrutan de vistas panorámicas de la región.",
             "actividades": ["Caminatas", "Fotografía", "Turismo de aventura"],
             "categoria_por_municipio": "Parques Regionales",
@@ -346,7 +346,7 @@
           {
             "id": 33,
             "nombre": "Jardín Botánico José Celestino Mutis",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipMNE6e6i9h3Jy8V7-hWj46QlLkYoY4bJ_lkmPmq=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMUCrXQO8pHV-r_wLK0GvxBLI6Ah-_2xeM5ZWSz=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOcco_r_8qAewTOIMdw3boQQsg3j8_kgQ0GnFI=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMdr3lPQTTy3x8V8McN24VSV2nS7Dry4DnYm8Gr=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMjHjB5AzxAsaokBuGjZG1o5piNSd124_doKmuy=s1360-w1360-h1020"],
+            "imagenes":["https://i.pinimg.com/736x/be/1b/ba/be1bba27950d0a2b3ae12db9ece28bc3.jpg","https://lh3.googleusercontent.com/p/AF1QipMUCrXQO8pHV-r_wLK0GvxBLI6Ah-_2xeM5ZWSz=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOcco_r_8qAewTOIMdw3boQQsg3j8_kgQ0GnFI=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMdr3lPQTTy3x8V8McN24VSV2nS7Dry4DnYm8Gr=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipMjHjB5AzxAsaokBuGjZG1o5piNSd124_doKmuy=s1360-w1360-h1020"],
             "descripcion": "Espacio que exhibe la rica flora local y ofrece recorridos guiados para aprender sobre las especies autóctonas y su importancia en el paisaje cafetero.",
             "actividades": ["Visitas guiadas", "Talleres de educación ambiental", "Fotografía"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -356,7 +356,7 @@
           {
             "id": 34,
             "nombre": "Cascada El Salto de los Ángeles",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipMOSJ0QFOIKAXJLj0rBqElQfZcKgTge91xJiUru=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipOcn14tHl72A9cY-wqOnl2mTEW_pxEuYdzvPUZu=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNi3RLaD9mwrgBxKmbJrwi2xQvdcqyXipLkjZMd=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNRDPJ2kjuEFelJdH_I5L33wkkooABOpqErXfBi=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipP5-52FziwciOWBSNCbSh912zc6sKdKl5dYapHE=s1360-w1360-h1020"],
+            "imagenes":["https://cdn.pixabay.com/photo/2018/08/30/16/02/colombia-3642598_640.jpg","https://lh3.googleusercontent.com/p/AF1QipOcn14tHl72A9cY-wqOnl2mTEW_pxEuYdzvPUZu=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNi3RLaD9mwrgBxKmbJrwi2xQvdcqyXipLkjZMd=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipNRDPJ2kjuEFelJdH_I5L33wkkooABOpqErXfBi=s1360-w1360-h1020","https://lh3.googleusercontent.com/p/AF1QipP5-52FziwciOWBSNCbSh912zc6sKdKl5dYapHE=s1360-w1360-h1020"],
             "descripcion": "Impresionante caída de agua enmarcada por la vegetación exuberante, ideal para disfrutar de la naturaleza y darse un refrescante baño.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas y Aguas",
@@ -366,7 +366,7 @@
           {
             "id": 35,
             "nombre": "Museo Antropológico Eliseo Bolívar",
-            "imagenes":["https://lh3.googleusercontent.com/p/AF1QipN0VOCOl_uKB5rYWT4wRfuWIEZBO0QHy6MCmLSr=s680-w680-h510","https://lh3.googleusercontent.com/p/AF1QipNiqqJIs1eKUwnNnw7uPVweEYtfdvQl4I3rxaUS=s680-w680-h510","https://lh3.googleusercontent.com/p/AF1QipNs5ohUzXv34yovmol39r9i_LFwhV0f8SG7eQLz=s680-w680-h510","https://lh3.googleusercontent.com/p/AF1QipOti96f50A-6Hr2b14NvAFosdbAOeBNMefCYRTX=s680-w680-h510","https://lh3.googleusercontent.com/gps-cs-s/AB5caB9_rUuucnE1QTS4s8oAjlACPHQsVxtrScgs57bL4wBzveSJEUA1GmbsKcW_8AsYn_GeYSpXdxGJRozJ__PgCqTYjXMRuCsLgkRDirtmjlv7ZMxCWwthAJUBgoEfvhNybDvpan6M=s680-w680-h510"],
+            "imagenes":["https://elturismoencolombia.com/wp-content/uploads/2020/03/Iglesia-de-Mistrato-Risaralda-Colombia.jpg","https://lh3.googleusercontent.com/p/AF1QipNiqqJIs1eKUwnNnw7uPVweEYtfdvQl4I3rxaUS=s680-w680-h510","https://lh3.googleusercontent.com/p/AF1QipNs5ohUzXv34yovmol39r9i_LFwhV0f8SG7eQLz=s680-w680-h510","https://lh3.googleusercontent.com/p/AF1QipOti96f50A-6Hr2b14NvAFosdbAOeBNMefCYRTX=s680-w680-h510","https://lh3.googleusercontent.com/gps-cs-s/AB5caB9_rUuucnE1QTS4s8oAjlACPHQsVxtrScgs57bL4wBzveSJEUA1GmbsKcW_8AsYn_GeYSpXdxGJRozJ__PgCqTYjXMRuCsLgkRDirtmjlv7ZMxCWwthAJUBgoEfvhNybDvpan6M=s680-w680-h510"],
             "descripcion": "Espacio cultural que resalta la historia y arqueología de la región, donde se exhiben colecciones relacionadas con la identidad cafetera y ancestral de Belén de Umbría.",
             "actividades": ["Recorridos culturales", "Visitas guiadas", "Aprendizaje histórico"],
             "categoria_por_municipio": "Culturales y Museos",
@@ -406,7 +406,7 @@
           {
             "id": 39,
             "nombre": "Centro de Interpretación del Paisaje Cafetero",
-            "imagenes":["https://lh3.googleusercontent.com/gps-cs-s/AB5caB_7Q6jWrlZCl_enCzsOnspAOTdyZLNKDJcgIK_1djSWE0EF6uHdR3Ukj6ZcQT9Gv6yYzH0hR0oSl_8e0A6XNlYO4fpOfxlwHhivjGNiiAzO-mNkp-JXPKlSXhEK1JVS3kwjnHlS=s1360-w1360-h1020","","","",""],
+            "imagenes":["https://www.elespectador.com/resizer/v2/MEER5DXKP5DEXNLPC7COXYIDSM.jpg?auth=8c17266ac97e7e0726035063f42e8dac895e4518ab2a9bf9554377804fc3c144&width=920&height=613&smart=true&quality=60","https://imanesdeviaje.com/wp-content/uploads/2019/06/que-ver-eje-cafetero-colombia-salento-valle-del-cocora.jpg","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/bd/d8/e8/img-20180701-082040957.jpg?w=500&h=-1&s=1"],
             "descripcion": "Espacio educativo dedicado a explicar la riqueza natural y cultural del Paisaje Cultural Cafetero, promoviendo la conservación y el turismo sostenible.",
             "actividades": ["Charlas educativas", "Recorridos interpretativos", "Talleres culturales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -416,7 +416,7 @@
           {
             "id": 40,
             "nombre": "Ecoparque Belén",
-            "imagenes":["","","","",""],
+            "imagenes":["https://imagenes.eltiempo.com/files/image_1200_600/uploads/2023/06/01/64791bd9ac544.jpeg","https://www.tomplanmytrip.com/wp-content/uploads/2024/05/Umbrellas-Street-Guatape-Antioquia-Colombia.jpg","https://cf.bstatic.com/xdata/images/hotel/max1024x768/493010183.jpg?k=0d403cb90a3324bd5992b360ccb9788c1401084da559081f4a804e5a2ca99817&o=&hp=1","https://telemedellin.tv/wp-content/uploads/2024/04/turismo-en-Guatape.jpg","https://masturismo.co/wp-content/uploads/2024/07/Guatape-12.webp"],
             "descripcion": "Área recreativa que integra senderos, zonas de camping y espacios para actividades familiares, enmarcada en un entorno natural de gran belleza.",
             "actividades": ["Camping", "Picnic", "Senderismo", "Recreación en familia"],
             "categoria_por_municipio": "Ecoparques",
@@ -431,7 +431,7 @@
           {
             "id": 41,
             "nombre": "Cascada El Susurro",
-            "imagenes":[],
+            "imagenes":["https://travelgrafia.co/wp-content/uploads/2022/07/Lugares-para-conocer-la-selva-en-Colombia.jpg","https://alemdacurva.com/wp-content/uploads/2020/01/alter-41.jpg","https://cdn.colombia.com/sdi/2024/03/05/costa-rica-le-apuesta-al-turismo-sostenible-que-destaca-en-la-biodiversidad-1227986.jpg"],
             "descripcion": "Una cascada escondida en medio de un frondoso bosque, ideal para disfrutar de la naturaleza y darse un refrescante baño en sus pozos.",
             "actividades": ["Senderismo", "Fotografía", "Baño natural"],
             "categoria_por_municipio": "Cascadas",
@@ -441,7 +441,7 @@
           {
             "id": 42,
             "nombre": "Reserva Ecológica El Roble",
-            "imagenes":[],
+            "imagenes":["https://www.autopista.es/uploads/s1/97/36/11/6/costa-rica-es-lider-mundial-en-turismo-sostenible.jpeg","https://impactolatino.com/wp-content/uploads/2017/12/CR-TURISMO.jpg","https://stakeholders.com.pe/wp-content/uploads/2020/06/costa-rica.jpg"],
             "descripcion": "Área protegida que conserva bosques nativos y es hogar de una rica biodiversidad; perfecta para la observación de aves y recorridos interpretativos.",
             "actividades": ["Avistamiento de aves", "Senderismo", "Fotografía"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -451,7 +451,7 @@
           {
             "id": 43,
             "nombre": "Mirador del Valle",
-            "imagenes":[],
+            "imagenes":["https://elturismoencolombia.com/wp-content/uploads/2023/11/Hacienda-Napoles-Puerto-Triunfo-Antioquia-Colombia.jpg","https://elturismoencolombia.com/wp-content/uploads/2023/11/Plaza-de-Sopo-Cundinamarca-Colombia.jpg","https://elhablador.net/wp-content/uploads/2019/12/parquew.jpg"],
             "descripcion": "Punto panorámico que ofrece vistas espectaculares del valle y los cultivos cafetaleros, ideal para disfrutar de atardeceres y picnics.",
             "actividades": ["Observación de paisajes", "Fotografía", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -461,7 +461,7 @@
           {
             "id": 44,
             "nombre": "Sendero La Montaña Verde",
-            "imagenes":[],
+            "imagenes":["https://colombia.co/sites/default/files/marca-pais/images/wp-content/uploads/2017/04/foto-6-utria.jpg","https://www.novatours.com.co/wp-content/uploads/2023/10/ecoturismo-colombia.jpg","https://static.wixstatic.com/media/a62bed_9152ff5d64154bbcad194a1a8f5e78c0~mv2.jpg/v1/fill/w_586,h_440,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_20210124_110859_edited.jpg"],
             "descripcion": "Ruta ecológica que atraviesa bosques y áreas agrícolas, resaltando la belleza natural y la tradición cafetera de la región.",
             "actividades": ["Senderismo", "Ciclismo", "Recorridos culturales"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -471,7 +471,7 @@
           {
             "id": 45,
             "nombre": "Finca Cafetera El Porvenir",
-            "imagenes":[],
+            "imagenes":["https://i0.wp.com/elturismoencolombia.com/wp-content/uploads/2022/06/canon-anchicaya-buenaventura-colombia.jpg?fit=960%2C717&ssl=1","https://media-cdn.tripadvisor.com/media/photo-s/1c/d2/6a/02/canon-anchicaya.jpg","https://travelgrafia.co/wp-content/uploads/2021/04/Canon-de-anchicaya.jpg"],
             "descripcion": "Experiencia de agroturismo que permite conocer el proceso del cultivo del café, con degustaciones y recorridos en un entorno rural auténtico.",
             "actividades": ["Tour agrícola", "Degustación de café", "Educación ambiental"],
             "categoria_por_municipio": "Agroturismo",
@@ -481,7 +481,7 @@
           {
             "id": 46,
             "nombre": "Centro de Interpretación Ambiental Guática",
-            "imagenes":[],
+            "imagenes":["https://planesturisticos.com/c/u/2019/07/Canva-Flooded-forest-in-Leticia-Colombia..jpg","https://cdn.colombia.com/sdi/2013/11/23/lago-tarapoto-854738-0.jpg","https://cdn.colombia.com/sdi/2015/10/18/reserva-natural-marasha-854701-0.jpg"],
             "descripcion": "Espacio educativo que ofrece información sobre la flora, fauna y tradiciones locales, promoviendo la conservación y el turismo sostenible.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -491,7 +491,7 @@
           {
             "id": 47,
             "nombre": "Ecoparque La Rivera",
-            "imagenes":[],
+            "imagenes":["https://www.lapatria.com/sites/default/files/styles/ampliar_945/public/noticia/2025-01/la%20taza%20de%20cafe%20y%20los%20frutos%20maduros%20y%20secos.jpg?itok=R3ZR-fgM","https://www.lapatria.com/sites/default/files/noticia/2025-01/475172444_1167708598696884_5924040091429688944_n.jpg","https://www.shutterstock.com/image-photo/santuario-risaralda-colombia-february-8-600w-2008635071.jpg"],
             "descripcion": "Zona recreativa a orillas de un río, ideal para actividades en familia, camping y disfrutar de la tranquilidad del entorno natural.",
             "actividades": ["Camping", "Picnic", "Senderismo"],
             "categoria_por_municipio": "Ecoparques",
@@ -501,7 +501,7 @@
           {
             "id": 48,
             "nombre": "Jardín Botánico de Guática",
-            "imagenes":[],
+            "imagenes":["https://getvico.com/blog/wp-content/uploads/2023/04/termasles.jpg","https://elturismoencolombia.com/wp-content/uploads/2023/12/Termales-de-Santa-Rosa-Termalismo-en-Risaralda-Colombia.jpg","https://colombiavisible.com/wp-content/uploads/2022/06/Cuerpo4-1024x576.jpg"],
             "descripcion": "Pequeño espacio dedicado a la conservación de especies nativas, con senderos y áreas de descanso para disfrutar y aprender sobre la flora local.",
             "actividades": ["Visitas guiadas", "Fotografía", "Educación ambiental"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -511,7 +511,7 @@
           {
             "id": 49,
             "nombre": "Ruta de los Aromas",
-            "imagenes":[],
+            "imagenes":["https://www.eldiario.com.co/wp-content/uploads/2022/11/chorro-don-lolo-1.jpg","https://media-cdn.tripadvisor.com/media/photo-m/1280/17/f5/fb/13/photo0jpg.jpg","https://media-cdn.tripadvisor.com/media/photo-p/0f/17/fd/92/chorros-de-don-lolo.jpg"],
             "descripcion": "Recorrido por plantaciones de café y cultivos autóctonos, donde se puede conocer el proceso de producción y disfrutar de paisajes rurales.",
             "actividades": ["Tour agrícola", "Degustación de café", "Fotografía"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -521,7 +521,7 @@
           {
             "id": 50,
             "nombre": "Parque Natural Los Suspiros",
-            "imagenes":[],
+            "imagenes":["https://turismo.encolombia.com/wp-content/uploads/2012/12/Parque-Nacional-Natural-Tatama-Santuario-Risaralda.png","https://aventurecolombia.com/wp-content/uploads/2020/08/risaralda-eje-cafetero-parque-tatama-colombia-%C2%A9ThibaultPerdrix-4.jpg","https://risaralda.federaciondecafeteros.org/app/uploads/sites/14/2021/08/SANTUARIO-540X370.jpg"],
             "descripcion": "Área natural protegida que combina senderos, miradores y zonas de descanso, ofreciendo un ambiente sereno y alta biodiversidad.",
             "actividades": ["Senderismo", "Observación de fauna", "Picnic"],
             "categoria_por_municipio": "Parques Naturales",
@@ -536,7 +536,7 @@
           {
             "id": 51,
             "nombre": "Parque Natural La Virginia",
-            "imagenes":[],
+            "imagenes":["https://1bf98b4066.cbaul-cdnwnd.com/bab6c5583163c4645c907569c7dad8c8/200000004-cb0f4cc0a5/Lugares-turisticos-Colombia-Cartagena.jpg?ph=1bf98b4066","https://i.pinimg.com/236x/19/7c/ac/197cacc99d1098145a8bc888bbc2b53e.jpg","https://i.pinimg.com/236x/ce/ce/80/cece805e997b4aafbf75cca5b3e93c46.jpg"],
             "descripcion": "Extenso parque natural que ofrece senderos interpretativos y zonas de picnic, ideal para disfrutar del aire puro y la biodiversidad local.",
             "actividades": ["Senderismo", "Picnic", "Observación de fauna"],
             "categoria_por_municipio": "Parques Naturales",
@@ -546,7 +546,7 @@
           {
             "id": 52,
             "nombre": "Mirador del Cielo",
-            "imagenes":[],
+            "imagenes":["https://tipsparatuviaje.com/wp-content/uploads/2019/07/amazonas-colombia.jpg","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/e3/43/ff/photo6jpg.jpg?w=600&h=400&s=1","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/45/7e/f3/la-cachama-del-palmar.jpg?w=600&h=400&s=1"],
             "descripcion": "Punto panorámico que ofrece vistas espectaculares de los valles y cultivos cafeteros, perfecto para capturar atardeceres y disfrutar de la tranquilidad.",
             "actividades": ["Fotografía", "Observación de paisajes", "Caminatas"],
             "categoria_por_municipio": "Miradores",
@@ -556,7 +556,7 @@
           {
             "id": 53,
             "nombre": "Sendero Los Arrieros",
-            "imagenes":[],
+            "imagenes":["https://i.ytimg.com/vi/TY1-xiNyBrs/maxresdefault.jpg","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c3/76/52/tambo-ilusion-s-precious.jpg?w=500&h=-1&s=1","https://i.pinimg.com/736x/40/cc/48/40cc48d174575e56f34ee712b7c61ea0.jpg"],
             "descripcion": "Ruta histórica y ecológica utilizada por antiguos arrieros, que recorre bosques nativos y ofrece una experiencia cultural y natural enriquecedora.",
             "actividades": ["Senderismo", "Caminatas culturales", "Avistamiento de aves"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -566,7 +566,7 @@
           {
             "id": 54,
             "nombre": "Reserva Ecológica La Virginia",
-            "imagenes":[],
+            "imagenes":["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/3c/39/56/lagos-de-pesca.jpg?w=1400&h=1400&s=1","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/10/3b/eb/paz-y-la-tranquilidad.jpg?w=600&h=400&s=1","https://elturismoencolombia.com/wp-content/uploads/2024/03/Arquitectura-de-Anserma-Caldas-Turismo-Colombia.jpg"],
             "descripcion": "Área protegida que conserva ecosistemas de bosques húmedos y es hogar de una gran diversidad de especies, ideal para los amantes de la naturaleza.",
             "actividades": ["Observación de aves", "Caminatas", "Educación ambiental"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -576,7 +576,7 @@
           {
             "id": 55,
             "nombre": "Finca Cafetera Tradicional",
-            "imagenes":[],
+            "imagenes":["https://cdn.interlatin.com/sdi/2019/10/29/10-lugares-turisticos-buenas-fotos-colombia-781620.jpg","https://colombiavisible.com/wp-content/uploads/2022/06/Desierto-de-la-Tatacoa-1024x576.jpg","https://www.viajesfantasticos.net/wp-content/uploads/desierto-de-la-tatacoa-1.jpg"],
             "descripcion": "Experiencia agroturística que permite conocer el proceso de cultivo del café, degustar productos frescos y vivir el ambiente rural auténtico de la región.",
             "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
             "categoria_por_municipio": "Agroturismo",
@@ -586,7 +586,7 @@
           {
             "id": 56,
             "nombre": "Jardín Botánico La Virginia",
-            "imagenes":[],
+            "imagenes":["https://blog.redbus.co/wp-content/uploads/2024/05/pereira-2.jpg","https://t3.ftcdn.net/jpg/08/96/51/84/360_F_896518438_7Zq6HegmwpuDHZ1NZotriuxdySWFUAfJ.jpg","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/89/b0/6a/corazon-del-paisaje-cultural.jpg?w=1200&h=700&s=1"],
             "descripcion": "Espacio dedicado a la conservación de la flora local, con senderos, áreas de descanso y talleres educativos para aprender sobre las especies autóctonas.",
             "actividades": ["Visitas guiadas", "Talleres de educación ambiental", "Fotografía"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -596,7 +596,7 @@
           {
             "id": 57,
             "nombre": "Cascada El Viento",
-            "imagenes":[],
+            "imagenes":["https://www.mexicodestinos.com/blog/wp-content/uploads/2015/12/Chiapas-Tierra-de-Maravillas-Naturales.jpg","https://media.istockphoto.com/id/1351278260/es/foto/ca%C3%B1on-del-sumidero.jpg?s=612x612&w=0&k=20&c=RkAkHZa4Ddq1VpbwiaJGodML-yyE-RA3peIMt5eXeTA=","https://oyechiapas.com/images/2023/septiembre/16/pag10a.jpg"],
             "descripcion": "Impresionante cascada enclavada en la vegetación de La Virginia, perfecta para refrescarse y disfrutar de la belleza natural del entorno.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas",
@@ -606,7 +606,7 @@
           {
             "id": 58,
             "nombre": "Ruta de los Cafetales",
-            "imagenes":[],
+            "imagenes":["https://www.clarin.com/2018/01/17/r1yxMzaEM_1256x620__1.jpg","https://www.exoticca.com/_next/image?url=https%3A%2F%2Fuploads.exoticca.com%2Fglobal%2Fdestination%2Fpoi%2Feje-cafetero.png&w=3840&q=75","https://img.travesiasdigital.com/cdn-cgi/image/quality=90,format=auto,onerror=redirect/2014/06/img2353.jpg"],
             "descripcion": "Recorrido por plantaciones de café que permite conocer la cultura cafetera local, aprender sobre el proceso de producción y degustar café de alta calidad.",
             "actividades": ["Tour agrícola", "Degustación de café", "Fotografía"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -616,7 +616,7 @@
           {
             "id": 59,
             "nombre": "Centro de Interpretación Ambiental",
-            "imagenes":[],
+            "imagenes":["https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/YGUCQA3NTBA65FUFOUFGYIZSMI.jpg","https://www.larevistaactual.com/wp-content/uploads/2020/07/reserva-rio-claro-antioquia.png","https://www.triviantes.com/wp-content/uploads/2021/09/rio_claro-2-1200x900.jpg"],
             "descripcion": "Espacio educativo que brinda información sobre la biodiversidad y la historia natural de La Virginia, promoviendo la conservación del entorno.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -626,7 +626,7 @@
           {
             "id": 60,
             "nombre": "Ecoparque Los Sueños",
-            "imagenes":[],
+            "imagenes":["https://www.eldiario.com.co/wp-content/uploads/2023/12/NOTA-2-DIC-29-1068x707.jpg","https://colombiatours.travel/wp-content/uploads/2023/05/image-52.png.webp","https://colombiatours.travel/wp-content/uploads/2023/04/cerro-nutibara-y-pueblito-paisa-797390.jpg"],
             "descripcion": "Área recreativa y ecológica ideal para familias, que combina senderos, zonas de camping y espacios para actividades al aire libre en un entorno sereno.",
             "actividades": ["Camping", "Picnic", "Senderismo", "Recreación"],
             "categoria_por_municipio": "Ecoparques",
@@ -641,7 +641,7 @@
           {
             "id": 61,
             "nombre": "Cascada El Risco",
-            "imagenes":[],
+            "imagenes":["https://colombiatours.travel/wp-content/uploads/2023/04/vacaciones-en-salento-1.jpg","https://i.pinimg.com/736x/c9/c2/33/c9c233cfd7374ccb6ac4e91138e6a0e2.jpg","https://estaticos.elcolombiano.com/binrepository/848x565/34c0/780d565/none/11101/JVNU/whatsapp-image-2024-04-23-at-7-01_44940453_20240423073037.jpg"],
             "descripcion": "Impresionante cascada enclavada en un entorno montañoso, accesible por senderos naturales que permiten disfrutar de la frescura del agua y de la biodiversidad local.",
             "actividades": ["Senderismo", "Fotografía", "Baño natural"],
             "categoria_por_municipio": "Cascadas y Aguas",
@@ -651,7 +651,7 @@
           {
             "id": 62,
             "nombre": "Parque Ecológico El Roble",
-            "imagenes":[],
+            "imagenes":["https://www.triviantes.com/wp-content/uploads/2023/01/Planes-imperdibles-en-Santa-Rosa-de-Cabal-1.jpg","https://www.eldiario.com.co/wp-content/uploads/2023/09/DSC_7019-1068x712.jpg","https://media.viajando.travel/p/5babd7e481fa1fb74782c5eb37e613f1/adjuntos/236/imagenes/000/683/0000683307/412x232/smart/santa-rosa-cabal1jpg.jpg"],
             "descripcion": "Área protegida donde se preserva la flora nativa y se ofrecen rutas interpretativas para conocer la importancia ecológica de los bosques andinos.",
             "actividades": ["Caminatas", "Avistamiento de aves", "Educación ambiental"],
             "categoria_por_municipio": "Parques Naturales",
@@ -661,7 +661,7 @@
           {
             "id": 63,
             "nombre": "Mirador del Valle de Marsella",
-            "imagenes":[],
+            "imagenes":["https://rutasdelosandes.com/images/blog/tips-montana/lugares-ver-nieve-colombia/featured.jpg","https://i0.wp.com/sawa.travel/wp-content/uploads/2019/10/Cocuy-b.jpg?fit=500%2C375&ssl=1","https://fciencias.ugr.es/images/stories/imagenes/Conserjerias/cocuy.jpg"],
             "descripcion": "Punto panorámico que permite apreciar la extensión de los cultivos cafetaleros y los valles circundantes, ideal para capturar atardeceres inolvidables.",
             "actividades": ["Observación de paisajes", "Fotografía", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -671,7 +671,7 @@
           {
             "id": 64,
             "nombre": "Finca Cafetera La Esperanza",
-            "imagenes":[],
+            "imagenes":["https://colombiatours.travel/wp-content/uploads/2019/03/Mesa-de-trabajo-18-80-e1553955531180-2.jpg","https://travelgrafia.co/wp-content/uploads/2022/06/Tour-rafting-Guejar-Meta.jpg","https://static.roadtrip.travel/media/blog/6d68f98638b711efb474d60d32386276.jpg"],
             "descripcion": "Experiencia agroturística que ofrece recorridos por plantaciones de café, permitiendo conocer el proceso productivo y degustar café de origen local.",
             "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
             "categoria_por_municipio": "Agroturismo",
@@ -681,7 +681,7 @@
           {
             "id": 65,
             "nombre": "Reserva Natural La Sierra",
-            "imagenes":[],
+            "imagenes":["https://awake.travel/storage/courses/1705505509764543.jpg","https://sendascolombia.com/wp-content/uploads/slider50/09-Carrusel-CaonesyMaravillasdelGejar3D2N-1030x1030.jpeg","https://www.triviantes.com/wp-content/uploads/2022/01/Imagen-7-870x555.png"],
             "descripcion": "Zona de conservación ecológica que protege ecosistemas de montaña, ofreciendo senderos y actividades de interpretación ambiental en un ambiente de alta biodiversidad.",
             "actividades": ["Senderismo", "Avistamiento de fauna", "Educación ambiental"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -691,7 +691,7 @@
           {
             "id": 66,
             "nombre": "Sendero de la Paz",
-            "imagenes":[],
+            "imagenes":["https://elpilon.com.co/wp-content/uploads/2019/04/MUELLE-CHIMICHAGUA-1.jpg","https://i.ytimg.com/vi/JMpwhDmOJKM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDhTUHTJn-LSEntDTWSz6yu5TjFbQ","https://www.viajaporcolombia.com/images/chimichagua-2020.jpg?v=2"],
             "descripcion": "Ruta ecológica que atraviesa áreas boscosas y campos de cultivo, ideal para disfrutar de un paseo relajante en contacto directo con la naturaleza.",
             "actividades": ["Caminatas", "Fotografía", "Observación de flora"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -701,7 +701,7 @@
           {
             "id": 67,
             "nombre": "Jardín Botánico Marsella",
-            "imagenes":[],
+            "imagenes":["https://media.istockphoto.com/id/1193566716/es/foto/paisajes-naturales-de-santa-rosa-de-cabal-en-risaralda-colombia.jpg?s=612x612&w=0&k=20&c=aSE3peWy2IUBKmDZKrqL9VFCA_3DL03VuGUFvhiK2hk=","https://i.ytimg.com/vi/paN5eXo5IT8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDlLQSXWsamfYo3kA9qwYd5pLl1uQ","https://media.istockphoto.com/id/1398260237/es/foto/un-camino-en-el-campo-en-colombia-foto-de-archivo.jpg?s=612x612&w=0&k=20&c=6D-bt89dQZtbgporBRPPIaBG-yMdzdjXWtNbyv-eroI="],
             "descripcion": "Espacio dedicado a la conservación y exhibición de especies vegetales autóctonas, con senderos y áreas de descanso para disfrutar de la flora local.",
             "actividades": ["Visitas guiadas", "Talleres ambientales", "Fotografía"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -711,7 +711,7 @@
           {
             "id": 68,
             "nombre": "Ecoparque Los Aromas",
-            "imagenes":[],
+            "imagenes":["https://cloudfront-us-east-1.images.arcpublishing.com/eluniverso/F7YFV3LMZFEMFEKRSW4J25DKOI.jpg","https://cloudfront-us-east-1.images.arcpublishing.com/eluniverso/EQW6A6LVZBGVHFZBIW6PCP22YI.JPG","https://aventurateaviajar.com/library/mod_noticias/images/san-cipriano-colombia.jpg"],
             "descripcion": "Área recreativa que combina senderos naturales con experiencias agroecoturísticas, resaltando el aroma del café y otros cultivos típicos de la región.",
             "actividades": ["Camping", "Picnic", "Tour agrícola"],
             "categoria_por_municipio": "Ecoparques",
@@ -721,7 +721,7 @@
           {
             "id": 69,
             "nombre": "Centro de Interpretación Cultural y Natural",
-            "imagenes":[],
+            "imagenes":["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/23/0b/82/view-of-the-gardens-below.jpg?w=500&h=-1&s=1","https://i0.wp.com/apuntesyviajes.com/wp-content/uploads/2022/06/rinconada_de_silva_03.jpg?resize=580%2C435&ssl=1","https://blog.redbus.co/wp-content/uploads/2019/05/Proyecto-nuevo-2025-03-06T104040.100.jpg"],
             "descripcion": "Espacio educativo que difunde la historia, cultura y biodiversidad de Marsella, promoviendo la conservación del entorno y el turismo sostenible.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres culturales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -731,7 +731,7 @@
           {
             "id": 70,
             "nombre": "Ruta de los Cafetales de Marsella",
-            "imagenes":[],
+            "imagenes":["https://elturismoencolombia.com/wp-content/uploads/2023/12/Parque-Principal-de-Marsella-Risaralda-Colombia.jpg","https://risaraldahoy.com/wp-content/uploads/2021/06/unnamed-2021-06-27T081551.403.jpg","https://www.plancpereira.com/wp-content/uploads/2022/06/marsella-risaralda.jpg"],
             "descripcion": "Recorrido por fincas y plantaciones de café que muestra la tradición cafetera de la zona, ofreciendo una experiencia completa de agroturismo y cultura local.",
             "actividades": ["Tour agrícola", "Degustación de café", "Fotografía"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -746,7 +746,7 @@
           {
             "id": 71,
             "nombre": "Cascada El Susurro Celestial",
-            "imagenes":[],
+            "imagenes":["https://i.pinimg.com/474x/e7/a6/55/e7a6557f153186d3b953428c9d5cd87e.jpg","https://i0.wp.com/elturismoencolombia.com/wp-content/uploads/2023/08/Plaza-de-Bolivar-Pereira-Colombia.jpg?w=1000&ssl=1","https://cloudfront-us-east-1.images.arcpublishing.com/semana/L3NSQO4VDZHSHH3VAIOVUNUBMI.jpg"],
             "descripcion": "Una cascada escondida en el corazón del bosque, donde el agua se precipita en un pequeño estanque natural, ideal para un baño refrescante y conectar con la naturaleza.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas y Aguas",
@@ -756,7 +756,7 @@
           {
             "id": 72,
             "nombre": "Reserva Ecológica El Edén de La Celia",
-            "imagenes":[],
+            "imagenes":["https://www.triviantes.com/wp-content/uploads/2021/04/Paisaje-del-Valle-del-Cocora.jpg","https://fincaspanacah10.com/wp-content/uploads/2023/03/VALLE-DE-COCORA-PANORAMIC.png","https://viajes.nationalgeographic.com.es/medio/2020/04/03/y-por-fin-el-valle_a092a848_1257x835.jpg"],
             "descripcion": "Área protegida que conserva bosques primarios y una rica biodiversidad, perfecta para la observación de aves y el disfrute de ecosistemas autóctonos.",
             "actividades": ["Observación de aves", "Caminatas", "Fotografía"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -766,7 +766,7 @@
           {
             "id": 73,
             "nombre": "Mirador Panorama de La Celia",
-            "imagenes":[],
+            "imagenes":["https://www.risaraldacomforthealth.com/wp-content/uploads/2018/09/Prod.08.03.2020.-59.jpg","https://www.parquesdeleje.com/wp-content/uploads/2021/11/Termales-Santa-Rosa-de-Cabal-10-scaled.jpg","https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0a/7a/67/d7.jpg"],
             "descripcion": "Punto de observación que ofrece vistas panorámicas del paisaje montañoso y los cultivos locales, ideal para disfrutar de atardeceres y capturar fotografías espectaculares.",
             "actividades": ["Observación de paisajes", "Fotografía", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -776,7 +776,7 @@
           {
             "id": 74,
             "nombre": "Sendero Camino del Bosque",
-            "imagenes":[],
+            "imagenes":["https://cf.bstatic.com/xdata/images/hotel/max1024x768/93978776.jpg?k=6054d2ad6a6a4d2e290ce3bdc77325315248539b3ea65f86fec66bced0c3e1af&o=&hp=1","https://www.elespectador.com/resizer/v2/GZ7TGDVE7RCMDPR7LWFO3FF3DI.jpg?auth=9bbedf41a6677318c7c6c20cc40a1e21e610731f85bbf62672132697ed6bd3e0&width=920&height=613&smart=true&quality=60","https://media-cdn.tripadvisor.com/media/photo-s/18/b6/42/f5/paseo-muy-sencillo-y.jpg"],
             "descripcion": "Ruta ecológica que atraviesa bosques nativos, permitiendo conocer la flora y fauna autóctona de la región, ideal para los amantes de la naturaleza.",
             "actividades": ["Senderismo", "Caminatas", "Avistamiento de fauna"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -786,7 +786,7 @@
           {
             "id": 75,
             "nombre": "Finca Cafetera La Tradición Celia",
-            "imagenes":[],
+            "imagenes":["https://www.portafolio.co/files/article_new_multimedia/uploads/2024/03/27/6604429e475b2.jpeg","https://viajandox.com.co/uploads/min_Catedral_2.jpg","https://cdn.pixabay.com/photo/2020/03/13/18/00/colombia-4928723_1280.jpg"],
             "descripcion": "Experiencia agroturística que muestra el proceso de cultivo del café en un entorno rural auténtico, con degustaciones y recorridos educativos.",
             "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
             "categoria_por_municipio": "Agroturismo",
@@ -796,7 +796,7 @@
           {
             "id": 76,
             "nombre": "Jardín Botánico Jardín de La Celia",
-            "imagenes":[],
+            "imagenes":["https://i.pinimg.com/736x/34/5f/7d/345f7dcc6754c2ea985da03fa0f45f7a.jpg","https://i.pinimg.com/564x/73/ce/82/73ce82df182452ae74c5245266f3b32b.jpg","https://i.pinimg.com/736x/38/13/f6/3813f6ab9ce40a18df6f7d85c8f13e32.jpg"],
             "descripcion": "Espacio dedicado a la conservación de la flora local, con senderos y áreas de descanso, donde se realizan visitas guiadas y talleres de educación ambiental.",
             "actividades": ["Visitas guiadas", "Talleres ambientales", "Fotografía"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -806,7 +806,7 @@
           {
             "id": 77,
             "nombre": "Centro de Interpretación Ambiental EcoCelia",
-            "imagenes":[],
+            "imagenes":["https://cdn.pixabay.com/photo/2017/06/28/16/42/fauna-2451297_640.jpg","https://images.unsplash.com/photo-1651544784271-406b8381c745?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmlzYXJhbGRhJTJDJTIwY29sb21iaWF8ZW58MHx8MHx8fDA%3D","https://images.unsplash.com/photo-1639191646716-29807d648438?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmlzYXJhbGRhJTJDJTIwY29sb21iaWF8ZW58MHx8MHx8fDA%3D"],
             "descripcion": "Espacio educativo que difunde la importancia de la conservación ambiental y la historia natural de La Celia a través de exposiciones y charlas interactivas.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -816,7 +816,7 @@
           {
             "id": 78,
             "nombre": "Ecoparque Oasis Natural",
-            "imagenes":[],
+            "imagenes":["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/cf/0f/e5/nuestros-elefantes-cuentan.jpg?w=500&h=400&s=1","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/db/68/54/a-source-of-thermal-water.jpg?w=1400&h=1400&s=1","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnvjm0YwfroR31SZCuHOtA6qeN8z-wvZ9GVKJzQEs5gNNvHyndDu8FcVcNKcPTB1mYrfQ&usqp=CAU"],
             "descripcion": "Área recreativa que integra senderos, zonas de camping y áreas de picnic en un entorno sereno, ideal para disfrutar en familia y conectarse con la naturaleza.",
             "actividades": ["Camping", "Picnic", "Senderismo"],
             "categoria_por_municipio": "Ecoparques",
@@ -826,7 +826,7 @@
           {
             "id": 79,
             "nombre": "Ruta de los Cafetales Sabor de La Celia",
-            "imagenes":[],
+            "imagenes":["https://www2.sgc.gov.co/sgc/volcanes/VolcanSanDiego/PublishingImages/Paginas/default/sotar2a.jpg","https://i.ytimg.com/vi/1KqSxvtSLQI/maxresdefault.jpg","https://i.ytimg.com/vi/sjITqggD8YA/maxresdefault.jpg"],
             "descripcion": "Recorrido por plantaciones de café que permite conocer el proceso productivo y degustar café de origen, inmerso en paisajes rurales llenos de tradición.",
             "actividades": ["Tour agrícola", "Degustación de café", "Fotografía"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -836,7 +836,7 @@
           {
             "id": 80,
             "nombre": "Parque Natural Reserva La Ceja",
-            "imagenes":[],
+            "imagenes":["https://elpereirano.com/wp-content/uploads/2024/12/839140786.png","https://danubio-alojamiento-rural-finca-risaralda.allpereirahotels.com/data/Images/OriginalPhoto/16470/1647039/1647039967/image-pereira-32.JPEG","https://cf.bstatic.com/xdata/images/hotel/max1024x768/652050761.jpg?k=daf99d5470e682aaa686a9863c5725f6dd74eb689deacd9758737994d998e7da&o=&hp=1"],
             "descripcion": "Zona protegida que destaca por su biodiversidad y paisajes naturales, ideal para practicar senderismo y observar la rica flora autóctona.",
             "actividades": ["Senderismo", "Observación de flora", "Fotografía"],
             "categoria_por_municipio": "Parques Naturales",
@@ -851,7 +851,7 @@
           {
             "id": 81,
             "nombre": "Cascada La Encantada",
-            "imagenes":[],
+            "imagenes":["https://www.pereira.gov.co/info/pereira_se/media/pub/thumbs/thpub_700X400_6240.webp","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/fd/c3/ff/parque-principal.jpg?w=1400&h=1400&s=1","https://antioquiadeaventura.com/wp-content/uploads/2024/12/Sonson.jpg"],
             "descripcion": "Cascada escondida en medio de la densa vegetación de Mistrató, ideal para disfrutar de un baño refrescante y recorrer senderos naturales.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas",
@@ -861,7 +861,7 @@
           {
             "id": 82,
             "nombre": "Reserva Natural El Paraíso",
-            "imagenes":[],
+            "imagenes":["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/b7/c8/16/photo1jpg.jpg?w=500&h=-1&s=1","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/c9/1c/76/these-images-are-from.jpg?w=500&h=500&s=1","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/be/b5/85/caption.jpg?w=600&h=-1&s=1"],
             "descripcion": "Área protegida con alta biodiversidad donde se pueden observar especies de fauna y flora autóctona en un entorno inmaculado.",
             "actividades": ["Observación de aves", "Caminatas", "Educación ambiental"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -871,7 +871,7 @@
           {
             "id": 83,
             "nombre": "Mirador de los Andes",
-            "imagenes":[],
+            "imagenes":["https://www.pradera-valle.gov.co/MiMunicipio/PublishingImages/Paginas/Sitios-de-Interes/10291827_514804591981111_7224540511007514976_n.jpg","https://i.ytimg.com/vi/-m_JDTU0eg4/maxresdefault.jpg","https://elportal.com.co/wp-content/uploads/2017/04/lagos4-1024x683.jpg"],
             "descripcion": "Punto panorámico que ofrece vistas impresionantes de la cordillera y los cultivos cafeteros, ideal para capturar atardeceres inolvidables.",
             "actividades": ["Fotografía", "Observación de paisajes", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -881,7 +881,7 @@
           {
             "id": 84,
             "nombre": "Sendero del Silencio",
-            "imagenes":[],
+            "imagenes":["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/72/f3/df/jardin-botaanico-de-la.jpg?w=600&h=-1&s=1","https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh3GIMLCxtBLjM6A0gk2Bqyn_84zv58PqXa1UG8W9ujfgQQfZb9TCEstIY1A5DM2oUxTE78EQzgw5cCtsI3sj3iyrEzhKlZ44JU5ArEWqXDbbd-iG1LL6Euzu2K07BUqUtKna35yhGzTI/s1600/santuariofaunayflorarisaralda.jpg","https://caracol.com.co/resizer/v2/75Y2WKNC5BM5DEMLGDYL2ZJZRU.jpg?auth=fd5fcee80fbaed43e2c29531ed594f0413a3f973189b88076d294c1ff42a7606&width=650&height=488&quality=70&smart=true"],
             "descripcion": "Ruta ecológica que atraviesa bosques nativos, perfecta para desconectar y disfrutar de la paz y tranquilidad que ofrece la naturaleza de Mistrató.",
             "actividades": ["Senderismo", "Meditación", "Caminatas"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -891,7 +891,7 @@
           {
             "id": 85,
             "nombre": "Finca Cafetera Mistrató",
-            "imagenes":[],
+            "imagenes":["https://sebatravel.com/wp-content/uploads/2020/01/water-3090493_1280-1024x576.jpg","https://colombiatours.travel/wp-content/uploads/2024/08/39feeda6-8a58-42d0-8255-e203f144eb9b-scaled.jpeg","https://s3.amazonaws.com/cdn.businessintriper.com/wp-content/uploads/2021/08/04082945/Colombia-impulsa-seis-Regiones-Turisticas-para-enriquecer-la-oferta-y-atraer-a-diferentes-segmentos-de-viajeros-1.jpg"],
             "descripcion": "Experiencia agroturística en una finca cafetera donde se puede conocer el proceso de cultivo, cosecha y producción del café, además de degustar sus productos.",
             "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
             "categoria_por_municipio": "Agroturismo",
@@ -901,7 +901,7 @@
           {
             "id": 86,
             "nombre": "Parque Natural Mistrató",
-            "imagenes":[],
+            "imagenes":["https://travelgrafia.co/wp-content/uploads/2022/09/Lugares-turi%CC%81sticos-de-los-Llanos-Orientales-en-Colombia.jpg","https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/QOMTNMCZ7BFGPH7WZ76UOPNXAA.jpg","https://viajes.nationalgeographic.com.es/medio/2024/05/24/shutterstock-2431769915_9c263ccb_240524121054_1280x851.jpg"],
             "descripcion": "Espacio verde y recreativo en el corazón del municipio, ideal para paseos en familia, picnic y actividades al aire libre.",
             "actividades": ["Picnic", "Caminatas", "Recreación en familia"],
             "categoria_por_municipio": "Parques Naturales",
@@ -911,7 +911,7 @@
           {
             "id": 87,
             "nombre": "Centro de Interpretación Ambiental Mistrató",
-            "imagenes":[],
+            "imagenes":["https://lirp.cdn-website.com/088ca3db/dms3rep/multi/opt/San+Gil-e3ba0fc6-640w.jpg","https://i.pinimg.com/236x/b6/ac/a5/b6aca5a217a12864085fc2eb899bb635.jpg","https://imagescdn.citix.com.co/citix/production/media/media/bfe253dda5efeaac595f72c5aef14798.jpg"],
             "descripcion": "Espacio educativo dedicado a la conservación y difusión de la biodiversidad local, que ofrece exposiciones y talleres para aprender sobre el entorno natural.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -921,7 +921,7 @@
           {
             "id": 88,
             "nombre": "Ecoparque del Río Claro",
-            "imagenes":[],
+            "imagenes":["https://fincaspanacah10.com/wp-content/uploads/2022/12/TORRE-MIRADOR-V2.png","https://dmctravels.co/wp-content/uploads/2023/07/parque-cafe-768x513.jpg","https://mediaim.expedia.com/destination/2/593d195f524c95fee3b8d0fedc08c605.jpg"],
             "descripcion": "Zona recreativa a orillas del río, que combina senderos naturales y áreas de picnic en un ambiente de alta biodiversidad, ideal para actividades en familia.",
             "actividades": ["Senderismo", "Picnic", "Observación de fauna"],
             "categoria_por_municipio": "Ecoparques",
@@ -931,7 +931,7 @@
           {
             "id": 89,
             "nombre": "Ruta de los Aromas",
-            "imagenes":[],
+            "imagenes":["https://images.squarespace-cdn.com/content/v1/5aa2ef21f407b4bbc58110ec/1565401353114-ZGRFOQ4SVENV4Q8BREQC/_C127917.jpg?format=2500w","https://imagescdn.citix.com.co/citix/production/media/media/ea834df13ee0c498938fbb4826a3df9a.jpg","https://quindio.gov.co/medios/29_FEBERERO_2024/FOTO_REAPERTURA_MIRADOR.jpg"],
             "descripcion": "Recorrido por plantaciones y cultivos tradicionales que destaca la tradición cafetera y la producción local, con degustaciones y experiencias culturales.",
             "actividades": ["Tour agrícola", "Degustación", "Fotografía"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -941,7 +941,7 @@
           {
             "id": 90,
             "nombre": "Jardín Botánico Mistrató",
-            "imagenes":[],
+            "imagenes":["https://elturismoencolombia.com/wp-content/uploads/2015/08/turismo_valle_cauca_lago_calima-e1439133460609.jpg","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/9a/2e/3f/linda-vista-de-la-arquitectura.jpg?w=600&h=400&s=1","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/dd/2f/96/20190609-095701-largejpg.jpg?w=600&h=400&s=1"],
             "descripcion": "Espacio dedicado a la conservación de la flora autóctona, con senderos, áreas de descanso y actividades educativas para conocer la diversidad vegetal del municipio.",
             "actividades": ["Visitas guiadas", "Fotografía", "Talleres de jardinería"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -956,7 +956,7 @@
           {
             "id": 91,
             "nombre": "Cascada La Virgen",
-            "imagenes":[],
+            "imagenes":["https://i.pinimg.com/1200x/b5/9c/6e/b59c6e3c4c408614b4a5612558d8f67e.jpg","https://fontur.com.co/sites/default/files/inline-images/COMU-18-03-2024-2.jpeg","https://revistaiberica.com/wp-content/uploads/2018/10/Santuario-de-las-Lajas.jpg"],
             "descripcion": "Impresionante cascada en medio de la selva, con aguas cristalinas y piscinas naturales, ideal para nadar y disfrutar de la belleza natural.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas",
@@ -966,7 +966,7 @@
           {
             "id": 92,
             "nombre": "Reserva Natural Yarumo Blanco",
-            "imagenes":[],
+            "imagenes":["https://colombiatours.travel/wp-content/uploads/2023/05/image-2.png.webp","https://caracol.com.co/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fprisaradioco%2F3U2JUGCX6VFGDMHZEOGYFVIBYM.jpg?auth=42ffecf439171336e01d096e6d2e81b28df2f206499fbcd7ea2ba4ea0a992b4d&width=650&quality=70&smart=true","https://media-cdn.tripadvisor.com/media/photo-c/1280x250/15/27/59/a3/el-municipio-se-puede.jpg"],
             "descripcion": "Área protegida que alberga gran biodiversidad, donde se pueden observar especies endémicas y participar en recorridos interpretativos.",
             "actividades": ["Avistamiento de aves", "Senderismo", "Educación ambiental"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -976,7 +976,7 @@
           {
             "id": 93,
             "nombre": "Mirador El Águila",
-            "imagenes":[],
+            "imagenes":["https://toursalacarta.com/wp-content/uploads/2022/09/Minas-de-nemocon-1024x683.jpg","https://www.triviantes.com/wp-content/uploads/2021/12/paquetes-turisticos-bogota-9.jpg","https://www.bogotraveltours.com/wp-content/uploads/DSC_0633-9.jpg"],
             "descripcion": "Punto panorámico ubicado en lo alto de una colina, que ofrece vistas espectaculares de los valles y montañas de la región, ideal para tomar fotografías.",
             "actividades": ["Observación de paisajes", "Fotografía", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -986,7 +986,7 @@
           {
             "id": 94,
             "nombre": "Rafting en el Río Cauca",
-            "imagenes":[],
+            "imagenes":["https://www.eje21.com.co/site/wp-content/uploads/2020/02/Turismo-Risaralda.jpg","https://caracol.com.co/resizer/v2/HZNV6KPTKFDT5EB3USLO4U6KAI.jpeg?auth=49a800e6596579c25cb5624e91f7538b9975cb428ec56ab39b88f86d7fdd9e35&width=650&quality=70&smart=true","https://i.pinimg.com/736x/8e/44/31/8e4431685b5d207ca14f60c67873dbbb.jpg"],
             "descripcion": "Emocionante actividad de rafting en el Río Cauca, con rápidos y paisajes de aventura, ideal para los amantes de los deportes acuáticos.",
             "actividades": ["Rafting", "Deportes acuáticos", "Aventura"],
             "categoria_por_municipio": "Aventura Acuática",
@@ -996,7 +996,7 @@
           {
             "id": 95,
             "nombre": "Excursión al Cerro Tatamá",
-            "imagenes":[],
+            "imagenes":["https://turibuscolombia.com/wp-content/uploads/2020/10/shutterstock_1349266460-700x450.jpg","https://latinamericantours.com.co/media/offer_4/img_/298e6524-fc86-4f10-8635-d592aa7dd88d.webp","https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/06/d7/c7/e3.jpg"],
             "descripcion": "Ruta de senderismo desafiante que lleva hasta la cima del Cerro Tatamá, ofreciendo vistas panorámicas y un entorno único de páramo.",
             "actividades": ["Senderismo", "Avistamiento de aves", "Fotografía"],
             "categoria_por_municipio": "Montaña y Páramo",
@@ -1006,7 +1006,7 @@
           {
             "id": 96,
             "nombre": "Piscinas Naturales de Santa Rita",
-            "imagenes":[],
+            "imagenes":["https://pigmalionmoto.com/wp-content/uploads/2018/07/941777_327663040697380_1715532357_n.jpg","https://www.lifeder.com/wp-content/uploads/2020/06/Los-Katios-1.jpg","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/41/e6/1e/empezamos-a-ascender.jpg?w=1400&h=1400&s=1"],
             "descripcion": "Piscinas naturales formadas en medio de la selva, ideales para nadar y relajarse en un entorno exuberante y refrescante.",
             "actividades": ["Natación", "Picnic", "Relajación"],
             "categoria_por_municipio": "Balnearios Naturales",
@@ -1016,7 +1016,7 @@
           {
             "id": 97,
             "nombre": "Recorrido por Finca de Café Orgánico",
-            "imagenes":[],
+            "imagenes":["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/41/e5/f2/cascadas-de-anayacito.jpg?w=1400&h=1400&s=1","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/70/6b/46/aventure.jpg?w=1200&h=-1&s=1","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/8b/f2/c2/el-indio-waterfall-15.jpg?w=500&h=-1&s=1"],
             "descripcion": "Tour agroturístico en una finca de café orgánico, donde se aprende sobre el proceso de cultivo y se degustan variedades de café de origen local.",
             "actividades": ["Tour agrícola", "Degustación de café", "Educación cultural"],
             "categoria_por_municipio": "Agroturismo",
@@ -1026,7 +1026,7 @@
           {
             "id": 98,
             "nombre": "Balneario La Rochela",
-            "imagenes":[],
+            "imagenes":["https://www.guatemala.com/fotos/2025/01/tipos-de-turismo-que-se-pueden-realizar-en-Guatemala-885x500.jpg","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/57/17/e0/caption.jpg?w=500&h=400&s=1","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/28/44/74/torrenstismo-en-gambita.jpg?w=1400&h=1400&s=1"],
             "descripcion": "Complejo recreativo que cuenta con piscinas naturales y áreas de picnic, ideal para pasar un día relajado en familia o con amigos.",
             "actividades": ["Natación", "Picnic", "Recreación en familia"],
             "categoria_por_municipio": "Balnearios",
@@ -1036,7 +1036,7 @@
           {
             "id": 99,
             "nombre": "Sendero Eco-turístico Camino del Agua",
-            "imagenes":[],
+            "imagenes":["https://www.triviantes.com/wp-content/uploads/2021/03/plazoleta-zocalo-1-1200x900.jpg","https://siviaggia.it/wp-content/uploads/sites/2/2022/12/Plaza-de-los-Zocalos-Guatape.jpg","https://miaventuraviajando.com/wp-content/uploads/2017/11/guatape-blog-mi-aventura-viajando-9.jpg"],
             "descripcion": "Ruta que recorre diversos ecosistemas, atravesando arroyos y pequeñas cascadas, ideal para conectar con la naturaleza y disfrutar de la tranquilidad del entorno.",
             "actividades": ["Senderismo", "Observación de flora", "Fotografía"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -1046,7 +1046,7 @@
           {
             "id": 100,
             "nombre": "Visita a la Comunidad Indígena Emberá Chamí",
-            "imagenes":[],
+            "imagenes":["https://multihomes.co/wp-content/uploads/2021/09/Destinos-turisticos-La-Candelaria.jpeg","https://caminatasecologicasbogota.com/wp-content/uploads/2018/09/candelaria-bogota-1024x1024.jpg","https://imagenes.eltiempo.com/files/image_414_314/uploads/2018/12/05/5c07f660a82e1.jpeg"],
             "descripcion": "Experiencia cultural única que permite conocer las tradiciones, artesanías y gastronomía de la comunidad Emberá Chamí, inmersa en la rica herencia de Pueblo Rico.",
             "actividades": ["Etnoturismo", "Cultura", "Gastronomía"],
             "categoria_por_municipio": "Etnoturismo",
@@ -1061,7 +1061,7 @@
           {
             "id": 101,
             "nombre": "Cascada La Esperanza",
-            "imagenes":[],
+            "imagenes":["https://www.triviantes.com/wp-content/uploads/2021/09/jerico_antioquia-1200x900.jpg","https://www.sitiosturisticoscolombia.com/wp-content/uploads/mirador-salento-quindio.jpg","https://radionacional-v3.s3.amazonaws.com/s3fs-public/styles/portadas_relaciona_4_3/public/node/article/field_image/5db23ac3-6942-12a1-749d-a23efc5ce8cc%20%281%29.jpg?h=1c9b88c9&itok=d5poQo1C"],
             "descripcion": "Cascada enclavada en un entorno boscoso que destaca por sus aguas cristalinas y zonas de baño natural, ideal para disfrutar de la naturaleza y relajarse.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas",
@@ -1071,7 +1071,7 @@
           {
             "id": 102,
             "nombre": "Parque Natural Quinchía",
-            "imagenes":[],
+            "imagenes":["https://cdn0.matrimonio.com.co/article-gallery-o/00000/original/1280/jpg/articulos-a-fotos/luna-de-miel/colombia/amazonas-casa-arbol.jpeg","https://cloudfront-us-east-1.images.arcpublishing.com/semana/YKJSKWBSPNBDPEQIMKFECLKZDU.jpeg","https://www.salta.gob.ar/public/images/noticias/82632-salta-tiene-representacion-en-la-asociacion-mundial-de-turismo-aventura.jpg"],
             "descripcion": "Área protegida que conserva ecosistemas andinos, con senderos interpretativos y espacios de picnic, perfecta para conectar con la biodiversidad local.",
             "actividades": ["Caminatas", "Picnic", "Observación de fauna"],
             "categoria_por_municipio": "Parques Naturales",
@@ -1081,7 +1081,7 @@
           {
             "id": 103,
             "nombre": "Mirador del Sol",
-            "imagenes":[],
+            "imagenes":["https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/p7fbi1knb6ukzr6yq8sa","https://impactnoticias.com/wp-content/uploads/2023/11/turubari.jpg","https://www.prensalibre.com/wp-content/uploads/2019/09/canopy-3.jpg?quality=52&w=760"],
             "descripcion": "Punto panorámico que ofrece vistas espectaculares de los valles y plantaciones cafeteras, ideal para capturar atardeceres inolvidables.",
             "actividades": ["Fotografía", "Observación de paisajes", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -1091,7 +1091,7 @@
           {
             "id": 104,
             "nombre": "Sendero de los Cafetales",
-            "imagenes":[],
+            "imagenes":["https://viajerosenruta.com/wp-content/uploads/2021/05/rappel1-jalcomulco-turismo-de-aventura.jpg","https://reportelobby.info/wp-content/uploads/2023/01/TURISMO_DE_AVENTURA_REPORTE_LOBBY_06--1024x576.jpg","https://anguacurari.com.ar/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-06-at-14.39.49.jpeg"],
             "descripcion": "Ruta ecológica que recorre plantaciones de café y áreas rurales, ofreciendo una experiencia agroturística que destaca la tradición cafetera de la región.",
             "actividades": ["Senderismo", "Tour agrícola", "Degustación de café"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -1101,7 +1101,7 @@
           {
             "id": 105,
             "nombre": "Finca Cafetera El Encanto",
-            "imagenes":[],
+            "imagenes":["https://cdn.baquianos.com/img/blog/2021/21/-3ukx640.jpg","https://denomades-blog.imgix.net/blog/wp-content/uploads/2020/02/19170232/portada_mavecure.jpg?auto=compress%2Cformat&fit=scale&h=635&ixlib=php-3.3.1&w=1024&wpsize=large","https://revistadiners.com.co/wp-content/uploads/2020/04/tuparro.jpg"],
             "descripcion": "Experiencia agroturística en una finca de café, donde se aprende sobre el proceso de cultivo y producción, complementado con degustaciones y recorridos guiados.",
             "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
             "categoria_por_municipio": "Agroturismo",
@@ -1111,7 +1111,7 @@
           {
             "id": 106,
             "nombre": "Centro de Interpretación Quinchía Viva",
-            "imagenes":[],
+            "imagenes":["https://conocecolombia.com/storagewp/2019/08/monumento-gato-del-rio-cali-colombia.jpg","https://imagescdn.citix.com.co/citix/production/media/media/8429fa30ae6a64e64825f731b2c5eb03.jpg","https://elturismoencolombia.com/wp-content/uploads/2016/04/monumento_el_gato_rio_turismo_cali_colombia.jpg","https://invoyager.com/wp-content/uploads/Parque-del-Perro-1024x696.jpg"],
             "descripcion": "Espacio educativo que difunde la historia, cultura y biodiversidad de Quinchía a través de exposiciones y talleres, promoviendo el turismo sostenible.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres culturales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -1121,7 +1121,7 @@
           {
             "id": 107,
             "nombre": "Ecoparque Los Colibríes",
-            "imagenes":[],
+            "imagenes":["https://travelgrafia.co/wp-content/uploads/2022/06/Haciendo-rafting-en-el-Canon-del-Guejar.jpg","https://images.ctfassets.net/gkhyeghj07ak/29J4YCqxN1mWQnF4hNDVgP/6b45d3dbb562ca364decb0e5e217c6da/viajescomfama-llanos-orientales-02.jpg","https://imagescdn.citix.com.co/citix/production/media/media/d22170b5dac19e961e8df69bd8f41e67.jpg"],
             "descripcion": "Área recreativa enfocada en la conservación y observación de aves, donde se combinan senderos naturales con zonas de camping y picnic.",
             "actividades": ["Observación de aves", "Camping", "Senderismo"],
             "categoria_por_municipio": "Ecoparques",
@@ -1131,7 +1131,7 @@
           {
             "id": 108,
             "nombre": "Jardín Botánico Quinchía",
-            "imagenes":[],
+            "imagenes":["https://caracol.com.co/resizer/v2/IJLIX6QLCZBK3DB3QCAPZYFLVA.jpg?auth=ee0b268391b9fc16cbbba0ae3bad55686bf75fbadd2f495240b1d7c10a10b523&width=650&height=488&quality=70&smart=true","https://nube.elolfato.com/wp-content/uploads/2024/05/honda_1_0.jpeg","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/22/53/9b/francesco-pizza.jpg?w=600&h=400&s=1"],
             "descripcion": "Espacio dedicado a la conservación y exhibición de la flora autóctona, con senderos y áreas de descanso que invitan a aprender sobre la biodiversidad local.",
             "actividades": ["Visitas guiadas", "Fotografía", "Talleres ambientales"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -1141,7 +1141,7 @@
           {
             "id": 109,
             "nombre": "Ruta del Río Quinchía",
-            "imagenes":[],
+            "imagenes":["https://cdn.colombia.com/sdi/2024/09/03/5-lugares-turisticos-en-colombia-idoneos-para-hacer-planes-romanticos-1253318.jpg","https://i.pinimg.com/236x/f4/4d/48/f44d486bd7d32a1185c6ac7259cc6d1e.jpg","https://pelecanus.com.co/wp-content/uploads/2021/02/DSC03034.jpg"],
             "descripcion": "Recorrido que sigue el curso del río a través de paisajes naturales, ideal para quienes disfrutan del avistamiento de fauna y actividades acuáticas en entorno rural.",
             "actividades": ["Senderismo", "Observación de fauna", "Fotografía"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -1151,7 +1151,7 @@
           {
             "id": 110,
             "nombre": "Reserva Ecológica El Oasis",
-            "imagenes":[],
+            "imagenes":["https://fastly.4sqi.net/img/general/600x600/42570351_W6mRPywsttzjcgxgSTue1Kq9ckxkAoci_RTr2K61ISo.jpg","https://upload.wikimedia.org/wikipedia/commons/f/fb/Parque_Panamericano_2013-09-22_11-53-43.jpg","https://viajandox.com.co/uploads/attractive_293.jpg"],
             "descripcion": "Zona protegida que destaca por su rica biodiversidad y por ser un refugio para especies nativas, ideal para recorrer en caminatas y actividades de conservación.",
             "actividades": ["Caminatas", "Avistamiento de aves", "Educación ambiental"],
             "categoria_por_municipio": "Reservas Naturales",
@@ -1166,7 +1166,7 @@
           {
             "id": 111,
             "nombre": "Termales de Santa Rosa de Cabal",
-            "imagenes":[],
+            "imagenes":["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/ed/2b/20/cascada-santa-helena.jpg?w=1200&h=-1&s=1","https://termales.com.co/wp-content/uploads/2023/04/Balneario-1-scaled.jpg","https://termales.com.co/wp-content/uploads/2021/05/Informativa-seccio%CC%81n-nosotros-min-1024x684.jpg.webp"],
             "descripcion": "Complejo de aguas termales naturales con múltiples piscinas y cascadas, ideal para relajarse y disfrutar de terapias de bienestar en un entorno andino.",
             "actividades": ["Baños termales", "Spa", "Relajación"],
             "categoria_por_municipio": "Aguas Termales",
@@ -1176,7 +1176,7 @@
           {
             "id": 112,
             "nombre": "Termales de San Vicente",
-            "imagenes":[],
+            "imagenes":["https://blog.uber-cdn.com/cdn-cgi/image/width=2160,quality=80,onerror=redirect,format=auto/wp-content/uploads/2019/02/Joaqu%C3%ADn-Antonio-Uribe-jard%C3%ADn-bot%C3%A1nico.png","https://discover.guruwalk.com/media/medellin/jardin-botanico-medellin.jpg","https://www.inf.travel/region/57/2-orquideorama-fuente-turismoenfotos-com1-800x0.jpg"],
             "descripcion": "Conjunto de pozos termales ubicados en un entorno boscoso, que combinan la experiencia del baño termal con senderos de aventura.",
             "actividades": ["Baños termales", "Senderismo", "Aventura"],
             "categoria_por_municipio": "Aguas Termales",
@@ -1186,7 +1186,7 @@
           {
             "id": 113,
             "nombre": "Mirador La Loma del Sol",
-            "imagenes":[],
+            "imagenes":["https://www.uff.travel/region/51/2-obelisco-alto-de-menegua-fuente-static-panoramio-com-800x0.jpg","https://live.staticflickr.com/5227/5698867367_dba6e6c92f_z.jpg","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/f8/a2/7e/photo2jpg.jpg?w=600&h=-1&s=1"],
             "descripcion": "Punto panorámico con vistas espectaculares de la ciudad y el paisaje andino, ideal para apreciar atardeceres y realizar actividades de fotografía.",
             "actividades": ["Observación de paisajes", "Fotografía", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -1196,7 +1196,7 @@
           {
             "id": 114,
             "nombre": "Sendero de la Cascada Encantada",
-            "imagenes":[],
+            "imagenes":["https://i.pinimg.com/736x/48/a8/82/48a88223f0be60019ff35759479ab80a.jpg","https://i.pinimg.com/736x/2b/5f/ea/2b5fea15ebc9359e5b2aaa8d2c595ac0.jpg","https://www.semana.com/resizer/v2/YIKQXIMQNRCETHI35QIERB72A4.jpg?auth=26d3a7a375e71606faed0cb946f4a06968f487920247e521a50788cd81e62245&smart=true&quality=75&width=1280&height=720"],
             "descripcion": "Ruta ecológica que conduce a una cascada escondida en medio del bosque, perfecta para los amantes de la aventura y el contacto con la naturaleza.",
             "actividades": ["Senderismo", "Fotografía", "Cascada"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -1206,7 +1206,7 @@
           {
             "id": 115,
             "nombre": "Parque Natural Los Fundadores",
-            "imagenes":[],
+            "imagenes":["https://colombia.co/sites/default/files/marca-pais/images/wp-content/uploads/2015/09/Plaza-de-Cisneros.jpg","https://cdn.forbes.com.mx/2020/02/image-4-e1582161881981.jpg","https://www.shutterstock.com/image-photo/medellin-antioquia-colombia-september-28-260nw-1546470929.jpg"],
             "descripcion": "Espacio natural que integra amplias áreas verdes, senderos y miradores, ideal para realizar caminatas en familia y disfrutar del aire puro.",
             "actividades": ["Caminatas", "Picnic", "Observación de fauna"],
             "categoria_por_municipio": "Parques Naturales",
@@ -1216,7 +1216,7 @@
           {
             "id": 116,
             "nombre": "Ecoparque del Río Claro",
-            "imagenes":[],
+            "imagenes":["https://elturismoencolombia.com/wp-content/uploads/2024/05/Lugares-Turisticos-de-Valledupar-Cesar-Colombia-Turismo.jpg","https://www.semana.com/resizer/v2/LFZJCHDUBZBNJOMWY7QVZ6XPJA.jpg?auth=52376b1f6487dacd0930910e54a8cde949a9e70d162e7b0884cb2b47890777b3&smart=true&quality=75&width=1280&fitfill=false","https://www.rtanoticias.com/wp-content/uploads/2021/10/3b_valledupar.jpg"],
             "descripcion": "Área recreativa a orillas del río, que combina senderos naturales, zonas de camping y pesca deportiva en un ambiente tranquilo y familiar.",
             "actividades": ["Camping", "Pesca", "Senderismo"],
             "categoria_por_municipio": "Ecoparques",
@@ -1226,7 +1226,7 @@
           {
             "id": 117,
             "nombre": "Granja Ecoturística La Pampa",
-            "imagenes":[],
+            "imagenes":["https://blog.123milhas.com/wp-content/uploads/2023/03/o-que-fazer-em-cancun-pontos-turisticos-cenote-ik-kil-conexao123.jpg","https://mascolombia.com/wp-content/uploads/2023/10/la-mejor-forma-de-disfrutar-la-belleza-de-cancun-y-de-la-riviera-maya.jpg","https://wp.rotadeferias.com.br/wp-content/uploads/2023/12/5-1.jpg"],
             "descripcion": "Finca agroturística que ofrece recorridos por plantaciones de café y otras actividades rurales, permitiendo conocer la cultura cafetera de la región.",
             "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
             "categoria_por_municipio": "Agroturismo",
@@ -1236,7 +1236,7 @@
           {
             "id": 118,
             "nombre": "Centro de Interpretación Ambiental Santa Rosa",
-            "imagenes":[],
+            "imagenes":["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/47/8f/8e/vista-general-de-parque.jpg?w=1200&h=-1&s=1","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/44/16/f8/photo2jpg.jpg?w=1400&h=1400&s=1","https://thumbs.dreamstime.com/b/noche-en-popayan-colombia-47904144.jpg"],
             "descripcion": "Espacio educativo que difunde la biodiversidad y la historia natural de la región a través de exposiciones y talleres, promoviendo el turismo sostenible.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -1246,7 +1246,7 @@
           {
             "id": 119,
             "nombre": "Jardín Botánico y Parque de los Guayacanes",
-            "imagenes":[],
+            "imagenes":["https://www.fontur.com.co/sites/default/files/styles/cms_bootstrap_1_2_photo/public/blog/images/anato2025-1.jpeg?itok=QaFgBWHV","https://portucolombia.mincit.gov.co/CMSPages/GetFile.aspx?guid=23e9d9eb-c615-4f30-a6c3-e799bfc223d1","https://radionacional-v3.s3.amazonaws.com/s3fs-public/styles/resultado_busqueda/public/node/article/field_image/IMG_5663.JPG?itok=0OzzYZJs"],
             "descripcion": "Área dedicada a la conservación de especies nativas, especialmente el guayacán, que adorna la ciudad, y que ofrece senderos y espacios de descanso.",
             "actividades": ["Visitas guiadas", "Fotografía", "Talleres ambientales"],
             "categoria_por_municipio": "Jardines y Parques",
@@ -1256,7 +1256,7 @@
           {
             "id": 120,
             "nombre": "Ruta del Café y la Naturaleza",
-            "imagenes":[],
+            "imagenes":["https://i0.wp.com/www.renunciamosyviajamos.com/wp-content/uploads/2019/10/que-ver-y-que-hacer-en-caqueta-44.jpg?fit=1000%2C750&ssl=1","https://www.lifeder.com/wp-content/uploads/2020/06/Cueva_de_Morgan.jpg","https://i0.wp.com/www.renunciamosyviajamos.com/wp-content/uploads/2019/10/que-ver-y-que-hacer-en-caqueta-5.jpg?fit=1000%2C750&ssl=1"],
             "descripcion": "Recorrido turístico que combina visitas a fincas cafeteras con senderos naturales, permitiendo conocer el proceso del cultivo del café y disfrutar de paisajes rurales.",
             "actividades": ["Tour agrícola", "Degustación de café", "Senderismo"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -1271,7 +1271,7 @@
           {
             "id": 121,
             "nombre": "Parque Nacional Natural Tatamá",
-            "imagenes":[],
+            "imagenes":["https://i0.wp.com/www.renunciamosyviajamos.com/wp-content/uploads/2019/10/que-ver-y-que-hacer-en-caqueta-12.jpg?fit=1000%2C750&ssl=1","https://i0.wp.com/www.renunciamosyviajamos.com/wp-content/uploads/2019/10/que-ver-y-que-hacer-en-caqueta-50.jpg?fit=750%2C1000&ssl=1","https://i0.wp.com/www.renunciamosyviajamos.com/wp-content/uploads/2019/10/que-ver-y-que-hacer-en-caqueta-6.jpg?fit=1000%2C750&ssl=1"],
             "descripcion": "Parte del imponente Parque Nacional Natural Tatamá se extiende por Santuario, ofreciendo ecosistemas únicos, alta biodiversidad y rutas de alta montaña ideales para el senderismo y la observación de aves.",
             "actividades": ["Senderismo", "Avistamiento de aves", "Fotografía"],
             "categoria_por_municipio": "Parques Nacionales",
@@ -1281,7 +1281,7 @@
           {
             "id": 122,
             "nombre": "Parque Municipal Natural Planes de San Rafael",
-            "imagenes":[],
+            "imagenes":["https://reddigitalnoticias.com/wp-content/uploads/2021/01/IMG_20210115_142346-scaled.jpg","https://pbs.twimg.com/media/DzJkAeGWwAYPoCB.jpg","https://i.ytimg.com/vi/60mkaC_bdCg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDHEQ5xDRzlfP308aaCvAZfNMqgaQ"],
             "descripcion": "Área protegida con senderos bien señalizados y zonas de picnic, ideal para familias y visitantes que desean disfrutar del ambiente natural de Santuario.",
             "actividades": ["Caminatas", "Picnic", "Observación de fauna"],
             "categoria_por_municipio": "Parques Naturales",
@@ -1291,7 +1291,7 @@
           {
             "id": 123,
             "nombre": "Mirador de la Perla",
-            "imagenes":[],
+            "imagenes":["https://chocolatesjet.com/wp-content/uploads/2021/10/10-314-FotosMedellinLugaresTuristicos-Jet-950x520.png","https://raverepresentaciones.com/wp-content/uploads/2022/08/medellin.webp","https://img.freepik.com/foto-gratis/hermosa-foto-parque-rio-medellin-colombia_181624-41960.jpg"],
             "descripcion": "Punto panorámico que ofrece vistas espectaculares de los valles y montañas que rodean Santuario, perfecto para tomar atardeceres y fotografías memorables.",
             "actividades": ["Fotografía", "Observación de paisajes", "Picnic"],
             "categoria_por_municipio": "Miradores",
@@ -1301,7 +1301,7 @@
           {
             "id": 124,
             "nombre": "Sendero del Bosque Encantado",
-            "imagenes":[],
+            "imagenes":["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/a0/6a/a8/castillo-de-salgar.jpg?w=500&h=400&s=1","https://elturismoencolombia.com/wp-content/uploads/2023/07/Castillo-Puerto-Salgar-Barranquilla-Colombia.jpg","https://imagescdn.citix.com.co/citix/production/media/media/bee6fe1a76a98ec98e6aedc4b98e8e51.jpeg"],
             "descripcion": "Ruta ecológica que recorre densos bosques nativos de Santuario, ideal para quienes buscan desconectar y conectarse con la naturaleza en un ambiente místico.",
             "actividades": ["Senderismo", "Meditación", "Avistamiento de fauna"],
             "categoria_por_municipio": "Senderos Ecológicos",
@@ -1311,7 +1311,7 @@
           {
             "id": 125,
             "nombre": "Cascada El Silencio",
-            "imagenes":[],
+            "imagenes":["https://elturismoencolombia.com/wp-content/uploads/2020/01/Lugares-Turisticos-de-Salento-Valle-del-Cocora.jpg","https://miradormanodeacaime.com/wp-content/uploads/2022/02/mirador-mano-de-acaime-panorama.jpg","https://cdn.guialowcost.es/wp-content/uploads/IMG_20220809_144202_1200x901.jpg"],
             "descripcion": "Escondida entre la vegetación, esta cascada ofrece un refrescante baño natural y un entorno ideal para la fotografía y el disfrute del paisaje.",
             "actividades": ["Senderismo", "Baño natural", "Fotografía"],
             "categoria_por_municipio": "Cascadas",
@@ -1321,7 +1321,7 @@
           {
             "id": 126,
             "nombre": "Finca Cafetera La Encantada",
-            "imagenes":[],
+            "imagenes":["https://www.elespectador.com/resizer/v2/4CUHCHJ6W5BEFELV6VC72SNNJU.jpg?auth=468274cdab397e64c4ade5f8347ad6be5db4369e3c47b87d39e771d8b28e90f5&width=920&height=613&smart=true&quality=60","https://www.infobae.com/resizer/v2/https%3A%2F%2Fs3.amazonaws.com%2Farc-wordpress-client-uploads%2Finfobae-wp%2Fwp-content%2Fuploads%2F2016%2F10%2F03123008%2Fturismo-viajes-1920-3.jpg?auth=5432cf022bbba74b3ce2e926679bcc9f3497ba70ed4906d8802c0d9de3afc595&smart=true&width=1200&height=900&quality=85","https://revistadiners.com.co/wp-content/uploads/2019/03/reserva_victoria_regia_800x500.jpg"],
             "descripcion": "Experiencia agroturística en una finca tradicional donde se conoce el proceso de cultivo del café, con degustaciones y recorridos guiados que resaltan la cultura cafetera local.",
             "actividades": ["Tour agrícola", "Degustación de café", "Visitas guiadas"],
             "categoria_por_municipio": "Agroturismo",
@@ -1331,7 +1331,7 @@
           {
             "id": 127,
             "nombre": "Centro de Interpretación Santuario Verde",
-            "imagenes":[],
+            "imagenes":["https://elturismoencolombia.com/wp-content/uploads/2023/07/Tunja-Boyaca-Colombia.jpg","https://eldiarioboyaca.com/wp-content/uploads/2021/04/tunja-plaza-bolivar-2019.jpg","https://cdn.baquianos.com/img/blog/2020/8/tunja-1m5x640.jpg"],
             "descripcion": "Espacio educativo dedicado a difundir la biodiversidad y la historia natural de Santuario a través de exposiciones, charlas y talleres ambientales.",
             "actividades": ["Charlas educativas", "Visitas guiadas", "Talleres ambientales"],
             "categoria_por_municipio": "Centros Educativos",
@@ -1341,7 +1341,7 @@
           {
             "id": 128,
             "nombre": "Ecoparque El Retiro",
-            "imagenes":[],
+            "imagenes":["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/5e/76/1a/puente-real-colonial.jpg?w=1400&h=1400&s=1","https://live.staticflickr.com/1875/43313018815_c82ab2a1f0_b.jpg","https://fstapdltb.filerobot.com/akeneo-belco/RessourceFamilies/cafe_media_dam_to_pim/Colombia_Cauca_Piendamo.jpg?vh=a6593e"],
             "descripcion": "Área recreativa y ecológica que combina senderos naturales, zonas de camping y espacios de picnic, ideal para actividades en familia y para relajarse en plena naturaleza.",
             "actividades": ["Camping", "Picnic", "Senderismo"],
             "categoria_por_municipio": "Ecoparques",
@@ -1351,7 +1351,7 @@
           {
             "id": 129,
             "nombre": "Ruta de los Aromas",
-            "imagenes":[],
+            "imagenes":["https://i.pinimg.com/474x/02/d5/c5/02d5c51e9ad214f2097fb01f46a6cb13.jpg","https://lanzateyviaja.com/wp-content/uploads/2024/10/Bosque-protector-mindo-nambillo-ecuador.jpg","https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIfHgp6lznnVFI41hupdMt4YWHrsMER1zLLsGmVooQeBCrgmE_omqGN4LRn7eYwi6Ir4oXCpCWuo31aPVEVgRR3JQRZOeWATequA1zddvLOscRZRKAhUTWFKeyT7qknJcUWdF2EWj3/s1600/cascada+el+triunfo+2.JPG"],
             "descripcion": "Recorrido por plantaciones de café y cultivos tradicionales, donde se pueden conocer procesos productivos y degustar el auténtico café de la región.",
             "actividades": ["Tour agrícola", "Degustación de café", "Fotografía"],
             "categoria_por_municipio": "Rutas Culturales y Naturales",
@@ -1361,7 +1361,7 @@
           {
             "id": 130,
             "nombre": "Jardín Botánico Santuario",
-            "imagenes":[],
+            "imagenes":["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/0a/e9/5f/laguna-verde-volcan-azufral.jpg?w=1400&h=1400&s=1","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/f4/2a/f6/laguna-verde-ubicada.jpg?w=1100&h=1100&s=1","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/ae/c4/f3/laguna-verde-volcan-azufral.jpg?w=1800&h=1000&s=1"],
             "descripcion": "Espacio dedicado a la conservación de especies vegetales autóctonas, que ofrece senderos, áreas de descanso y actividades educativas para aprender sobre la flora local.",
             "actividades": ["Visitas guiadas", "Fotografía", "Talleres ambientales"],
             "categoria_por_municipio": "Jardines y Parques",
