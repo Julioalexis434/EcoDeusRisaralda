@@ -8,10 +8,10 @@ import { IconEdit } from "./Icons";
 import { Menu, MenuButton, MenuItem } from "@szhsin/react-menu";
 
 const HeaderProfile = () => {
-  const { user, UploadImage, DeleteImage,loading, setLoading } = useContext(AuthContext);
+  const { user, UploadImage, DeleteImage, loading, setLoading, typeAccount } =
+    useContext(AuthContext);
   const [fileImage, setFileImage] = useState(null);
-  console.log(user);
-  
+
   const handleUploadImage = async (file) => {
     try {
       setLoading(true);
@@ -56,46 +56,48 @@ const HeaderProfile = () => {
                 alt=""
                 className="rounded-full w-full h-full object-cover"
               />
-              <Menu
-                menuButton={
-                  <MenuButton
+              {typeAccount === "Empresa" && (
+                <Menu
+                  menuButton={
+                    <MenuButton
+                      className={
+                        "absolute -bottom-5 dark:bg-dark2 p-2 rounded-xl cursor-pointer"
+                      }
+                    >
+                      <IconEdit className="text-gray-500 dark:text-gray-300 hover:text-gray-600 transition-colors" />
+                    </MenuButton>
+                  }
+                  menuClassName={
+                    "bg-white dark:bg-dark2 py-4 px-2 rounded-lg shadow-lg w-max"
+                  }
+                >
+                  <MenuItem
                     className={
-                      "absolute -bottom-5 dark:bg-dark2 p-2 rounded-xl cursor-pointer"
+                      "py-2 px-4 bg-black/10 hover:bg-gray-600 rounded-lg mb-2 cursor-pointer"
                     }
                   >
-                    <IconEdit className="text-gray-500 dark:text-gray-300 hover:text-gray-600 transition-colors" />
-                  </MenuButton>
-                }
-                menuClassName={
-                  "bg-white dark:bg-dark2 py-4 px-2 rounded-lg shadow-lg w-max"
-                }
-              >
-                <MenuItem
-                  className={
-                    "py-2 px-4 bg-black/10 hover:bg-gray-600 rounded-lg mb-2 cursor-pointer"
-                  }
-                >
-                  <label className="cursor-pointer">
-                    <input
-                      type="file"
-                      className="hidden"
-                      accept="image/*"
-                      onChange={handleChangeImage}
-                      disabled={loading}
-                    />
-                    Subir foto
-                  </label>
-                </MenuItem>
-                <MenuItem
-                  className={
-                    "py-2 px-4 bg-black/10 hover:bg-gray-600 rounded-lg mb-2 cursor-pointer"
-                  }
-                  onClick={handleImageDelete}
-                  disabled={loading}
-                >
-                  Eliminar foto
-                </MenuItem>
-              </Menu>
+                    <label className="cursor-pointer">
+                      <input
+                        type="file"
+                        className="hidden"
+                        accept="image/*"
+                        onChange={handleChangeImage}
+                        disabled={loading}
+                      />
+                      Subir foto
+                    </label>
+                  </MenuItem>
+                  <MenuItem
+                    className={
+                      "py-2 px-4 bg-black/10 hover:bg-gray-600 rounded-lg mb-2 cursor-pointer"
+                    }
+                    onClick={handleImageDelete}
+                    disabled={loading}
+                  >
+                    Eliminar foto
+                  </MenuItem>
+                </Menu>
+              )}
             </div>
           ) : (
             <div className="w-30 h-30 bg-gray-300 dark:bg-gray-600 rounded-full absolute -top-1/2 left-2"></div>
@@ -103,7 +105,10 @@ const HeaderProfile = () => {
 
           <div>
             <TitleH2
-              text={user?.user_metadata?.displayName || user?.user_metadata?.full_name}
+              text={
+                user?.user_metadata?.displayName ||
+                user?.user_metadata?.full_name
+              }
               style="font-medium text-xl dark:text-white"
             />
 

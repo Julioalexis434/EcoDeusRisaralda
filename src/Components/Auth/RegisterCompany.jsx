@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { useState } from "react";
 import { AuthContext } from "../Context/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
+import ButtonBack from "../Global/ButtonBack";
 
 const RegisterCompany = () => {
   const [email, setEmail] = useState("");
@@ -17,7 +18,8 @@ const RegisterCompany = () => {
     setError("");
     try {
       await SignUp(email, password, companyName);
-      navigate("/");
+      window.location.reload();
+      window.location.href = ("/profile/sucursales");
       console.log(user);
       
       localStorage.setItem("typeAccount", "Empresa");
@@ -28,6 +30,7 @@ const RegisterCompany = () => {
 
   return (
     <section className="min-h-screen p-4 flex flex-col items-center justify-center dark:text-white dark:bg-dark">
+      <ButtonBack url={"/authentification/loginCompany"} />
       <div
         className={`w-full max-w-md p-8 space-y-6 bg-white dark:bg-dark2 rounded-xl shadow-lg `}
       >

@@ -77,7 +77,7 @@ const Profile = () => {
   };
 
   return (
-    <div className="p-2 min-h-screen mx-auto">
+    <div className="p-2 min-h-screen mx-auto ">
       <div className="bg-white dark:bg-dark rounded-lg p-6">
         {/* Agregar error */}
         {error && (

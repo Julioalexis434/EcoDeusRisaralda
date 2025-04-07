@@ -6,6 +6,8 @@ import { ProviderDestinations } from "./Components/Context/ContextDestinations.j
 import { ProvideAccesibility } from "./Components/Context/ContextAccessibility.jsx";
 import { ThemeProvider } from "./Components/Context/ThemeContext.jsx";
 import { AuthProvider } from "./Components/Context/AuthContext.jsx";
+import { ProviderNewPlace } from "./Components/Context/ContextNewPlace.jsx";
+import { ProviderFavorite } from "./Components/Context/ContextFavorite.jsx";
 
 createRoot(document.getElementById("root")).render(
   <AuthProvider>
@@ -13,7 +15,11 @@ createRoot(document.getElementById("root")).render(
       <ProvideAccesibility>
         <ProviderDestinations>
           <ThemeProvider>
-            <App />
+            <ProviderNewPlace>
+              <ProviderFavorite>
+                <App />
+              </ProviderFavorite>
+            </ProviderNewPlace>
           </ThemeProvider>
         </ProviderDestinations>
       </ProvideAccesibility>

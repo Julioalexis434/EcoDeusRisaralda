@@ -5,7 +5,7 @@ import Anchor from "./Global/Anchor";
 import { motion } from "framer-motion";
 import ScrollToTop from "./ScrollToTop";
 const Nav = () => {
-  const { links, isMenuOpen, ToggleMenu } = useContext(ContextNav);
+  const { links, setLinks, isMenuOpen, ToggleMenu } = useContext(ContextNav);
   const Scroll = ()=>{
     window.scrollTo(0, 0);
   }
@@ -47,12 +47,20 @@ const Nav = () => {
               initial={{ y: -100 }}
               animate={{ y: 0 }}
               transition={{ delay: link.delay }}
+              onClick={()=>{
+                setLinks((prevLinks) => {
+                  return prevLinks.map((prevLink) => ({
+                    ...prevLink,
+                    current: prevLink.url === link.url,
+                  }));
+                });
+              }}
             >
               <Anchor
                 text={link.name}
                 url={link.url}
                 click={Scroll}
-                style="text-gray-500 hover:bg-green/30 dark:hover:bg-greenLight dark:hover:text-white rounded-lg  transition-all duration-200 py-2 px-4"
+                style={`text-gray-500 hover:bg-green/30 dark:hover:bg-greenLight dark:hover:text-white rounded-lg  transition-all duration-200 py-2 px-4 ${link.current ? "bg-green/30 dark:bg-greenLight dark:text-white" : "bg-transparent" }`}
               />
             </motion.div>
           );

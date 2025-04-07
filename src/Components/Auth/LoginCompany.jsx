@@ -2,35 +2,34 @@ import React, { useState } from "react";
 import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Context/AuthContext";
+import ButtonBack from "../Global/ButtonBack";
 
 const LoginCompany = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [companyName, setCompanyName] = useState("");
-  const [error, setError] = useState("");
-  const { Login } = useContext(AuthContext);
+  const { SignIn, error } = useContext(AuthContext);
   const navigate = useNavigate();
-
-
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    setError("");
     try {
-      await Login(email, password);
-      setEmail("");
-      setPassword("");
-      setCompanyName("");
-      navigate("/"); // Redirect after successful login
+      await SignIn(email, password);
+      localStorage.setItem("typeAccount", "Empresa");
+      window.location.href = ("/profile/sucursales"); // Redirect after successful login
     } catch (err) {
-      setError("Error al iniciar sesion, verifique sus datos.");
+      console.log(error);
     }
   };
 
   return (
+    <>
     <section className="min-h-screen p-4 flex flex-col items-center justify-center dark:text-white dark:bg-dark">
       <div className={`w-full max-w-md p-8 space-y-6 bg-white dark:bg-dark2 rounded-xl shadow-lg`}>
-        {error && <p className="text-red-500 text-sm bg-red-500/20 border border-red-500 rounded md p-2 text-center">{error}</p>}
+        {error && (
+          <div className="text-red-500 text-sm bg-red-500/20 border border-red-500 rounded-md p-2 text-center">
+            {error}
+          </div>
+        )}
         <h1 className="text-2xl font-bold tracking-[1px] text-center dark:text-white">
           Inicia sesión con tu cuenta de empresa
         </h1>
@@ -71,16 +70,19 @@ const LoginCompany = () => {
               </p>
             </div>
             <div className="flex justify-center w-full">
-              <button type="submit" className="bg-green-500 rounded-md px-4 py-2 text-white" onSubmit={handleLogin}>
+              <button type="submit" className="bg-green-500 rounded-md px-4 py-2 text-white">
                 Iniciar sesión
               </button>
             </div>
           </form>
         </div>
       </div>
-
-
     </section>
+
+
+   <ButtonBack url={"/authentification"} />
+    </>
+
   );
 };
 

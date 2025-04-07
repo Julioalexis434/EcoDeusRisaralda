@@ -71,7 +71,7 @@
           {
             "id": 7,
             "nombre": "Cascada La Argentina",
-            "imagenes":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYIsr23h8UXkeQXgEhDAi1JUONU3Pr9kO-6w&s","https://www.plancpereira.com/wp-content/uploads/2022/09/cascada.jpg","image.png","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6krOEpO435shDYwAO0QrZyn8Ann216Dlwiw&s","https://s0.wklcdn.com/image_74/2226786/50252419/33573108.400x300.jpg"],
+            "imagenes":["https://s1.wklcdn.com/image_241/7238764/137511354/87365929.700x525.jpg","https://www.plancpereira.com/wp-content/uploads/2022/09/cascada.jpg","image.png","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6krOEpO435shDYwAO0QrZyn8Ann216Dlwiw&s","https://s0.wklcdn.com/image_74/2226786/50252419/33573108.400x300.jpg"],
             "descripcion": "Impresionante caída de agua ubicada en la Serranía del Alto del Nudo.",
             "actividades": ["Trekking", "Fotografía de paisajes", "Observación de aves"],
             "categoria_por_municipio": "Cascadas",

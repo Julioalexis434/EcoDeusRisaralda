@@ -6,11 +6,6 @@ const ProtectedAuthRoute = ({ children }) => {
   const { user, loading } = useContext(AuthContext);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    if (!loading && user) {
-      navigate("/"); // Redirige a la página principal si está autenticado
-    }
-  }, [user, loading, navigate]);
 
   if (loading) return <p>Cargando...</p>; // Para evitar parpadeo mientras se verifica el usuario
 

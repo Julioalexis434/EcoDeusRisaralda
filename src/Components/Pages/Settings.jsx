@@ -5,6 +5,7 @@ import { Button, Switch } from "@headlessui/react";
 import { useState } from "react";
 import { FiBell, FiSun, FiMoon, FiTrash2 } from "react-icons/fi";
 import { ThemeContext } from "../Context/ThemeContext";
+import ButtonBack from "../Global/ButtonBack";
 
 const Settings = () => {
   const [enabled, setEnabled] = useState(false);
@@ -12,6 +13,7 @@ const Settings = () => {
 
   return (
     <section className={`py-[12vh] ${theme === 'dark' ? 'bg-dark' : 'bg-gradient-to-b from-gray-50 to-white'}`}>
+      <ButtonBack url={-1}/>
       <div className="w-[90%] max-w-7xl mx-auto">
         <TitleH2 text={"Configuración"} style={`font-bold text-3xl mb-8 ${theme === 'dark' ? 'text-white' : 'text-gray-800'}`} />
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">        
