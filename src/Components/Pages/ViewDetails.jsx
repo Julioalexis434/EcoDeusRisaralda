@@ -36,6 +36,7 @@ const ViewDetails = () => {
       <div className="pt-20 text-center text-red-500">Lugar no encontrado</div>
     );
   }
+  console.log('Imagenes:', lugar.imagenes);
 
   return (
     <div className="min-h-screen mt-[8%] ml-[5%] mr-[5%] p-5 shadow-2xl shadow-button rounded-2xl">
@@ -65,27 +66,38 @@ const ViewDetails = () => {
       
       {/* AQUI SE PUEDE UTILIZAR LAS IMAGENES PARA HACER EL SLIDER CON LA BIBIOLTECA SWIPPER O OTRA DE PREFERENCIA*/}
       <div className="w-[80%] content-center m-auto">
-      <Swiper
-        modules={[Navigation]}
-        navigation
-        spaceBetween={10}
-        slidesPerView={1}
-        loop
-        className="rounded-2xl "
-      >
-        {lugar.imagenes?.map((img, index) => (
-          <SwiperSlide className="w-full h-full" key={index}>
-            <img
-              className=" w-full h-[800px] object-cover"
-              src={img}
-              alt={`${lugar.nombre} ${index + 1}`}
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
+  {Array.isArray(lugar.imagenes) && lugar.imagenes.length > 1 ? (
+    <Swiper
+      modules={[Navigation]}
+      navigation
+      spaceBetween={10}
+      slidesPerView={1}
+      loop
+      className="rounded-2xl"
+    >
+      {lugar.imagenes.map((img, index) => (
+        <SwiperSlide className="w-full h-full" key={index}>
+          <img
+            className="w-full h-[800px] object-cover"
+            src={img}
+            alt={`${lugar.nombre} ${index + 1}`}
+          />
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  ) : (
+    <img
+      className="w-full h-[800px] object-cover rounded-2xl"
+      src={
+        lugar.imagenes?.[20] // si existe array
+        || lugar.imagen       // si solo es una imagen suelta
+        || "https://via.placeholder.com/800x600?text=Sin+imagen" // opcional
+      }
+      alt={lugar.nombre}
+    />
+  )}
+</div>
 
-      {lugar.imagen && <img src={lugar.imagen} alt={lugar.nombre} />}
     </section>
     <div className="justify-between flex m-10">
       <div className="">
