@@ -8,6 +8,8 @@ import { ThemeProvider } from "./Components/Context/ThemeContext.jsx";
 import { AuthProvider } from "./Components/Context/AuthContext.jsx";
 import { ProviderNewPlace } from "./Components/Context/ContextNewPlace.jsx";
 import { ProviderFavorite } from "./Components/Context/ContextFavorite.jsx";
+import { ProviderModalLogin } from "./Components/Context/ContextModalLogin.jsx";
+import { ProviderComments } from "./Components/Context/ContextComments.jsx";
 
 createRoot(document.getElementById("root")).render(
   <AuthProvider>
@@ -17,7 +19,11 @@ createRoot(document.getElementById("root")).render(
           <ThemeProvider>
             <ProviderNewPlace>
               <ProviderFavorite>
-                <App />
+                <ProviderModalLogin>
+                  <ProviderComments>
+                  <App />
+                  </ProviderComments>
+                </ProviderModalLogin>
               </ProviderFavorite>
             </ProviderNewPlace>
           </ThemeProvider>

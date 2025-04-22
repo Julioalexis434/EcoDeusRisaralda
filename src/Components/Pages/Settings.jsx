@@ -6,10 +6,12 @@ import { useState } from "react";
 import { FiBell, FiSun, FiMoon, FiTrash2 } from "react-icons/fi";
 import { ThemeContext } from "../Context/ThemeContext";
 import ButtonBack from "../Global/ButtonBack";
+import { AuthContext } from "../Context/AuthContext";
 
 const Settings = () => {
   const [enabled, setEnabled] = useState(false);
   const { theme, toggleTheme } = useContext(ThemeContext);
+  const {user} = useContext(AuthContext)
 
   return (
     <section className={`py-[12vh] ${theme === 'dark' ? 'bg-dark' : 'bg-gradient-to-b from-gray-50 to-white'}`}>
@@ -20,8 +22,8 @@ const Settings = () => {
         {/* CONTENEDOR NOTIFICACIONES */}
         <div className={`flex flex-col gap-6 p-6 ${theme === 'dark' ? 'text-white bg-dark2 border-emerald-600' : 'text-gray-700 bg-white border-emerald-200'} border-2 rounded-xl w-full max-w-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 my-5`}>
           <div className="flex items-center gap-3">
-            <FiBell className="text-emerald-600 text-xl" />
-            <TitleH2 text={"Notificaciones"} style={"text-emerald-600 font-semibold"} />
+            <FiBell className="text-emerald-600 md:text-[30px]" />
+            <TitleH2 text={"Notificaciones"} style={"text-emerald-600 font-semibold mb-0"} />
           </div>
           
           <div className={`flex items-center justify-between p-3  rounded-lg transition-colors duration-200`}>
@@ -73,6 +75,7 @@ const Settings = () => {
         </div>  
 
         {/* ZONA DE PELIGRO */}
+        {user && (
         <div className={`flex flex-col gap-6 p-6 ${theme === 'dark' ? 'text-red-400 bg-dark2 border-red-800' : 'text-red-700 bg-white border-red-200'} border-2 rounded-xl w-full max-w-2xl shadow-lg my-5`}>
           <div className="flex items-center gap-3">
             <FiTrash2 className="text-red-500 text-xl" />
@@ -86,6 +89,8 @@ const Settings = () => {
             </button>
           </div>
         </div>
+        )}
+
         </div>
       </div>
     </section>

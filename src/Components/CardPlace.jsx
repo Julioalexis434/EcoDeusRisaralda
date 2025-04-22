@@ -3,15 +3,23 @@ import { motion } from "framer-motion";
 import { FaStar } from "react-icons/fa";
 import ContainerText from "./Global/ContainerText";
 import { TitleH2 } from "./Global/ContainerTitle";
-import ButtonAddFavorite from "./Global/ButtonAddFavorite";
 import { IconAddFavorite } from "./Icons";
 import { useContext } from "react";
 import { ContextFavorite } from "./Context/ContextFavorite";
 import { useNavigate } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import { AuthContext } from "./Context/AuthContext";
+import { ContextModalLogin } from "./Context/ContextModalLogin";
+import LoginModal from "./LoginModal";
 
 const CardPlace = ({ lugar }) => {
   const { addPlaces, placesFavorites } = useContext(ContextFavorite);
+  const { user } = useContext(AuthContext);
+  const {toggleLoginModal} = useContext(ContextModalLogin)
+
   const isFavorite = placesFavorites.some((place) => place.id === lugar.id);
+
   const navigate = useNavigate();
   
   const changeViewDetails = (lugar) => {
@@ -21,11 +29,15 @@ const CardPlace = ({ lugar }) => {
   return (
     <motion.div className="rounded overflow-hidden shadow-lg bg-white dark:bg-dark2 hover:shadow-xl transition-shadow duration-300 relative">
       <button
-        className={`p-2 rounded-lg  absolute right-2 top-2 cursor-pointer ${
-          isFavorite ? "bg-yellow-500" : "bg-white dark:bg-dark"
+        className={`p-2 rounded-lg  absolute right-2 top-2 cursor-pointer z-2 ${
+          isFavorite && user ? "bg-yellow-500" : "bg-white dark:bg-dark"
         }`}
         onClick={() => {
-          addPlaces(lugar, lugar.id);
+          if(user){
+            addPlaces(lugar, lugar.id);
+          }else{
+            toggleLoginModal("¡Inicia sesión para guardar tus lugares favoritos!")
+          }
         }}
       >
         <IconAddFavorite />
@@ -34,11 +46,13 @@ const CardPlace = ({ lugar }) => {
         lugar.imagenes
           .slice(0, 1)
           .map((imagen, index) => (
-            <img
+            <LazyLoadImage
               key={index}
               src={imagen}
               alt={lugar.nombre}
+              effect="blur"
               className="w-full h-[192px] object-cover"
+              wrapperClassName="w-full h-[192px]"
             />
           ))
       ) : (

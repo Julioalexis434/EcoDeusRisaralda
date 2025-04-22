@@ -17,14 +17,14 @@ const Destinations = () => {
 
     return (
         <div className="container mx-auto px-4 py-[12vh]">
-            <h1 className="text-3xl font-bold text-green-800 mb-6 text-center hover:text-green-600 transition-colors duration-300">
+            <h1 className="lg:text-3xl font-bold text-green-800 mb-6 text-center hover:text-green-600 transition-colors duration-300">
                 ¡EL MOMENTO PARA VIAJAR ES AHORA CON EL RITMO DE LA NATURALEZA!
             </h1>
             <div className="mb-8 flex justify-center">
                 <select 
                     value={selectedMunicipio}
                     onChange={(e) => setSelectedMunicipio(e.target.value)}
-                    className="p-2 rounded-md border dark:bg-gray-700 dark:border-gray-600"
+                    className="p-2 rounded-md border dark:bg-gray-700 dark:border-gray-600 dark:text-white"
                 >
                     {municipios.map(municipio => (
                         <option key={municipio} value={municipio}>

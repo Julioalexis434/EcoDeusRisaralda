@@ -29,9 +29,9 @@ const Sucursales = () => {
         <ModalEdit />
       </div>
 
-      <div className="grid md:grid-cols-2 gap-4 p-2 text-white">
+      <div className={`grid  gap-4 p-2 text-white ${places.length === 0 ? "grid-cols-1" : "md:grid-cols-2"}`}>
         {places.length === 0 ? (
-          <div className="text-center font-bold text-2xl">No hay lugares</div>
+          <div className="text-center font-bold text-2xl text-greenDark dark:text-white">No hay lugares</div>
         ) : (
           places.map((data, index) => <CardEdit key={index}  data={data} />)
         )}
@@ -43,4 +43,3 @@ const Sucursales = () => {
 };
 
 export default Sucursales;
-export function insertar() {}

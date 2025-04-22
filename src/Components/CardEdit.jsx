@@ -94,8 +94,8 @@ const CardEdit = ({ data }) => {
 
       {showModalMessage && (
         <div className="bg-black/90 fixed w-full h-screen top-0 left-0 z-50 items-center justify-center flex">
-          <div className="bg-white dark:bg-dark2 dark:text-white p-4 rounded-lg">
-            <h1 className="text-2xl">¿Esta seguro de eliminar este lugar?</h1>
+          <div className="bg-white dark:bg-dark2 dark:text-white p-8 rounded-lg">
+            <h1 className="text-2xl text-black dark:text-white">¿Esta seguro de eliminar este lugar?</h1>
             <div className="flex gap-4 mt-4 justify-center">
               <button
                 className="bg-gray-500 text-white p-2 rounded-lg"

@@ -27,6 +27,9 @@ svg {
   width: 30px;
 }
 
+button{
+  cursor: pointer;
+}
 
 
 html.dark body {

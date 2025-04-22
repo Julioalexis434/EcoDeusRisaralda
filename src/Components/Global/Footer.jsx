@@ -30,12 +30,18 @@ const Footer = () => {
                 
             </li>
             <li>
+              <Anchor text={"Hoteles"} url="/hotels" className="hover:text-greenDark dark:hover:text-greenLight transition-colors"/>
+                
+            </li>
+            <li>
+              <Anchor text={"Restaurantes"} url="/restaurants" className="hover:text-greenDark dark:hover:text-greenLight transition-colors"/>
+            </li>
+            <li>
               <Anchor text={"Perfil"} url="/profile" className="hover:text-greenDark dark:hover:text-greenLight transition-colors"/>
                 
             </li>
             <li>
-              <Anchor text={"Configuración"} url="/settings" className="hover:text-greenDark dark:hover:text-greenLight transition-colors"/>
-                
+              <Anchor text={"Configuración"} url="/settings" className="hover:text-greenDark dark:hover:text-greenLight transition-colors"/>  
             </li>
           </ul>
         </div>

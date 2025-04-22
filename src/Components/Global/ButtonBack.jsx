@@ -7,7 +7,7 @@ const ButtonBack = ({url}) => {
   return (
     <>
       <button
-        className="px-4 py-2 rounded-full bg-gray-200 absolute top-[15vh] left-5 cursor-pointer text-white"
+        className="px-4 py-2 rounded-full bg-gray-200 absolute top-[15vh] left-5 cursor-pointer text-white dark:bg-dark2"
         onClick={() => {
           navigate(url);
         }}

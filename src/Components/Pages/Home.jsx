@@ -11,17 +11,15 @@ import { useNavigate } from "react-router-dom";
 import Hotels from "./Hotels";
 import CardHotels from "../CardHotels";
 import CardRestaurant from "../CardRestaurant";
+import { ContextModalLogin } from "../Context/ContextModalLogin";
+import LoginModal from "../LoginModal";
 
 const Home = () => {
-  const { user, typeAccount, Logout } = useContext(AuthContext);
-  const [showLoginModal, setShowLoginModal] = useState(false);
-  const { destinations, hotels, restaurants, municipalities } = useContext(ContextDestinations);
+  const { user, typeAccount } = useContext(AuthContext);
+  const { toggleLoginModal } = useContext(ContextModalLogin);
+  const { destinations, hotels, restaurants, municipalities } =
+    useContext(ContextDestinations);
   const navigate = useNavigate();
-
-  const handleLogin = async () => {
-    await Logout();
-    window.location.href = "/authentification/loginCompany";
-  };
 
   return (
     <div className="dark:bg-dark">
@@ -43,7 +41,7 @@ const Home = () => {
           <div className="flex flex-col justify-evenly items-center lg:items-start">
             <TitleH2
               text={"Bienvenido a EcoDeusRisaralda"}
-              style={"text-white font-bold"}
+              style={"text-white font-bold lg:text-start"}
             />
             <TitleH1
               text={"EXPLORA RISARALDA"}
@@ -151,7 +149,7 @@ const Home = () => {
                   if (user && typeAccount === "empresa") {
                     window.location.href = "/sucursales";
                   } else {
-                    setShowLoginModal(true);
+                    toggleLoginModal("Inicio de sesión empresarial requerido");
                     console.log(user);
                   }
                 }}
@@ -192,7 +190,7 @@ const Home = () => {
               />
             </div>
             {/* DESTINOS */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 mb-5">
+            <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-3 mb-5 w-full">
               {destinations.municipios
                 .slice(3, 5)
                 .map((municipio) =>
@@ -203,14 +201,16 @@ const Home = () => {
                     ))
                 )}
             </div>
-
           </div>
 
           <div className="flex flex-col gap-3 col-span-1">
             <div className="p-4">
               {destinations.municipios.slice(0, 3).map((municipio, index) => (
                 <div key={index}>
-                  <TitleH2 text={municipio.nombre} style={"dark:text-white my-2 "} />
+                  <TitleH2
+                    text={municipio.nombre}
+                    style={"dark:text-white my-2 "}
+                  />
                   <div className="grid grid-cols-1 gap-2">
                     {municipio.lugares.slice(0, 3).map((lugar, lugarIndex) => (
                       <div
@@ -266,65 +266,34 @@ const Home = () => {
                 </div>
               ))}
 
-                {/* RESTAURANTES */}
-            <TitleH2 text={"Algunos Restaurantes"} style={"my-2 text-white"}/>
-            <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-4 text-white">
-              {municipalities.slice(0, 2).map((municipio) => (
-               restaurants[municipio]?.map((restaurant, index) => (
-                <CardRestaurant key={index} restaurant={restaurant} /> 
-               ))
-              ))}
+              {/* RESTAURANTES */}
+              <TitleH2
+                text={"Algunos Restaurantes"}
+                style={"my-2 text-green"}
+              />
+              <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-4 ">
+                {municipalities
+                  .slice(0, 2)
+                  .map((municipio) =>
+                    restaurants[municipio]?.map((restaurant, index) => (
+                      <CardRestaurant key={index} restaurant={restaurant} />
+                    ))
+                  )}
+              </div>
             </div>
-
-            </div>
-
-
-
-            
           </div>
         </div>
 
-        
-        
-            {/* HOTELES */}
-            <TitleH1 text={"Algunos Hospedajes"} />
-            <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-4 text-white">
-              {hotels.slice(0, 10).map((hotel, index) => (
-                <CardHotels key={index} hotel={hotel} />
-              ))}
-            </div>
+        {/* HOTELES */}
+        <TitleH1 text={"Algunos Hospedajes"} />
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-4 text-white">
+          {hotels.slice(0, 10).map((hotel, index) => (
+            <CardHotels key={index} hotel={hotel} />
+          ))}
+        </div>
       </motion.section>
 
-      {showLoginModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white dark:bg-dark2 p-8 rounded-lg shadow-xl">
-            <h2 className="text-2xl font-bold mb-4 dark:text-white">
-              Iniciar Sesión Empresarial Requerido
-            </h2>
-            <p className="mb-6 dark:text-gray-300">
-              Para subir un destino, necesitar iniciar sesión en modo
-              empresarial.
-            </p>
-            <div className="flex justify-end space-x-4">
-              <button
-                onClick={() => {
-                  setShowLoginModal(false);
-                  document.body.classList.remove("overflow-hidden");
-                }}
-                className="px-4 py-2 text-gray-200 bg-gray-500 hover:text-gray-800 dark:hover:text-white cursor-pointer rounded-lg"
-              >
-                Cancelar
-              </button>
-              <button
-                className="bg-green-600 text-white px-4 rounded-lg"
-                onClick={handleLogin}
-              >
-                Iniciar sesion
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
+      
     </div>
   );
 };

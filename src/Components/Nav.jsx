@@ -60,7 +60,7 @@ const Nav = () => {
                 text={link.name}
                 url={link.url}
                 click={Scroll}
-                style={`text-gray-500 hover:bg-green/30 dark:hover:bg-greenLight dark:hover:text-white rounded-lg  transition-all duration-200 py-2 px-4 ${link.current ? "bg-green/30 dark:bg-greenLight dark:text-white" : "bg-transparent" }`}
+                style={`text-gray-500 hover:bg-green/30 dark:hover:bg-greenLight dark:hover:text-white rounded-lg  transition-all duration-200 py-2 px-4 ${link.current ? "bg-green/30 dark:bg-greenLight dark:text-white" : "" }`}
               />
             </motion.div>
           );

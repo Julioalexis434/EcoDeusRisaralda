@@ -23,7 +23,7 @@ const TypeAuthentication = () => {
     <section className="grid grid-cols-1 lg:grid-cols-2 p-4 gap-3 justify-items-center  mx-auto max-w-7xl">
  
       {/* Cuenta personal */}
-      <div className="bg-gray-100 rounded-lg shadow-xl p-6 mb-6 hover:shadow-xl transition-shadow dark:bg-dark2 flex flex-col justify-between w-[90%] max-w-[70%]">
+      <div className="bg-gray-100 rounded-lg shadow-xl p-6 mb-6 hover:shadow-xl transition-shadow dark:bg-dark2 flex flex-col justify-between w-[90%] ">
         <div className="bg-gray-200 dark:bg-dark rounded-lg p-4 h-40 flex items-center justify-center flex-col">
           <h2 className="text-2xl text-gray-500 font-bold mb-4 text-center">
             Cuenta Personal
@@ -46,7 +46,7 @@ const TypeAuthentication = () => {
       </div>
 
       {/*Cuenta empresarial */}
-      <div className="bg-gray-100 rounded-lg shadow-xl p-6 mb-6 hover:shadow-xl transition-shadow dark:bg-dark2 flex flex-col justify-between w-[90%] max-w-[70%]">
+      <div className="bg-gray-100 rounded-lg shadow-xl p-6 mb-6 hover:shadow-xl transition-shadow dark:bg-dark2 flex flex-col justify-between w-[90%]">
         <div className="bg-gray-200 dark:bg-dark rounded-lg p-4 h-40 flex flex-col items-center justify-center">
           <h2 className="text-2xl text-gray-500 font-bold mb-4 text-ceter">
             Cuenta Empresarial

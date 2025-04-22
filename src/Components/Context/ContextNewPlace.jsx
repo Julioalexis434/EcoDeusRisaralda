@@ -60,7 +60,6 @@ export function ProviderNewPlace({ children }) {
   const changeStateModalMessage = () => {
     SetShowModalMessage(!showModalMessage);
   };
-
   return (
     <ContextNewPlace.Provider
       value={{

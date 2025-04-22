@@ -57,9 +57,9 @@ const AsideProfile = () => {
 
   return (
     <aside className="lg:h-screen lg:shadow-xl lg:fixed top-0 left-0 lg:w-[250px] lg:py-[12vh] p-2 dark:text-white">
-      <nav className="flex flex-wrap justify-start gap-2">
+      <nav className="flex flex-row lg:flex-col gap-4 flex-wrap h-full ">
         {linksProfile.map((link, index) => (
-          <div className="w-full" onClick={()=>{
+          <div className="lg:w-full w-fit h-fit" onClick={()=>{
             setLinksProfile((prevLinks) => {
               return prevLinks.map((prevLink) => ({
                 ...prevLink,

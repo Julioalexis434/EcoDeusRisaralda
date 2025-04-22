@@ -21,7 +21,7 @@ const Hotels = () => {
   return (
     <section className="min-h-screen py-20 dark:text-white">
       <div className="container mx-auto px-4">
-        <h1 className="text-3xl font-bold text-green-800 mb-6 text-center border-b-2 border-green-500 pb-2 hover:text-green-600 transition-colors duration-300">
+        <h1 className="lg:text-3xl font-bold text-green-800 mb-6 text-center border-b-2 border-green-500 pb-2 hover:text-green-600 transition-colors duration-300">
           ¡MÁS QUE UN HOTEL ES TU LUGAR PERFECTO PARA REÍR, DISFRUTAR Y SOÑAR!
         </h1>
 

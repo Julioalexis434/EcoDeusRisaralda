@@ -22,24 +22,27 @@ import { AuthContext } from "./Components/Context/AuthContext";
 import { useEffect } from "react";
 import Favorites from "./Components/Pages/Favorites";
 import ViewDetails from "./Components/Pages/ViewDetails";
+import LoginModal from "./Components/LoginModal";
 
 // Hacer que el scroll vuelva arriba cada que navigate cambie
 // Scroll to top when navigation changes
 
 const App = () => {
   const { loading } = useContext(AuthContext);
-  useEffect(()=>{
-    document.body.scroll = "none"
-  }, [loading])
+
+  useEffect(() => {
+    document.body.scroll = "none";
+  }, [loading]);
   return (
     <>
       {loading ? (
         <div className="fixed inset-0 bg-black/90 text-white flex items-center justify-center z-50">
           <h2 className="text-2xl font-bold">Cargando...</h2>
         </div>
-
       ) : null}
-      
+
+      <LoginModal/>
+
       <BrowserRouter>
         <ScrollToTop />
         <Accessibility />
@@ -78,15 +81,18 @@ const App = () => {
             <Route path="settings" element={<Settings />} />
             <Route path="restaurants" element={<Restaurants />} />
             <Route path="hotels" element={<Hotels />} />
-            <Route path="viewDetails/:name" element={<ViewDetails />} />  {/* Modified this line */}
-            <Route path="politicsAndPrivacity" element={<PoliticsAndPrivacity />} />
+            <Route path="viewDetails/:name" element={<ViewDetails />} />{" "}
+            {/* Modified this line */}
+            <Route
+              path="politicsAndPrivacity"
+              element={<PoliticsAndPrivacity />}
+            />
           </Route>
 
           <Route path="/profile" element={<ProfileLayout />}>
             <Route index element={<Profile />}></Route>
             <Route path="sucursales" element={<Sucursales />} />
             <Route path="favorites" element={<Favorites />} />
-
           </Route>
 
           <Route path="*" element={<h1>ERROR PAGINA NO ECONTRADA</h1>} />
