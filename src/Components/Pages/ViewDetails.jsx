@@ -258,65 +258,6 @@ const ViewDetails = () => {
 
       </div>
     </section>
-    <div className="justify-between flex m-10">
-      <div className="">
-          <h1 className="text-4xl font-bold">Puntuacion</h1>
-          <h1 className="text-3xl m-2">⭐⭐⭐⭐⭐</h1>
-      </div>
-      <div className="grid grid-cols-4 gap-2"> 
-        <button><img className="w-17 h-17" src="https://www.svgrepo.com/show/509923/facebook.svg" alt="" />
-</button> 
-        <button><img className="w-15 h-15" src="https://www.svgrepo.com/show/512399/instagram-167.svg" alt="" /></button>
-        <button><img className="w-15 h-15" src="https://www.svgrepo.com/show/521923/whatsapp.svg" alt="" /></button>
-        <button><img className="w-15 h-15" src="https://img.icons8.com/?size=100&id=phOKFKYpe00C&format=png&color=000000" alt="" /></button>
-      </div>
-    </div>
-
-    <div className="grid grid-cols-2 m-10">
-      <div className="bg-gray-200 mb-5 m-10 rounded-2xl"> 
-        <h1 className="text-3xl m-4 rou">Descripcion</h1>
-        <p className=" text-1xl m-4">{lugar?.informacion}</p>
-      </div>
-        
-      <div className="mb-5 m-10">
-      <img src="https://www.ionos.com/es-us/digitalguide/fileadmin/_processed_/0/2/csm_google-my-maps_55b8661ca0.webp" alt="" />
-      </div>
-
-    </div>
-    <div className="m-10">
-      <h1 className=" text-4xl font-bold">Opiniones</h1>
-    </div>
-        <div className="m-10 bg-gray-200 w-[45%] rounded-2xl">
-        <h1 className="m-5 text-2xl">Comparte tu opinion</h1>
-        <form action="">
-          
-          <h1 className="m-5"> ⭐⭐⭐⭐⭐</h1>
-          <textarea className="w-[95%] border-2 m-5 rounded-2xl" name="" id=""></textarea>
-          
-        </form>
-        <div className="text-center">
-          <button className="m-3 border-1 p-2 rounded-2xl bg-green-600 text-white">Enviar </button>
-        </div>
-        
-
-        </div>
-        <div className="m-10 shadow-2xl w-[96%]">
-          <div className="flex">
-            <div>
-              <img className="w-[100px] h-[100px] m-5" src="https://www.svgrepo.com/show/511194/user-circle.svg" alt="" />
-            </div>
-            <div>
-            <h1 className="m-5">Nombre</h1>
-            <h1 className="m-5"> ⭐⭐⭐⭐⭐</h1>
-            <p className="m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos rem voluptate magni quod eum expedita nihil saepe perferendis quaerat consequuntur ratione, excepturi tenetur id sunt ipsam voluptas perspiciatis et accusantium.</p>
-            </div>
-          </div>
-
-
-        </div>
-        
-
-    </div>
   );
 };
 
