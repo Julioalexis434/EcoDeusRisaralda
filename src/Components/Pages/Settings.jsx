@@ -11,7 +11,13 @@ import { AuthContext } from "../Context/AuthContext";
 const Settings = () => {
   const [enabled, setEnabled] = useState(false);
   const { theme, toggleTheme } = useContext(ThemeContext);
-  const {user} = useContext(AuthContext)
+  const [isModalOpen, setIsModalOpen] = useState(false)
+  const {user, DeleteAccount} = useContext(AuthContext)
+
+
+  const confirmDelete = () => {
+    setIsModalOpen(false);
+  };
 
   return (
     <section className={`py-[12vh] ${theme === 'dark' ? 'bg-dark' : 'bg-gradient-to-b from-gray-50 to-white'}`}>
@@ -84,7 +90,9 @@ const Settings = () => {
           
           <div className="flex items-center justify-between p-3">
             <ContainerText text={"Eliminar Cuenta"} />
-            <button className={`px-6 py-2 border-2 border-red-500 rounded-lg ${theme === 'dark' ? 'bg-red-500/10' : 'bg-red-500/20'} text-red-500 hover:bg-red-500 hover:text-white transition-colors duration-300 font-medium cursor-pointer`}>
+            <button className={`px-6 py-2 border-2 border-red-500 rounded-lg ${theme === 'dark' ? 'bg-red-500/10' : 'bg-red-500/20'} text-red-500 hover:bg-red-500 hover:text-white transition-colors duration-300 font-medium cursor-pointer`} 
+            onClick={() => setIsModalOpen(true)}
+            >
               Eliminar cuenta
             </button>
           </div>
@@ -93,6 +101,29 @@ const Settings = () => {
 
         </div>
       </div>
+
+      {isModalOpen && (
+        <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-50">
+          <div className={`bg-white dark:bg-dark2 p-6 rounded-xl shadow-xl w-full max-w-md text-center`}>
+            <h2 className="text-xl font-bold text-red-600 mb-4">¿Estás seguro?</h2>
+            <p className="mb-6 text-gray-700 dark:text-gray-300">Esta acción eliminará tu cuenta permanentemente. No podrás deshacer esto.</p>
+            <div className="flex justify-center gap-4">
+              <button
+                onClick={() => setIsModalOpen(false)}
+                className="px-4 py-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-white transition"
+              >
+                Cancelar
+              </button>
+              <button
+                onClick={confirmDelete}
+                className="px-4 py-2 rounded-lg bg-red-500 hover:bg-red-600 text-white transition"
+              >
+                Sí, eliminar
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

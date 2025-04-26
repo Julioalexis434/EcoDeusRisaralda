@@ -282,6 +282,8 @@ export const AuthProvider = ({ children }) => {
     return true;
   };
 
+ 
+
   const value = {
     user,
     loading,
@@ -294,7 +296,7 @@ export const AuthProvider = ({ children }) => {
     Logout,
     loginWithGoogle,
     UploadImage,
-    DeleteImage, // Nueva función para eliminar imagen
+    DeleteImage,
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import { IconDestination, IconHome, IconHotel, IconRestaurants } from "../Icons";
+import { IconDestination, IconHome, IconHotel, IconRestaurants } from "../Global/Icons";
 import { useEffect } from "react";
 
 export const ContextNav = createContext();

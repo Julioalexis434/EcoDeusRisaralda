@@ -5,12 +5,12 @@ import { TitleH1, TitleH2 } from "../Global/ContainerTitle";
 import ContainerText from "../Global/ContainerText";
 import { useContext } from "react";
 import { ContextDestinations } from "../Context/ContextDestinations";
-import CardPlace from "../CardPlace";
+import CardPlace from "../Cards/CardPlace";
 import { AuthContext } from "../Context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import Hotels from "./Hotels";
-import CardHotels from "../CardHotels";
-import CardRestaurant from "../CardRestaurant";
+import CardHotels from "../Cards/CardHotels";
+import CardRestaurant from "../Cards/CardRestaurant";
 import { ContextModalLogin } from "../Context/ContextModalLogin";
 import LoginModal from "../LoginModal";
 
@@ -146,8 +146,8 @@ const Home = () => {
 
               <button
                 onClick={() => {
-                  if (user && typeAccount === "empresa") {
-                    window.location.href = "/sucursales";
+                  if (user && typeAccount === "Empresa") {
+                    window.location.href = "/profile/sucursales";
                   } else {
                     toggleLoginModal("Inicio de sesión empresarial requerido");
                     console.log(user);

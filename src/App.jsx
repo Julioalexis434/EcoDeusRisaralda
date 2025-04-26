@@ -14,7 +14,7 @@ import TypeAuthentication from "./Components/Auth/TypeAuthentication";
 import AuthLayout from "./Components/Layouts/AuthLayout";
 import LoginCompany from "./Components/Auth/LoginCompany";
 import ProtectedAuthRoute from "./Components/Auth/ProtectedAuthRoute";
-import ScrollToTop from "./Components/ScrollToTop";
+import ScrollToTop from "./Components/Global/ScrollToTop";
 import Accessibility from "./Components/Accessibility";
 import RegisterCompany from "./Components/Auth/RegisterCompany";
 import { useContext } from "react";

@@ -1,12 +1,12 @@
 import React from "react";
 import { useContext } from "react";
-import { ContextFavorite } from "./Context/ContextFavorite";
-import { IconAddFavorite } from "./Icons";
+import { ContextFavorite } from "../Context/ContextFavorite";
+import { IconAddFavorite } from "../Global/Icons";
 import { FaStar } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import { AuthContext } from "./Context/AuthContext";
+import { AuthContext } from "../Context/AuthContext";
 const CardRestaurant = ({ restaurant }) => {
   const { addRestaurant, restaurantsFavorites } = useContext(ContextFavorite);
   const {user} = useContext(AuthContext)
@@ -25,7 +25,7 @@ const CardRestaurant = ({ restaurant }) => {
         />
         <div className="ml-3 w-full">
           <div className="flex justify-between items-center w-full">
-            <h3 className="text-md font-semibold line-clamp-1 text-black">
+            <h3 className="text-md font-semibold line-clamp-1 text-black dark:text-white">
               {restaurant.nombre}
             </h3>
             <button
@@ -48,14 +48,14 @@ const CardRestaurant = ({ restaurant }) => {
               <FaStar
                 key={index}
                 className={`text-sm ${
-                  index < Math.floor(restaurant.estrellas)
+                  index < Math.floor(restaurant.puntuacion)
                     ? "text-yellow-400"
                     : "text-gray-300"
                 }`}
               />
             ))}
             <span className="ml-2 text-sm text-green-500">
-              {restaurant.estrellas}
+              {restaurant.puntuacion}
             </span>
           </div>
           <div className="flex justify-center">

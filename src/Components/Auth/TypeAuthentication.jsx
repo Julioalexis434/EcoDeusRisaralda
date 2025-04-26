@@ -3,7 +3,7 @@ import Anchor from "../Global/Anchor";
 import { useContext } from "react";
 import { AuthContext } from "../Context/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
-import { IconCompnay, IconUserLine } from "../Icons";
+import { IconCompnay, IconUserLine } from "../Global/Icons";
 
 const TypeAuthentication = () => {
     const {loginWithGoogle} = useContext(AuthContext)

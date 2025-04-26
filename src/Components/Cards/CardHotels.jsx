@@ -1,12 +1,12 @@
 import React from "react";
 import { useContext } from "react";
-import { ContextFavorite } from "./Context/ContextFavorite";
-import { IconAddFavorite } from "./Icons";
+import { ContextFavorite } from "../Context/ContextFavorite";
+import { IconAddFavorite } from "../Global/Icons";
 import { FaStar } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import { AuthContext } from "./Context/AuthContext";
+import { AuthContext } from "../Context/AuthContext";
 
 const CardHotels = ({ hotel }) => {
   const { addHotels, hotelsFavorites } = useContext(ContextFavorite);
@@ -52,7 +52,7 @@ const CardHotels = ({ hotel }) => {
       </div>
 
       <div className="p-4">
-        <h3 className="text-xl font-semibold mb-2 line-clamp-1 text-[#016630]">
+        <h3 className="text-xl font-semibold mb-2 line-clamp-1 text-[#016630] dark:text-white">
           {hotel.nombre}
         </h3>
         <p className="text-gray-600 dark:text-gray-400 mb-2">

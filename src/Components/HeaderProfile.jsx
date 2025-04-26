@@ -4,7 +4,7 @@ import { TitleH2 } from "./Global/ContainerTitle";
 import ContainerText from "./Global/ContainerText";
 import { useContext } from "react";
 import { AuthContext } from "./Context/AuthContext";
-import { IconEdit } from "./Icons";
+import { IconEdit } from "./Global/Icons";
 import { Menu, MenuButton, MenuItem } from "@szhsin/react-menu";
 
 const HeaderProfile = () => {

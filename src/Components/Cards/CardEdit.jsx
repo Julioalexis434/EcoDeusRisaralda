@@ -1,11 +1,10 @@
-import React, { useState } from "react";
-import Modal from "./ModalEdit";
+import Modal from "../Modals/ModalEdit";
 import { motion } from "framer-motion";
-import { TitleH2 } from "./Global/ContainerTitle";
-import ContainerText from "./Global/ContainerText";
+import { TitleH2 } from "../Global/ContainerTitle";
+import ContainerText from "../Global/ContainerText";
 import { useContext } from "react";
-import { ContextNewPlace } from "./Context/ContextNewPlace";
-import { AuthContext } from "./Context/AuthContext";
+import { ContextNewPlace } from "../Context/ContextNewPlace";
+import { AuthContext } from "../Context/AuthContext";
 
 const CardEdit = ({ data }) => {
   const {

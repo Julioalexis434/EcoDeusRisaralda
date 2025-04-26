@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useContext } from "react";
 import { FaStar } from "react-icons/fa";
 import { ContextFavorite } from "../Context/ContextFavorite";
-import CardHotels from "../CardHotels";
+import CardHotels from "../Cards/CardHotels";
 import { ContextDestinations } from "../Context/ContextDestinations";
 const Hotels = () => {
   const [selectedMunicipio, setSelectedMunicipio] = useState("todos");
@@ -19,7 +19,7 @@ const Hotels = () => {
       : hotels.filter((hotel) => hotel.municipio === selectedMunicipio);
 
   return (
-    <section className="min-h-screen py-20 dark:text-white">
+    <section className="min-h-screen py-[12vh] dark:text-white">
       <div className="container mx-auto px-4">
         <h1 className="lg:text-3xl font-bold text-green-800 mb-6 text-center border-b-2 border-green-500 pb-2 hover:text-green-600 transition-colors duration-300">
           ¡MÁS QUE UN HOTEL ES TU LUGAR PERFECTO PARA REÍR, DISFRUTAR Y SOÑAR!
@@ -39,7 +39,7 @@ const Hotels = () => {
           </select>
         </div>
 
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {filteredHoteles.map((hotel) => (
           <CardHotels
             key={hotel.id}

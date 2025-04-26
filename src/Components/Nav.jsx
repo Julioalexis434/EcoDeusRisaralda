@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { ContextNav } from "./Context/ContextNav";
 import Anchor from "./Global/Anchor";
 import { motion } from "framer-motion";
-import ScrollToTop from "./ScrollToTop";
+import ScrollToTop from "./Global/ScrollToTop";
 const Nav = () => {
   const { links, setLinks, isMenuOpen, ToggleMenu } = useContext(ContextNav);
   const Scroll = ()=>{
@@ -42,11 +42,8 @@ const Nav = () => {
       <nav className="hidden md:flex items-center gap-x-4 text-white z-10 relative">
         {links.map((link, index) => {
           return (
-            <motion.div
+            <div
               key={index}
-              initial={{ y: -100 }}
-              animate={{ y: 0 }}
-              transition={{ delay: link.delay }}
               onClick={()=>{
                 setLinks((prevLinks) => {
                   return prevLinks.map((prevLink) => ({
@@ -62,7 +59,7 @@ const Nav = () => {
                 click={Scroll}
                 style={`text-gray-500 hover:bg-green/30 dark:hover:bg-greenLight dark:hover:text-white rounded-lg  transition-all duration-200 py-2 px-4 ${link.current ? "bg-green/30 dark:bg-greenLight dark:text-white" : "" }`}
               />
-            </motion.div>
+            </div>
           );
         })}
       </nav>

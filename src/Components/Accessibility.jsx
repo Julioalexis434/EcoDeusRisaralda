@@ -1,5 +1,5 @@
 import React from "react";
-import { IconAccesibility, IconClose, IconContrast, IconLink } from "./Icons";
+import { IconAccesibility, IconClose, IconContrast, IconLink } from "./Global/Icons";
 import { useState, useContext } from "react";
 import { ContextAccesibility } from "./Context/ContextAccessibility";
 

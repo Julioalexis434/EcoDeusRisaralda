@@ -5,7 +5,7 @@ import MenuPerfilLogout from "./MenuPerfilLogout";
 import { Link, useNavigate } from "react-router-dom";
 import { ContextNav } from "./Context/ContextNav";
 import { useContext } from "react";
-import { IconAddFavorite, IconMenuClose, IconMenuOpen } from "./Icons";
+import { IconAddFavorite, IconMenuClose, IconMenuOpen } from "./Global/Icons";
 import Logo from "./Global/Logo";
 import { AuthContext } from "./Context/AuthContext";
 import { ContextFavorite } from "./Context/ContextFavorite";

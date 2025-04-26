@@ -22,7 +22,7 @@ import { ContextAccesibility } from "../Context/ContextAccessibility";
       initial={{ opacity: 0, translateY: -50 }}
       animate={{ opacity: 1, translateY: 0 }}
       transition={{ duration: 1, delay: 0.3 }}
-      className={` font-bold text-green-800  text-center  pb-2   ${style} ${getSizeClass()}`}
+      className={` font-bold text-[#016630]  text-center  pb-2   ${style} ${getSizeClass()}`}
     >
       {text}
     </motion.h1>

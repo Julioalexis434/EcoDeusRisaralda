@@ -1,6 +1,6 @@
 import React from "react";
 import { Menu, MenuButton, MenuItem } from "@szhsin/react-menu";
-import { IconLogout, IconSetting, IconUser, IconUserLine } from "./Icons";
+import { IconLogout, IconSetting, IconUser, IconUserLine } from "./Global/Icons";
 import Anchor from "./Global/Anchor";
 import { useContext } from "react";
 import { AuthContext } from "./Context/AuthContext";

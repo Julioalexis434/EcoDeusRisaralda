@@ -14,11 +14,6 @@ const AsideProfile = () => {
       current: true,
     },
     {
-      url: "comentarios",
-      text: "Comentarios",
-      current: false,
-    },
-    {
       url: "favorites",
       text: "Favoritos",
       current: false,

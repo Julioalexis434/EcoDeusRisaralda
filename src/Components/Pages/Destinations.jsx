@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import CardPlace from '../CardPlace'
+import CardPlace from '../Cards/CardPlace'
 import { useContext } from 'react'
 import { ContextDestinations } from '../Context/ContextDestinations'
 

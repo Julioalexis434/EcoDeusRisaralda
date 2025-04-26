@@ -29,13 +29,25 @@ export function ProviderFavorite({ children }) {
     }
   }, []);
 
+  const cleanObject = (obj) => {
+    const cleaned = {};
+    // Copiar todas las propiedades del objeto original
+    Object.keys(obj).forEach(prop => {
+      if (obj[prop] !== undefined && obj[prop] !== null) {
+        cleaned[prop] = obj[prop];
+      }
+    });
+    return cleaned;
+  };
+
   const addPlaces = (lugar, id) => {
     // Check if the place is already in favorites
     const isAlreadyFavorite = placesFavorites.some(place => place.id === id);
     
     if (!isAlreadyFavorite) {
       setToAddFavorite(true);
-      const newFavorite = { ...lugar, id };
+      const cleanedLugar = cleanObject(lugar);
+      const newFavorite = { ...cleanedLugar, id };
       setPlacesFavorites((prevPlace) =>{
         const updatePlace = [...prevPlace, newFavorite];
         localStorage.setItem("favorites", JSON.stringify(updatePlace));
@@ -54,7 +66,8 @@ export function ProviderFavorite({ children }) {
     
     if (!isAlreadyFavorite) {
       setToAddFavorite(true);
-      const newFavorite = { ...restaurant, id };
+      const cleanedRestaurant = cleanObject(restaurant);
+      const newFavorite = { ...cleanedRestaurant, id };
       setRestaurantsFavorites((prevPlace) =>{
         const updateRestaurant = [...prevPlace, newFavorite];
         localStorage.setItem("restaurants", JSON.stringify(updateRestaurant));
@@ -74,7 +87,8 @@ export function ProviderFavorite({ children }) {
     
     if (!isAlreadyFavorite) {
       setToAddFavorite(true);
-      const newFavorite = { ...hotel, id };
+      const cleanedHotel = cleanObject(hotel);
+      const newFavorite = { ...cleanedHotel, id };
       sethotelsFavorites((prevPlace) =>{
         const updateHotel = [...prevPlace, newFavorite];
         localStorage.setItem("hotels", JSON.stringify(updateHotel));

@@ -1,12 +1,20 @@
 import React, { useState, useContext } from "react";
-import { ContextNewPlace } from "./Context/ContextNewPlace";
-import { IconClose } from "./Icons";
+import { ContextNewPlace } from "../Context/ContextNewPlace";
+import { IconClose } from "../Global/Icons";
+import { useEffect } from "react";
+import MapComponent from "../../MapConfig/MapComponent";
+import { ContextDestinations } from "../Context/ContextDestinations";
 
-const ModalAdd = () => {
-  const { showModalAdd, changeStateModalAdd, addPlace } =
+const ModalEdit = () => {
+  const { showModalEdit, changeStateModalEdit, editPlace, idPlace, places } =
     useContext(ContextNewPlace);
+  const [location, setLocation] = useState(null);
 
-    // Estado que almacena los datos del lugar que el usuario quiere subir
+  const handleLocationSelect = (latlng) => {
+    setLocation(latlng);
+  };
+
+  // Estado que almacena los datos del lugar que el usuario quiere subir
   const [placeData, setPlaceData] = useState({
     nombre: "",
     telefono: "",
@@ -18,10 +26,22 @@ const ModalAdd = () => {
       twitter: "",
       website: "",
     },
+    ubicacion: null,
+    municipio: "",
   });
-// Estado que maneja las actividades que el usuario quiere subir
+  const {municipalities} = useContext(ContextDestinations)
+
+  // Iniciarlizar los datos de placeData con los datos del lugar que el usuario quiere editar
+  useEffect(() => {
+    const placeToEdit = places.find((place) => place.id === idPlace);
+    if (placeToEdit) {
+      setPlaceData(placeToEdit);
+    }
+  }, [idPlace, places]);
+
+  // Estado que maneja las actividades que el usuario quiere subir
   const [actividad, setActividad] = useState("");
-  
+
   // Estado que maneja las redes sociales que el usuario quiere subir
   const [redesActivas, setRedesActivas] = useState({
     facebook: false,
@@ -35,7 +55,7 @@ const ModalAdd = () => {
     setPlaceData({ ...placeData, [e.target.name]: e.target.value });
   };
 
-// Funcion que maneja los cambios en los inputs de las redes sociales asi el usuario puede manejar que redes quiere subir
+  // Funcion que maneja los cambios en los inputs de las redes sociales asi el usuario puede manejar que redes quiere subir
   const handleRedesChange = (e) => {
     setPlaceData({
       ...placeData,
@@ -65,15 +85,16 @@ const ModalAdd = () => {
     }
   };
 
-  const handlePublish = () => {
+  const handleUpdateEdit = (id) => {
     if (placeData.nombre && placeData.descripcion) {
-      addPlace(placeData);
+      editPlace(id, placeData);
       setPlaceData({
         nombre: "",
         telefono: "",
         descripcion: "",
         actividades: [],
         redes: { facebook: "", instagram: "", twitter: "", website: "" },
+        ubicacion: null,
       });
       setRedesActivas({
         facebook: false,
@@ -81,9 +102,8 @@ const ModalAdd = () => {
         twitter: false,
         website: false,
       });
-      changeStateModalAdd();
+      changeStateModalEdit();
       console.log(placeData);
-      
     } else {
       alert("Por favor, completa los campos obligatorios.");
     }
@@ -91,12 +111,12 @@ const ModalAdd = () => {
 
   return (
     <>
-      {showModalAdd && (
+      {showModalEdit && (
         <div className="z-50 w-full h-screen fixed top-0 left-0 bg-black/80 dark:text-white flex items-center justify-center">
           <div className="w-full md:w-[95%] h-[95%] bg-white  dark:bg-dark rounded-md p-5 overflow-auto flex flex-col">
             <header className="flex items-center justify-between border-b pb-2">
-              <h1 className="text-2xl">Añadir Lugar</h1>
-              <button onClick={changeStateModalAdd} className="w-8 h-8">
+              <h1 className="text-2xl">Editar Lugar</h1>
+              <button onClick={changeStateModalEdit} className="w-8 h-8">
                 <IconClose />
               </button>
             </header>
@@ -115,6 +135,24 @@ const ModalAdd = () => {
                     placeholder="Nombre"
                   />
                 </div>
+
+                <div>
+                    <h1 className="text-lg mb-2">Municipio:</h1>
+                    <select
+                      className="w-full rounded-md p-2 border text-gray-900 bg-gray-50 border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+                      name="municipio"
+                      value={placeData.municipio}
+                      onChange={handleChange}
+                    >
+                      <option value="">Selecciona un municipio</option>
+                      {municipalities.slice(1).map((municipio) => (
+                        <option key={municipio} value={municipio}>
+                          {municipio}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
 
                 <div>
                   <h1 className="text-lg mb-2">Teléfono</h1>
@@ -184,6 +222,44 @@ const ModalAdd = () => {
                   </form>
                 </div>
 
+                {/* ELEGIR UBICACION EN EL MAPA */}
+                <div className="flex flex-col gap-4">
+                  <MapComponent onLocationSelect={handleLocationSelect} />
+                  {location && (
+                    <div className="space-y-2">
+                      <ul>
+                        <span className="font-bold">
+                          Ubicación seleccionada:
+                        </span>
+                        <li>Latitud: {location.lat}</li>
+                        <li>Longitud: {location.lng}</li>
+                      </ul>
+                      <div className="flex gap-2">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setPlaceData({ ...placeData, ubicacion: location });
+                            alert("Ubicación guardada exitosamente");
+                          }}
+                          className="bg-green-700 hover:bg-green-800 text-white px-4 py-2 rounded-md"
+                        >
+                          Guardar ubicación
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setLocation(null);
+                            setPlaceData({ ...placeData, ubicacion: null });
+                          }}
+                          className="bg-red-700 hover:bg-red-800 text-white px-4 py-2 rounded-md"
+                        >
+                          Eliminar ubicación
+                        </button>
+                      </div>
+                    </div>
+                  )}
+                </div>
+
                 <div>
                   <h1 className="text-lg mb-2">Redes Sociales</h1>
                   {["facebook", "instagram", "twitter", "website"].map(
@@ -198,7 +274,11 @@ const ModalAdd = () => {
                         />
                         <input
                           type="text"
-                          className={`w-full rounded-md p-2 border text-gray-900 bg-gray-50 border-gray-300  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white ${redesActivas[red] ? "dark:bg-gray-700 opacity-100" : "bg-gray-600/50 opacity-50"}`} 
+                          className={`w-full rounded-md p-2 border text-gray-900 bg-gray-50 border-gray-300  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white ${
+                            redesActivas[red]
+                              ? "dark:bg-gray-700 opacity-100"
+                              : "bg-gray-600/50 opacity-50"
+                          }`}
                           name={red}
                           value={placeData.redes[red]}
                           onChange={handleRedesChange}
@@ -241,17 +321,15 @@ const ModalAdd = () => {
             <hr className="my-5 border-gray-300" />
             <footer className="grid grid-cols-2 md:grid-cols-4 gap-2">
               <button
-                onClick={handlePublish}
+                onClick={() => handleUpdateEdit(idPlace)}
                 className="bg-green-700 hover:bg-green-800 rounded-xl p-2 text-white transition"
               >
                 Publicar
               </button>
-              <button className="bg-green-700 hover:bg-green-800 rounded-xl p-2 text-white transition">
-                Previsualizar
-              </button>
+             
               <button
                 className="bg-red-700 hover:bg-red-800 rounded-xl p-2 text-white transition"
-                onClick={changeStateModalAdd}
+                onClick={changeStateModalEdit}
               >
                 Cancelar
               </button>
@@ -263,4 +341,4 @@ const ModalAdd = () => {
   );
 };
 
-export default ModalAdd;
+export default ModalEdit;

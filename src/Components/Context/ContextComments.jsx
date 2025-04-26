@@ -17,17 +17,21 @@ export function ProviderComments({ children }) {
   }, [commentsByPlace]);
 
   // Agregar comentario a un lugar específico
-  const addComment = (placeId, text, rating, userId) => {
+  const addComment = (placeId, text, rating) => {
+    if (!user) return; // Verificar si hay un usuario autenticado
     const newComment = {
       id: uuidv4(),
       text,
+      userId: user.id,
       picture: user?.user_metadata?.picture || user?.user_metadata?.avatar_url || "https://www.svgrepo.com/show/511194/user-circle.svg",
       name: user?.user_metadata?.full_name || user?.user_metadata?.name || user.user_metadata.displayName || "Anonimo",
       rating: rating,
-      userId: userId,
       likes: 0,
       createdAt: new Date().toISOString(),
+      likedBy: [],
+      replies: [], // <- Aquí agregamos respuestas
     };
+    
 
     setCommentsByPlace((prev) => ({
       ...prev,
@@ -35,7 +39,6 @@ export function ProviderComments({ children }) {
     }));
   };
   
-  console.log(commentsByPlace);
   // Editar un comentario en un lugar
   const editComment = (placeId, commentId, newText) => {
     setCommentsByPlace((prev) => ({
@@ -46,6 +49,7 @@ export function ProviderComments({ children }) {
     }));
   };
 
+
   // Eliminar comentario
   const deleteComment = (placeId, commentId) => {
     setCommentsByPlace((prev) => ({
@@ -55,7 +59,6 @@ export function ProviderComments({ children }) {
   };
 
   // Dar like
-// Dar like con verificación de usuario
 const toggleLike = (placeId, commentId) => {
   if (!user) return; // Asegúrate de que hay un usuario autenticado
 
@@ -101,10 +104,3 @@ const toggleLike = (placeId, commentId) => {
     </ContextComments.Provider>
   );
 }
-
-
-
-//   const addPlaces = (lugar, id) => {
-    // Check if the place is already in favorites
-  
-  

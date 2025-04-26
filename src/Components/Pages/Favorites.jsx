@@ -1,10 +1,10 @@
 import React from "react";
 import { useContext } from "react";
 import { ContextFavorite } from "../Context/ContextFavorite";
-import CardPlace from "../CardPlace";
+import CardPlace from "../Cards/CardPlace";
 import { TitleH2 } from "../Global/ContainerTitle";
-import CardHotels from "../CardHotels";
-import CardRestaurant from "../CardRestaurant";
+import CardHotels from "../Cards/CardHotels";
+import CardRestaurant from "../Cards/CardRestaurant";
 
 const Favorites = () => {
   const { placesFavorites, restaurantsFavorites, hotelsFavorites } =

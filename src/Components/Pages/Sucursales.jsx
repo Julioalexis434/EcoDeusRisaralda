@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Modal from "../ModalEdit";
-import CardEdit from "../CardEdit";
+import Modal from "../Modals/ModalEdit";
+import CardEdit from "../Cards/CardEdit";
 import { ContextNewPlace } from "../Context/ContextNewPlace";
 import { useContext } from "react";
-import ModalAdd from "../ModalAdd";
-import ModalEdit from "../ModalEdit";
+import ModalAdd from "../Modals/ModalAdd";
+import ModalEdit from "../Modals/ModalEdit";
 
 const Sucursales = () => {
   const {

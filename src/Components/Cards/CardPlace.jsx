@@ -1,17 +1,17 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaStar } from "react-icons/fa";
-import ContainerText from "./Global/ContainerText";
-import { TitleH2 } from "./Global/ContainerTitle";
-import { IconAddFavorite } from "./Icons";
+import ContainerText from "../Global/ContainerText";
+import { TitleH2 } from "../Global/ContainerTitle";
+import { IconAddFavorite } from "../Global/Icons";
 import { useContext } from "react";
-import { ContextFavorite } from "./Context/ContextFavorite";
+import { ContextFavorite } from "../Context/ContextFavorite";
 import { useNavigate } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import { AuthContext } from "./Context/AuthContext";
-import { ContextModalLogin } from "./Context/ContextModalLogin";
-import LoginModal from "./LoginModal";
+import { AuthContext } from "../Context/AuthContext";
+import { ContextModalLogin } from "../Context/ContextModalLogin";
+import LoginModal from "../LoginModal";
 
 const CardPlace = ({ lugar }) => {
   const { addPlaces, placesFavorites } = useContext(ContextFavorite);
@@ -63,15 +63,18 @@ const CardPlace = ({ lugar }) => {
           <TitleH2
             text={lugar.nombre}
             style={
-              "font-bold text-xl mb-2 line-clamp-1 text-black dark:text-white mt-0"
+              "font-bold text-xl mb-2 line-clamp-1 dark:text-white mt-0"
             }
           />
-          <ContainerText
-            text={`${lugar.descripcion.slice(0, 50)}...`}
+          {lugar?.descripcion && (
+            <ContainerText
+            text={`${lugar?.descripcion?.slice(0, 50)}...`}
             style={
               "text-gray-700 text-base mb-4 line-clamp-3 dark:text-gray-300"
             }
           />
+          )}
+          
 
           <div className="mt-4">
             <div className="flex flex-wrap gap-2 mt-2">

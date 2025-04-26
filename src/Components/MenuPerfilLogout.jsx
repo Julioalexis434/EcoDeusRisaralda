@@ -3,7 +3,7 @@ import { MenuItem } from "@szhsin/react-menu";
 import { Menu } from "@szhsin/react-menu";
 import React from "react";
 import Anchor from "./Global/Anchor";
-import { IconOption } from "./Icons";
+import { IconOption } from "./Global/Icons";
 import '@szhsin/react-menu/dist/transitions/zoom.css';
 
 const MenuPerfilLogout = () => {

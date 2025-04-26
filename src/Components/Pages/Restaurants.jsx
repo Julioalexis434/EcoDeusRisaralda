@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import TitleH1 from "../Global/ContainerTitle";
 import { useContext } from "react";
 import { ContextDestinations } from "../Context/ContextDestinations";
-import CardRestaurant from "../CardRestaurant";
+import CardRestaurant from "../Cards/CardRestaurant";
 
 
 
@@ -15,7 +15,7 @@ const Restaurants = () => {
   const { restaurants, municipalities } = useContext(ContextDestinations);
 
   return (
-    <section className="min-h-screen py-20 dark:text-white">
+    <section className="min-h-screen py-[12vh] dark:text-white">
       <div className="px-4">
         <TitleH1
           text={

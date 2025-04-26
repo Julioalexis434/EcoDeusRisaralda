@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { IconArrowLeft } from "../Icons";
+import { IconArrowLeft } from "./Icons";
 
 const ButtonBack = ({url}) => {
   const navigate = useNavigate();
